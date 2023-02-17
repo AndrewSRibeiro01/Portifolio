@@ -24,6 +24,6 @@ export const Sobre = styled.p`
   padding: 15px;
   cursor: pointer;
   text-decoration: none;
-
+  margin: 10px 0 0 0;
 `
 
