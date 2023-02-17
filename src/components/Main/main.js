@@ -59,13 +59,17 @@ const CardStyleJ = styled.div`
 const CardText = styled.p`
     text-align: initial;
 `
+const Display = styled.div`
+    display:flex;
+` 
 
 function Main() {
 
     return (
         <TituloCurriculo>
             <h1>Curriculo</h1>
-            <SubTituloCurriculo>Conhecimentos 🛠️ Habilidades
+            <SubTituloCurriculo>Conhecimentos 🛠️ Habilidades </SubTituloCurriculo>
+            <Display>
 
 
                 {/* <Card>
@@ -90,8 +94,8 @@ function Main() {
                     </div>
                 </CardStyleJ>
 
-
-            </SubTituloCurriculo>
+                </Display>
+            
             <Container>
                 {ParagrafoContainer.length > 0 && ParagrafoContainer.map((Paragrafo, index) => { return <Paragrafo key={index}>{Paragrafo}</Paragrafo> }
                 )}<hr></hr>
