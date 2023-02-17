@@ -6,7 +6,7 @@ import { LogoImg } from "../../Estilizações/Esobre"
 function Sobre() {
     return (
         <FotoContainer>
-            <Titulo>Um pouco Sobre mim!</Titulo>
+            <Titulo>Um pouco sobre mim!</Titulo>
             <SubTitulo>Me chamo Andrew, tenho 24 anos, trabalho como Quality Assurance, moro em Santa Isabel SP</SubTitulo>
             <LogoImg src="https://dummyimage.com/300x300/000/fff" />
         </FotoContainer>

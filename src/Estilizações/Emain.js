@@ -13,3 +13,6 @@ export const Container = styled.div`
 display:flex;
 flex-direction: column
 `
+export const H4 = styled.h4`
+font-size: 18px;
+`

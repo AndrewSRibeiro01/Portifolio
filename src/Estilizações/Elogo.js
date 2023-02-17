@@ -10,7 +10,7 @@ export const LogoContainer = styled.div`
 export const LogoImage = styled.img`
     margin-right: 10px;
     height: 35px;
-    margin-top: 34px; 
+    margin-top: 9px; 
     @media (max-width: 768px) {
         flex-direction: column;
        

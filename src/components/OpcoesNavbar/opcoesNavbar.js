@@ -1,17 +1,9 @@
 import { Opcoes } from "../../Estilizações/EopcoesNavbar"
 import { Link } from "react-router-dom";
+import { Sobre } from "../../Estilizações/EopcoesNavbar";
 import styled from "styled-components"
 
-const Sobre = styled.p`
-  font-size: 15px;
-  padding: 15px;
-  cursor: pointer;
-  text-decoration: none;
-
-`
-
-
-export const NavLink = styled(Link)`
+const NavLink = styled(Link)`
   color: black;
   text-decoration: none;
   padding: 0 1rem;

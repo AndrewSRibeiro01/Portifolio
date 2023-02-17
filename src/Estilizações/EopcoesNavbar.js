@@ -19,3 +19,11 @@ export const Opcao = styled.li`
     flex-direction: column;
   }
 `
+export const Sobre = styled.p`
+  font-size: 15px;
+  padding: 15px;
+  cursor: pointer;
+  text-decoration: none;
+
+`
+

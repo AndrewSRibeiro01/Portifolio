@@ -1,9 +1,9 @@
-import react from '../../Imagens/react.png'
+import bug from '../../Imagens/detector-de-bug.png'
 import { Icone } from '../../Estilizações/EiconesNavbar'
 import { Icones } from '../../Estilizações/EiconesNavbar'
 import React from 'react'
 
-const icones = [react]
+const icones = [bug]
 
 function IconesNavbar() {
   return (
