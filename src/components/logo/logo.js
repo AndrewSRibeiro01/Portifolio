@@ -9,7 +9,7 @@ function Logo() {
                 src={bug}
                 alt='logo'
             />
-            <p><strong>Portifólio</strong></p>
+            <p><strong style={{color:"#00009f"}}>Portifólio</strong></p>
         </LogoContainer>
     )
 }

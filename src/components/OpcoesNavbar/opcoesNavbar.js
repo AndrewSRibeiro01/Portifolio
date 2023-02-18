@@ -8,7 +8,7 @@ const NavLink = styled(Link)`
   text-decoration: none;
   padding: 0 1rem;
   :hover{
-    color: #cb0000;
+    color: #00009f;
     transition: 1s;
     font-size: 16px;
   }

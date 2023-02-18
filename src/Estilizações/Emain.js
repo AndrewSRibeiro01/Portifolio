@@ -9,10 +9,6 @@ margin: 150px 0 0 25px;
 export const SubTituloCurriculo = styled.h3`
 font-size: 25px;
 `
-export const Container = styled.div`
-display:flex;
-flex-direction: column
-`
 export const H4 = styled.h4`
 font-size: 18px;
 `
