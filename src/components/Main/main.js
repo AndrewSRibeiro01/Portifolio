@@ -157,7 +157,7 @@ function Main() {
 
             <SubTituloCurriculo>Experiência Profissional</SubTituloCurriculo>
             <H4>ArsenalCar |Digigrow</H4>
-            <Display style={{"justify-content": "initial"}}>
+            <Display style={{ "justify-content": "initial" }}>
                 <CardStyleJ>
                     <p>ArsenalCar</p>
                     <img src={arsenalcar} alt="LogoArsenalCar" width="150px" />
@@ -173,7 +173,7 @@ function Main() {
                         <CardText class="card-text" >A Digigrow nasceu com o objetivo de facilitar a entrada de empresas no mercado digital, sejam pequenas, médias e até grandes empresas, facilitando o caminho para o sucesso das vendas de nossos parceiros</CardText>
                     </div>
                 </CardStyleJ>
-                
+
                 <CardStyleJ>
                     <p>Quality Assurance</p>
                     <CardJD src={Qa} alt="LogoJavascript" width="150px" />

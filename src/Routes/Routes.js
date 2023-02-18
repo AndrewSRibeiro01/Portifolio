@@ -5,8 +5,8 @@ import Curriculo from "../Pages/Curriculo/Curriculo";
 
 const AppRoute = () => {
     return (
-        <Routes>
-               <Route path="/" element={<PortFolioPage />} />
+        <Routes>         
+            <Route path="/" element={<PortFolioPage />} />
             <Route path="/curriculo" element={<Curriculo />} />
         </Routes>
     )
