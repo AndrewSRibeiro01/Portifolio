@@ -1,9 +1,7 @@
 import styled from 'styled-components'
-import Navbar from '../../components/Navbar/navbar'
 import Main from '../../components/Main/main'
 import React from 'react'
-import Footer from '../../components/Footer/footer'
-
+import { Footer1 } from '../../components/Footer/footer'
 
 const AppContainer = styled.div`
     width: 100vw;
@@ -16,7 +14,7 @@ const Curriculo = () => {
     return (
         <AppContainer>
             <Main />
-            <Footer />
+            <Footer1 />
         </AppContainer>
     )
 }

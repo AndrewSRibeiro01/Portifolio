@@ -4,9 +4,6 @@ import Pesquisa from '../../components/Sobre/sobre'
 import React from 'react'
 import Footer from '../../components/Footer/footer'
 
-
-
-
 const AppContainer = styled.div`
     width: 100vw;
     height: 100vh;
@@ -22,14 +19,13 @@ const Container = styled.div`
 const PortFolioPage = () => {
     return (<>
         <AppContainer>
-
             <Pesquisa />
-
         </AppContainer>
         <Container>
-            <Footer />
+        <Footer />
         </Container>
     </>
+    
     )
 }
 

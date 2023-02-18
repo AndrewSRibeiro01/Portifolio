@@ -4,9 +4,8 @@ export const FotoContainer = styled.section`
     background-image: linear-gradient(90deg, #520000 35%, #3ff0000 165%);
  
     position:relative;
-   
     padding: 85px 0;
-    height: 270px;
+    height: 170px;
     width: 100%;
 `
 export const Titulo = styled.h2`

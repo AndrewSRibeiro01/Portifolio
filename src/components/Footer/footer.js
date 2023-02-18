@@ -2,7 +2,7 @@ import styled from "styled-components"
 import linkedin from "../../Imagens/linkedin.png"
 import instagram from "../../Imagens/insta.png"
 import gitHub from "../../Imagens/gitHub.png"
-
+import React from "react"
 
 const AppContainer = styled.div`
     width: 100%;
@@ -22,6 +22,7 @@ const FooterDiv = styled.div`
     padding:20px;    
     width: 50%;
     text-align: center;
+    
   
 `
 const FooterDiv_column = styled.div`
@@ -33,13 +34,46 @@ const LogoImage = styled.img`
     width: 40px;
 
 `
+const Siga = styled.h1`
+    display:flex;
+    align-items: center;
+`
 
 
-function Footer() {
+export function Footer() {
+    return (
+        <AppContainer style={{marginBlock: "400px 0px"}}>
+            <Siga style={{ fontSize: "25px" }}>Me siga nas redes sociais!</Siga>
+            <FooterDiv>
+                <FooterDiv>
+                    <FooterDiv_column>
+                        <p><strong >Instagram</strong></p>
+                        <LogoImage src={instagram} style={{ width: "35px" }} />
+                    </FooterDiv_column>
+                </FooterDiv>
+                <FooterDiv>
+                    <FooterDiv_column>
+                        <p ><strong>Linkedin</strong></p>
+                        <LogoImage src={linkedin} />
+                    </FooterDiv_column>
+                </FooterDiv>
+                <FooterDiv>
+                    <FooterDiv_column>
+                        <p ><strong>GitHub</strong></p>
+                        <LogoImage src={gitHub} />
+                    </FooterDiv_column>
+                </FooterDiv>
+            </FooterDiv>
+        </AppContainer>
+    )
+}
+
+ export function Footer1() {
     return (
         <AppContainer>
-            <FooterDiv>
-                <h1 style={{ fontSize: "25px" }}>Me siga nas redes sociais!</h1>
+            <Siga style={{ fontSize: "25px" }}>Me siga nas redes sociais!</Siga>
+            <FooterDiv style={{marginBlock: "0px"}}>
+                
                 <FooterDiv>
                     <FooterDiv_column>
                         <p shref="www.instagram.com/andrew_srb"> <strong >Instagram</strong></p>
@@ -62,5 +96,4 @@ function Footer() {
         </AppContainer>
     )
 }
-
 export default Footer
