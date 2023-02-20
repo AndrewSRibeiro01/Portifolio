@@ -23,5 +23,5 @@ export const CardText = styled.p`
 export const Display = styled.div`
     justify-content: center;
     display:flex;
-    
+    max-width: 100%;
 `

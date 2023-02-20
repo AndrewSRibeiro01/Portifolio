@@ -10,7 +10,6 @@ const AppContainer = styled.div`
     display:flex;
     justify-content: center;
     background-color: #e1e1e1;
-    
 `
 const FooterDiv = styled.div`
     background-color: #e1e1e1;
@@ -22,8 +21,6 @@ const FooterDiv = styled.div`
     padding:20px;    
     width: 50%;
     text-align: center;
-    
-  
 `
 const FooterDiv_column = styled.div`
     background-color: #e1e1e1;  
@@ -37,59 +34,87 @@ const LogoImage = styled.img`
 const Siga = styled.h1`
     display:flex;
     align-items: center;
+    font-size: 23px
 `
 
 
 export function Footer() {
     return (
-        <AppContainer style={{marginBlock: "400px 0px"}}>
-            <Siga style={{ fontSize: "25px" }}>Me siga nas redes sociais!</Siga>
+        <AppContainer style={{marginBlock: "10px 0px"}}>
+            <Siga>Me siga nas redes sociais!</Siga>
             <FooterDiv>
                 <FooterDiv>
                     <FooterDiv_column>
-                        <p><strong >Instagram</strong></p>
-                        <LogoImage src={instagram} style={{ width: "35px" }} />
+                        <p><strong > Instagram </strong></p>
+                        <a href="https://www.instagram.com/andrew_srb/"><LogoImage src={instagram} style={{ width: "35px" }} /></a>
                     </FooterDiv_column>
                 </FooterDiv>
                 <FooterDiv>
                     <FooterDiv_column>
                         <p ><strong>Linkedin</strong></p>
-                        <LogoImage src={linkedin} />
+                        <a href="https://www.linkedin.com/in/andrew-souza-ab776623b/"><LogoImage src={linkedin} /></a>
                     </FooterDiv_column>
                 </FooterDiv>
                 <FooterDiv>
                     <FooterDiv_column>
-                        <p ><strong>GitHub</strong></p>
-                        <LogoImage src={gitHub} />
+                        <p><strong>GitHub</strong></p>
+                        <a href="https://github.com/AndrewSRibeiro01"><LogoImage src={gitHub} /></a>
                     </FooterDiv_column>
                 </FooterDiv>
             </FooterDiv>
         </AppContainer>
     )
 }
-
  export function Footer1() {
     return (
         <AppContainer>
-            <Siga style={{ fontSize: "25px" }}>Me siga nas redes sociais!</Siga>
+            <Siga>Me siga nas redes sociais!</Siga>
             <FooterDiv style={{marginBlock: "0px"}}>
                 
                 <FooterDiv>
                     <FooterDiv_column>
-                        <p shref="www.instagram.com/andrew_srb"> <strong >Instagram</strong></p>
-                        <LogoImage src={instagram} style={{ width: "35px" }} />
+                        <p><strong >Instagram</strong></p>
+                        <a href="https://www.instagram.com/andrew_srb/"><LogoImage src={instagram} style={{ width: "35px" }} /></a>
                     </FooterDiv_column>
                 </FooterDiv>
                 <FooterDiv>
                     <FooterDiv_column>
                         <p ><strong>Linkedin</strong></p>
-                        <LogoImage src={linkedin} />
+                        <a href="https://www.linkedin.com/in/andrew-souza-ab776623b/"><LogoImage src={linkedin} /></a>
                     </FooterDiv_column>
                 </FooterDiv>
                 <FooterDiv>
                     <FooterDiv_column>
                         <p ><strong>GitHub</strong></p>
-                        <LogoImage src={gitHub} />
+                        <a href="https://github.com/AndrewSRibeiro01"><LogoImage src={gitHub} /></a>
+                    </FooterDiv_column>
+                </FooterDiv>
+            </FooterDiv>
+        </AppContainer>
+    )
+}
+export function Footer2() {
+    return (
+        <AppContainer style={{bottom: "0px", position: "fixed"}}>
+            <Siga>Me siga nas redes sociais!</Siga>
+            <FooterDiv>
+                
+                <FooterDiv>
+                    <FooterDiv_column>
+                        <p><strong >Instagram</strong></p>
+                        <a href="https://www.instagram.com/andrew_srb/"><LogoImage src={instagram} style={{ width: "35px" }} /></a>
+                    </FooterDiv_column>
+                </FooterDiv>
+                <FooterDiv>
+                    <FooterDiv_column>
+                        <p ><strong>Linkedin</strong></p>
+                        <a href="https://www.linkedin.com/in/andrew-souza-ab776623b/"><LogoImage src={linkedin} /></a>
+                    </FooterDiv_column>
+                </FooterDiv>
+                <FooterDiv>
+                    <FooterDiv_column>
+                        <p ><strong>GitHub</strong></p>
+                        <a href="https://github.com/AndrewSRibeiro01"><LogoImage src={gitHub} /></a>
                     </FooterDiv_column>
                 </FooterDiv>
             </FooterDiv>

@@ -11,5 +11,5 @@ export const Icones = styled.ul`
 `
 export const Icone = styled.li`
   margin-right: 40px;
-  width: 25px;
+  width: 40px;
 `

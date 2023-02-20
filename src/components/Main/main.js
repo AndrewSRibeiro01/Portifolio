@@ -31,6 +31,7 @@ function Main() {
         <TituloCurriculo>
             <h1>Curriculo</h1>
             <SubTituloCurriculo>Conhecimentos 🛠️ Habilidades </SubTituloCurriculo>
+
             <Display>
                 <CardStyle class="card">
                     <p>React</p>
@@ -40,17 +41,17 @@ function Main() {
                     </div>
                 </CardStyle>
 
-                <CardStyleJ>
+                <CardStyle class="card">
                     <p>javascript</p>
-                    <img src={javascript} alt="LogoJavascript" width="150px" />
+                    <img src={javascript} alt="LogoJavascript" width="140px" />
                     <div class="card-body">
                         <CardText class="card-text" >JavaScript é uma linguagem de programação que permite a você implementar itens complexos em páginas web.</CardText>
                     </div>
-                </CardStyleJ>
+                </CardStyle>
 
                 <CardStyleJ>
                     <p>Css</p>
-                    <img src={Css} alt="LogoJavascript" width="150px" />
+                    <img src={Css} alt="LogoCss" width="150px" />
                     <div class="card-body">
                         <CardText class="card-text" >CSS (Cascading Style Sheets ou Folhas de Estilo em Cascata) é uma linguagem de estilo (en-US) usada para descrever a apresentação de um documento escrito em HTML ou em XML</CardText>
                     </div>
@@ -58,7 +59,7 @@ function Main() {
 
                 <CardStyleJ>
                     <p>Sass</p>
-                    <img src={sass} alt="LogoJavascript" width="150px" style={{ marginTop: "25px" }} />
+                    <img src={sass} alt="LogoSass" width="150px" style={{ marginTop: "25px" }} />
                     <div class="card-body">
                         <CardText class="card-text" style={{ marginTop: "20px" }}>O SASS significa (Syntactically Awesome Style Sheets), folhas de estilo com uma sintaxe incrível. Sua ideia é adicionar recursos especiais como variáveis, mixins, funções, operações e outras opções variadas </CardText>
                     </div>
@@ -66,7 +67,7 @@ function Main() {
 
                 <CardStyleJ>
                     <p>Bootstraap</p>
-                    <img src={bootstrap} alt="LogoJavascript" width="150px" />
+                    <img src={bootstrap} alt="LogoBootstrap" width="150px" />
                     <div class="card-body">
                         <CardText class="card-text" >Bootstrap é um framework front-end que fornece estruturas de CSS para a criação de sites. Além disso, pode lidar com sites de desktop e páginas de dispositivos móveis da mesma forma.</CardText>
                     </div>
@@ -74,11 +75,12 @@ function Main() {
 
             </Display>
             <br></br>
+
             <Display>
 
                 <CardStyleJ>
                     <p>Python</p>
-                    <img src={python} alt="LogoJavascript" width="150px" />
+                    <img src={python} alt="LogoPython" style={{width: "100px"}}/>
                     <div class="card-body">
                         <CardText class="card-text" >O Python é uma linguagem de programação amplamente usada em aplicações da Web, desenvolvimento de software, ciência de dados e machine learning (ML)</CardText>
                     </div>
@@ -86,7 +88,7 @@ function Main() {
 
                 <CardStyleJ>
                     <p>R</p>
-                    <img src={r} alt="LogoJavascript" width="150px" />
+                    <img src={r} alt="LogoR" width="150px" style={{width: "120px"}}/>
                     <div class="card-body">
                         <CardText class="card-text" style={{ margin: "20px 0 0 0" }}>R é uma linguagem de programação estatística e gráfica que vem se especializando na manipulação, análise e visualização de dados, sendo atualmente considerada uma das melhores ferramentas para essa finalidade</CardText>
                     </div>
@@ -94,36 +96,34 @@ function Main() {
 
                 <CardStyleJ>
                     <p>Java</p>
-                    <img src={java} alt="LogoJavascript" width="150px" />
+                    <img src={java} alt="LogoJava" width="150px"/>
                     <div class="card-body">
                         <CardText class="card-text" style={{ margin: "40px 0 0 0" }}>Java é uma linguagem de programação orientada a objetos desenvolvida na década de 90 por uma equipe de programadores chefiada por James Gosling, na empresa Sun Microsystems, que em 2008 foi adquirida pela empresa Oracle Corporation</CardText>
                     </div>
                 </CardStyleJ>
 
                 <CardStyleJ>
-                    <p>MachineLearning</p>
-                    <img src={machine} alt="LogoJavascript" width="150px" />
+                    <p>Machine Learning</p>
+                    <img src={machine} alt="LogoMachineLearning" width="150px" style={{width: "120px"}}/>
                     <div class="card-body">
                         <CardText class="card-text" >De maneira geral, machine learning é a capacidade dos computadores de aprender de forma autônoma, a partir da interação com o usuário. Este fornece dados que serão analisados e interpretados pela máquina, a partir da tecnologia de Inteligência Artificial (IA).</CardText>
                     </div>
                 </CardStyleJ>
 
                 <CardStyleJ>
-                    <p>DeepLearning</p>
-                    <img src={deep} alt="LogoJavascript" width="150px" />
+                    <p>Deep Learning</p>
+                    <img src={deep} alt="LogoDeepLearning" width="150px" style={{width: "110px"}}/>
                     <div class="card-body">
                         <CardText class="card-text" >Deep Learning é um aprofundamento de Machine Learning, que nada mais é do que a aplicação de Inteligência Artificial e Data Science. O Deep Learning vai além, definindo padrões de análise profunda, incluindo processamento de linguagem natural.</CardText>
                     </div>
                 </CardStyleJ>
-
             </Display>
             <br></br>
 
-            <Display style={{ "justify-content": "center" }} >
-
+            <Display>
                 <CardStyleJ>
                     <p>RobotFramework</p>
-                    <img src={robot} alt="LogoJavascript" width="150px" />
+                    <img src={robot} alt="LogoRobotFramework" width="150px" />
                     <div class="card-body">
                         <CardText class="card-text" >Robot Framework é uma estrutura de automação genérica open source, ou seja, de código aberto que pode ser usado para testar e automatizar processos de software.</CardText>
                     </div>
@@ -131,14 +131,15 @@ function Main() {
 
                 <CardStyleJ>
                     <p>Postman</p>
-                    <img src={postman} alt="LogoJavascript" width="150px" />
+                    <img src={postman} alt="LogoPostman" width="150px" />
                     <div class="card-body">
                         <CardText class="card-text" >O Postman é um API Client que facilita aos desenvolvedores criar, compartilhar, testar e documentar APIs. Isso é feito, permitindo aos usuários criar e salvar solicitações HTTP e HTTPs simples e complexas, bem como ler suas respostas.</CardText>
                     </div>
                 </CardStyleJ>
+
                 <CardStyleJ>
                     <p>MongoDb</p>
-                    <img src={mongoDb} alt="LogoJavascript" width="150px" />
+                    <img src={mongoDb} alt="LogoMongoDb" width="150px" />
                     <div class="card-body">
                         <CardText class="card-text" >MongoDB é um software de banco de dados orientado a documentos livre, de código aberto e multiplataforma, classificado como um programa de banco de dados NoSQL, o MongoDB usa documentos semelhantes a JSON com esquemas.</CardText>
                     </div>
@@ -146,18 +147,17 @@ function Main() {
 
                 <CardStyleJ>
                     <p>Cypress</p>
-                    <img src={cypress} alt="LogoJavascript" width="150px" />
+                    <img src={cypress} alt="LogoCypress" width="150px" />
                     <div class="card-body">
                         <CardText class="card-text" >Cypress é uma ferramenta poderosa de última geração desenvolvida especialmente para engenheiros de controle de qualidade (analistas QA) e desenvolvedores, que podem usá-la para os testes de software</CardText>
                     </div>
                 </CardStyleJ>
-
             </Display>
             <br></br>
 
             <SubTituloCurriculo>Experiência Profissional</SubTituloCurriculo>
             <H4>ArsenalCar |Digigrow</H4>
-            <Display style={{ "justify-content": "initial" }}>
+            <Display>
                 <CardStyleJ>
                     <p>ArsenalCar</p>
                     <img src={arsenalcar} alt="LogoArsenalCar" width="150px" />
@@ -168,7 +168,7 @@ function Main() {
 
                 <CardStyleJ>
                     <p>Digigrow</p>
-                    <CardJD src={digigrow} alt="DigigrowJavascript" width="150px" />
+                    <CardJD src={digigrow} alt="LogoDigigrow" width="150px" />
                     <div class="card-body">
                         <CardText class="card-text" >A Digigrow nasceu com o objetivo de facilitar a entrada de empresas no mercado digital, sejam pequenas, médias e até grandes empresas, facilitando o caminho para o sucesso das vendas de nossos parceiros</CardText>
                     </div>
@@ -176,7 +176,7 @@ function Main() {
 
                 <CardStyleJ>
                     <p>Quality Assurance</p>
-                    <CardJD src={Qa} alt="LogoJavascript" width="150px" />
+                    <CardJD src={Qa} alt="LogoQuality Assurance" width="150px" />
                     <div class="card-body">
                         <CardText class="card-text" >O Analista de Quality Assurance, é o profissional responsável por realizar testes, procurar bugs, falhas e reportá-los para a equipe de desenvolvimento, além de sugerir estratégias de otimização para programas e sistemas.</CardText>
                     </div>
