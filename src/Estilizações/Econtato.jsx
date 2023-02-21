@@ -12,5 +12,5 @@ export const Subtitulo = styled.h2`
     text-align: center;
 `
 export const DivContato = styled.div`
-    margin-top: 100px;
+    margin-top: 150px;
 `

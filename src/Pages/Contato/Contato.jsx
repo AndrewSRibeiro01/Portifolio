@@ -12,5 +12,4 @@ function Contato() {
         </DivContato>
     )
 }
-
 export default Contato

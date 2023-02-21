@@ -9,7 +9,6 @@ const AppContainer = styled.div`
     bottom:0px;
     background-image: linear-gradient(90deg, #520000 35%, #ff0000  165%);
 `
-
 const Curriculo = () => {
     return (
         <AppContainer>
@@ -18,5 +17,4 @@ const Curriculo = () => {
         </AppContainer>
     )
 }
-
 export default Curriculo

@@ -1,46 +1,16 @@
-import styled from "styled-components"
 import linkedin from "../../Imagens/linkedin.png"
 import instagram from "../../Imagens/insta.png"
 import gitHub from "../../Imagens/gitHub.png"
 import React from "react"
-
-const AppContainer = styled.div`
-    width: 100%;
-    color #00009f; 
-    display:flex;
-    justify-content: center;
-    background-color: #e1e1e1;
-`
-const FooterDiv = styled.div`
-    background-color: #e1e1e1;
-    display:flex;
-    flex-direction: row;
-    justify-content: center;
-    color #00009f; 
-    bottom:0px; 
-    padding:20px;    
-    width: 50%;
-    text-align: center;
-`
-const FooterDiv_column = styled.div`
-    background-color: #e1e1e1;  
-    color #00009f;   
-`
-const LogoImage = styled.img`
-    cursor: pointer;
-    width: 40px;
-
-`
-const Siga = styled.h1`
-    display:flex;
-    align-items: center;
-    font-size: 23px
-`
-
+import { AppContainer } from "../../Estilizações/Efooter"
+import { Siga } from "../../Estilizações/Efooter"
+import { FooterDiv } from "../../Estilizações/Efooter"
+import { LogoImage } from "../../Estilizações/Efooter"
+import { FooterDiv_column } from "../../Estilizações/Efooter"
 
 export function Footer() {
     return (
-        <AppContainer style={{marginBlock: "10px 0px"}}>
+        <AppContainer>
             <Siga>Me siga nas redes sociais!</Siga>
             <FooterDiv>
                 <FooterDiv>
@@ -65,12 +35,12 @@ export function Footer() {
         </AppContainer>
     )
 }
- export function Footer1() {
+export function Footer1() {
     return (
         <AppContainer>
             <Siga>Me siga nas redes sociais!</Siga>
-            <FooterDiv style={{marginBlock: "0px"}}>
-                
+            <FooterDiv style={{ marginBlock: "0px" }}>
+
                 <FooterDiv>
                     <FooterDiv_column>
                         <p><strong >Instagram</strong></p>
@@ -95,10 +65,10 @@ export function Footer() {
 }
 export function Footer2() {
     return (
-        <AppContainer style={{bottom: "0px", position: "fixed"}}>
+        <AppContainer style={{ bottom: "0px", position: "fixed" }}>
             <Siga>Me siga nas redes sociais!</Siga>
             <FooterDiv>
-                
+
                 <FooterDiv>
                     <FooterDiv_column>
                         <p><strong >Instagram</strong></p>

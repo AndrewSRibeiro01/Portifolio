@@ -21,8 +21,10 @@ export const SubTitulo = styled.h3`
     font-weight: 500;
     margin-bottom: 40px;
 `
-
 export const LogoImg = styled.img`
     border-radius: 50%;
-    
+`
+export const AppContainer = styled.div`
+   display:flex;
+   justify-content: center
 `

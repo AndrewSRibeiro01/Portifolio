@@ -9,22 +9,16 @@ const AppContainer = styled.div`
     bottom:0px;
     background-image: linear-gradient(90deg, #520000 35%, #ff0000  165%);
 `
-
-const Container = styled.div`
-   
-  
-`
-
 const PortFolioPage = () => {
     return (
         <AppContainer>
             <Pesquisa />
-        <Container>
-        <Footer />
-        </Container>
+            <div>
+                <Footer />
+            </div>
         </AppContainer>
 
-    
+
     )
 }
 
