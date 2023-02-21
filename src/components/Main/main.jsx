@@ -24,6 +24,7 @@ import { CardJD } from "../../Estilizações/CardStyle"
 import { CardText } from "../../Estilizações/CardStyle"
 import { Display } from "../../Estilizações/CardStyle"
 import Qa from "../../Imagens/QA.png"
+import { SubtituloExperiencia } from "../../Estilizações/Emain"
 
 const Main = () => {
     return (
@@ -154,8 +155,8 @@ const Main = () => {
             </Display>
             <br></br>
 
-            <SubTituloCurriculo>Experiência Profissional</SubTituloCurriculo>
-            <H4>ArsenalCar |Digigrow</H4>
+            <SubtituloExperiencia>Experiência Profissional</SubtituloExperiencia>
+            <H4>ArsenalCar |Digigrow</H4><br />
 
             <Display>
                 <CardStyleJ>

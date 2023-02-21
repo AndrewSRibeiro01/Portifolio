@@ -30,5 +30,6 @@ export const LogoImage = styled.img`
 export const Siga = styled.h1`
     display:flex;
     align-items: center;
-    font-size: 23px
+    font-size: 23px;
+    margin: 0;
 `

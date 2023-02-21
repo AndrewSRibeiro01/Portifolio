@@ -11,7 +11,7 @@ import { FooterDiv_column } from "../../Estilizações/Efooter"
 export const Footer = () => {
     return (
         <AppContainer>
-            <Siga>Me siga nas redes sociais!</Siga>
+            <Siga>Siga-me nas redes sociais!</Siga>
             <FooterDiv>
                 <FooterDiv>
                     <FooterDiv_column>
@@ -38,7 +38,7 @@ export const Footer = () => {
 export const Footer1 = () => {
     return (
         <AppContainer>
-            <Siga>Me siga nas redes sociais!</Siga>
+            <Siga>Siga-me nas redes sociais!</Siga>
             <FooterDiv style={{ marginBlock: "0px" }}>
 
                 <FooterDiv>
@@ -66,7 +66,7 @@ export const Footer1 = () => {
 export const Footer2 = () => {
     return (
         <AppContainer style={{ bottom: "0px", position: "fixed" }}>
-            <Siga>Me siga nas redes sociais!</Siga>
+            <Siga>Siga-me nas redes sociais!</Siga>
             <FooterDiv>
 
                 <FooterDiv>
