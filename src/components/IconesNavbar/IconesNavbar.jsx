@@ -5,7 +5,7 @@ import React from 'react'
 
 const icones = [bug]
 
-function IconesNavbar() {
+const IconesNavbar = () => {
   return (
     <Icones>
       {icones.map((icone) => (

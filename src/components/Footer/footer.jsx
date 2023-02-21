@@ -8,7 +8,7 @@ import { FooterDiv } from "../../Estilizações/Efooter"
 import { LogoImage } from "../../Estilizações/Efooter"
 import { FooterDiv_column } from "../../Estilizações/Efooter"
 
-export function Footer() {
+export const Footer = () => {
     return (
         <AppContainer>
             <Siga>Me siga nas redes sociais!</Siga>
@@ -35,7 +35,7 @@ export function Footer() {
         </AppContainer>
     )
 }
-export function Footer1() {
+export const Footer1 = () => {
     return (
         <AppContainer>
             <Siga>Me siga nas redes sociais!</Siga>
@@ -63,7 +63,7 @@ export function Footer1() {
         </AppContainer>
     )
 }
-export function Footer2() {
+export const Footer2 = () => {
     return (
         <AppContainer style={{ bottom: "0px", position: "fixed" }}>
             <Siga>Me siga nas redes sociais!</Siga>

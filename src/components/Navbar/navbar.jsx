@@ -3,7 +3,7 @@ import OpcoesHeader from '../OpcoesNavbar/opcoesNavbar'
 import IconesHeader from '../IconesNavbar/IconesNavbar'
 import { NavbarContainer } from '../../Estilizações/Enavbar'
 
-function Navbar() {
+const Navbar = () => {
     return (
         <NavbarContainer>
             <Logo />

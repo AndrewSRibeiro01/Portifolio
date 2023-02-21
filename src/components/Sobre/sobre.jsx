@@ -6,7 +6,7 @@ import { LogoImg } from "../../Estilizações/Esobre"
 import eu from "../../Imagens/eu1.png"
 import { AppContainer } from "../../Estilizações/Esobre"
 
-function Sobre() {
+const Sobre = () => {
     return (
         <Fragment>
             <FotoContainer>

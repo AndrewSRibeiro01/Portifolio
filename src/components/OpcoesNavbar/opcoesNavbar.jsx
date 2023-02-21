@@ -13,7 +13,7 @@ const NavLink = styled(Link)`
     font-size: 16px;
   }
 `
-function OpcoesHeader() {
+const OpcoesHeader = () => {
   return (
     <Opcoes>
       <Sobre><NavLink to="/">SOBRE</NavLink></Sobre>

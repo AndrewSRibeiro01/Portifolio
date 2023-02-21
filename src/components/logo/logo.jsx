@@ -2,7 +2,7 @@ import bug from '../../Imagens/bug.png'
 import { LogoContainer } from '../../Estilizações/Elogo'
 import { LogoImage } from '../../Estilizações/Elogo'
 
-function Logo() {
+const Logo = () => {
     return (
         <LogoContainer>
             <LogoImage

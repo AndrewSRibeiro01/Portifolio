@@ -6,7 +6,7 @@ import { A } from "../../Estilizações/Eformulario";
 import { Img } from "../../Estilizações/Eformulario";
 import { P } from "../../Estilizações/Eformulario";
 
-function Contato() {
+const Contato = () => {
     const [showOffcanvas, setShowOffcanvas] = React.useState(false);
 
     const handleOffcanvas = () => setShowOffcanvas((prev) => !prev);

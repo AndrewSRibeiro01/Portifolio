@@ -25,8 +25,7 @@ import { CardText } from "../../Estilizações/CardStyle"
 import { Display } from "../../Estilizações/CardStyle"
 import Qa from "../../Imagens/QA.png"
 
-function Main() {
-
+const Main = () => {
     return (
         <TituloCurriculo>
             <h1>Curriculo</h1>
@@ -157,6 +156,7 @@ function Main() {
 
             <SubTituloCurriculo>Experiência Profissional</SubTituloCurriculo>
             <H4>ArsenalCar |Digigrow</H4>
+
             <Display>
                 <CardStyleJ>
                     <p>ArsenalCar</p>
@@ -183,6 +183,7 @@ function Main() {
                 </CardStyleJ>
             </Display>
             <br></br>
+
         </TituloCurriculo >
     )
 }

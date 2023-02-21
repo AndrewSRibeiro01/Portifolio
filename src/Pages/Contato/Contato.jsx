@@ -3,7 +3,7 @@ import { DivContato } from "../../Estilizações/Econtato"
 import { TituloContato } from "../../Estilizações/Econtato"
 import Formulario from "../../components/Formulario/Formulario"
 
-function Contato() {
+const Contato = () => {
     return (
         <DivContato>
             <TituloContato>Quer entrar em contato comigo?</TituloContato><br></br>
