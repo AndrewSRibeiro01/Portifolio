@@ -1,8 +1,6 @@
 import styled from "styled-components"
 
-export const FotoContainer = styled.section`
-    background-image: linear-gradient(90deg, #520000 35%, #3ff0000 165%);
- 
+export const FotoContainer = styled.section` 
     position:relative;
     padding: 85px 0;
     height: 170px;
