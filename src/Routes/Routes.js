@@ -6,8 +6,9 @@ import Contato from "../Pages/Contato/Contato";
 
 const AppRoute = () => {
     return (
-        <Routes>        
+        <Routes>
             <Route path="/" element={<PortFolioPage />} />
+            <Route path="/sobre" element={<PortFolioPage />} />
             <Route path="/curriculo" element={<Curriculo />} />
             <Route path="/contato" element={<Contato />} />
         </Routes>

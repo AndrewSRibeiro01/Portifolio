@@ -23,7 +23,7 @@ const Contato = () => {
 
                 Clique Aqui!</button>
 
-            <Offcanvas style={{justifyContent: "center", backgroundImage: "url(https://i0.wp.com/www.coliseugeek.com.br/wp-content/uploads/2023/01/a6b3a-clickwallpapers-planet-earth-3840x2160-in-4k-img8-scaled-1.jpg?resize=1536%2C810&ssl=1)", borderEndEndRadius: "1000px", borderEndStartRadius: "1000px"}}
+            <Offcanvas style={{justifyContent: "center", background: "#e1e1e1", borderEndEndRadius: "1000px", borderEndStartRadius: "1000px"}}
                 show={showOffcanvas}
                 onHide={handleOffcanvas}
                 placement="top"
