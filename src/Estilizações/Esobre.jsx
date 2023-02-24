@@ -7,12 +7,18 @@ export const FotoContainer = styled.section`
     width: 100%;
 `
 export const Titulo = styled.h2`
+    @media (max-width: 450px) {
+    font-size: 25px;
+    }
     color: #FFF;
     font-size: 36px;
     text-align: center;
     width: 100%;
 `
 export const SubTitulo = styled.h3`
+    @media (max-width: 450px) {
+    font-size: 14px;
+    }
     font-size: 16px;
      text-align: center;
      color: #FFF;
@@ -20,6 +26,9 @@ export const SubTitulo = styled.h3`
     margin-bottom: 40px;
 `
 export const LogoImg = styled.img`
+    @media (max-width: 768px) {
+    width: 300px;
+    }
     border-radius: 50%;
 `
 export const AppContainer = styled.div`

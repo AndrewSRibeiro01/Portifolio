@@ -2,7 +2,7 @@ import linkedin from "../../Imagens/linkedin.png"
 import instagram from "../../Imagens/insta.png"
 import gitHub from "../../Imagens/gitHub.png"
 import React from "react"
-import { AppContainer } from "../../Estilizações/Efooter"
+import { AppContainer, LogoImage1 } from "../../Estilizações/Efooter"
 import { Siga } from "../../Estilizações/Efooter"
 import { FooterDiv } from "../../Estilizações/Efooter"
 import { LogoImage } from "../../Estilizações/Efooter"
@@ -16,7 +16,7 @@ export const Footer = () => {
                 <FooterDiv>
                     <FooterDiv_column>
                         <p><strong > Instagram </strong></p>
-                        <a href="https://www.instagram.com/andrew_srb/"><LogoImage src={instagram} style={{ width: "35px" }} /></a>
+                        <a href="https://www.instagram.com/andrew_srb/"><LogoImage1 src={instagram} /></a>
                     </FooterDiv_column>
                 </FooterDiv>
                 <FooterDiv>
@@ -44,7 +44,7 @@ export const Footer1 = () => {
                 <FooterDiv>
                     <FooterDiv_column>
                         <p><strong >Instagram</strong></p>
-                        <a href="https://www.instagram.com/andrew_srb/"><LogoImage src={instagram} style={{ width: "35px" }} /></a>
+                        <a href="https://www.instagram.com/andrew_srb/"><LogoImage1 src={instagram} /></a>
                     </FooterDiv_column>
                 </FooterDiv>
                 <FooterDiv>
@@ -72,7 +72,7 @@ export const Footer2 = () => {
                 <FooterDiv>
                     <FooterDiv_column>
                         <p><strong >Instagram</strong></p>
-                        <a href="https://www.instagram.com/andrew_srb/"><LogoImage src={instagram} style={{ width: "35px" }} /></a>
+                        <a href="https://www.instagram.com/andrew_srb/"><LogoImage1 src={instagram} /></a>
                     </FooterDiv_column>
                 </FooterDiv>
                 <FooterDiv>

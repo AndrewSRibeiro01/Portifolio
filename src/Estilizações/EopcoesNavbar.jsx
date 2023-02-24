@@ -20,6 +20,9 @@ export const Opcao = styled.li`
   }
 `
 export const Sobre = styled.p`
+  @media (max-width: 425px) {
+   font-size: 14px;     
+  }
   font-size: 15px;
   padding: 15px;
   cursor: pointer;
