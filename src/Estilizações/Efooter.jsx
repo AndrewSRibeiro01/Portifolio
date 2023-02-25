@@ -22,7 +22,7 @@ export const FooterDiv = styled.div`
     width: 50%;
     text-align: center;
 `
-export const FooterDiv_column = styled.div`
+export const FooterDivColumn = styled.div`
     @media (max-width: 450px) {
         font-size: 10px
     }

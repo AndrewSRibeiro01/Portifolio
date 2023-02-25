@@ -6,7 +6,7 @@ import { AppContainer, LogoImage1 } from "../../Estilizações/Efooter"
 import { Siga } from "../../Estilizações/Efooter"
 import { FooterDiv } from "../../Estilizações/Efooter"
 import { LogoImage } from "../../Estilizações/Efooter"
-import { FooterDiv_column } from "../../Estilizações/Efooter"
+import { FooterDivColumn } from "../../Estilizações/Efooter"
 
 export const Footer = () => {
     return (
@@ -14,22 +14,22 @@ export const Footer = () => {
             <Siga>Siga-me nas redes sociais!</Siga>
             <FooterDiv>
                 <FooterDiv>
-                    <FooterDiv_column>
+                    <FooterDivColumn>
                         <p><strong > Instagram </strong></p>
                         <a href="https://www.instagram.com/andrew_srb/"><LogoImage1 src={instagram} /></a>
-                    </FooterDiv_column>
+                    </FooterDivColumn>
                 </FooterDiv>
                 <FooterDiv>
-                    <FooterDiv_column>
+                    <FooterDivColumn>
                         <p ><strong>Linkedin</strong></p>
                         <a href="https://www.linkedin.com/in/andrew-souza-ab776623b/"><LogoImage src={linkedin} /></a>
-                    </FooterDiv_column>
+                    </FooterDivColumn>
                 </FooterDiv>
                 <FooterDiv>
-                    <FooterDiv_column>
+                    <FooterDivColumn>
                         <p><strong>GitHub</strong></p>
                         <a href="https://github.com/AndrewSRibeiro01"><LogoImage src={gitHub} /></a>
-                    </FooterDiv_column>
+                    </FooterDivColumn>
                 </FooterDiv>
             </FooterDiv>
         </AppContainer>
@@ -42,22 +42,22 @@ export const Footer1 = () => {
             <FooterDiv style={{ marginBlock: "0px" }}>
 
                 <FooterDiv>
-                    <FooterDiv_column>
+                    <FooterDivColumn>
                         <p><strong >Instagram</strong></p>
                         <a href="https://www.instagram.com/andrew_srb/"><LogoImage1 src={instagram} /></a>
-                    </FooterDiv_column>
+                    </FooterDivColumn>
                 </FooterDiv>
                 <FooterDiv>
-                    <FooterDiv_column>
+                    <FooterDivColumn>
                         <p ><strong>Linkedin</strong></p>
                         <a href="https://www.linkedin.com/in/andrew-souza-ab776623b/"><LogoImage src={linkedin} /></a>
-                    </FooterDiv_column>
+                    </FooterDivColumn>
                 </FooterDiv>
                 <FooterDiv>
-                    <FooterDiv_column>
+                    <FooterDivColumn>
                         <p ><strong>GitHub</strong></p>
                         <a href="https://github.com/AndrewSRibeiro01"><LogoImage src={gitHub} /></a>
-                    </FooterDiv_column>
+                    </FooterDivColumn>
                 </FooterDiv>
             </FooterDiv>
         </AppContainer>
@@ -70,22 +70,22 @@ export const Footer2 = () => {
             <FooterDiv>
 
                 <FooterDiv>
-                    <FooterDiv_column>
+                    <FooterDivColumn>
                         <p><strong >Instagram</strong></p>
                         <a href="https://www.instagram.com/andrew_srb/"><LogoImage1 src={instagram} /></a>
-                    </FooterDiv_column>
+                    </FooterDivColumn>
                 </FooterDiv>
                 <FooterDiv>
-                    <FooterDiv_column>
+                    <FooterDivColumn>
                         <p ><strong>Linkedin</strong></p>
                         <a href="https://www.linkedin.com/in/andrew-souza-ab776623b/"><LogoImage src={linkedin} /></a>
-                    </FooterDiv_column>
+                    </FooterDivColumn>
                 </FooterDiv>
                 <FooterDiv>
-                    <FooterDiv_column>
+                    <FooterDivColumn>
                         <p ><strong>GitHub</strong></p>
                         <a href="https://github.com/AndrewSRibeiro01"><LogoImage src={gitHub} /></a>
-                    </FooterDiv_column>
+                    </FooterDivColumn>
                 </FooterDiv>
             </FooterDiv>
         </AppContainer>
