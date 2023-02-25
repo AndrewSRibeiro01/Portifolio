@@ -3,7 +3,7 @@ import styled from "styled-components"
 export const CardStyle = styled.div`
     @media (max-width: 768px){
     width: 100px;
-    margin: 0 2px 0 0;
+    margin: 0 2px 0 0px;
     }
     margin: 0 15px 0 0;
     text-align: center;
@@ -24,7 +24,7 @@ export const CardStyleJ = styled.div`
 `
 export const CardJD = styled.img`
     @media (max-width: 768px){
-    width: 60px;
+        width: 60px;
     margin: 0 2px 0 0;
     }
     border-radius: 130px;
@@ -38,7 +38,6 @@ export const CardText = styled.p`
 `
 export const Display = styled.div`
     @media (max-width: 768px){
-        widht:75px;
         margin: 0 2px 0 0;
     }
     justify-content: center;
@@ -58,7 +57,7 @@ export const Paragrafo = styled.p`
     }
 `
 export const H1 = styled.h1`
-@media (max-width: 768px){
+    @media (max-width: 768px){
     font-size: 15px;
     }
 `
