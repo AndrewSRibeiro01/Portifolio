@@ -24,7 +24,7 @@ export const CardStyleJ = styled.div`
 `
 export const CardJD = styled.img`
     @media (max-width: 768px){
-        width: 60px;
+    width: 60px;
     margin: 0 2px 0 0;
     }
     border-radius: 130px;

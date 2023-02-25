@@ -33,7 +33,6 @@ const Main = () => {
             <SubTituloCurriculo>Conhecimentos 🛠️ Habilidades </SubTituloCurriculo>
 
             <Display>
-                
                 <CardStyle class="card">
                     <Paragrafo>React</Paragrafo>
                     <img src={LogoReact} class="card-img-top" alt="LogoReact" />
@@ -79,21 +78,21 @@ const Main = () => {
 
             <Display>
 
-            <CardStyle class="card">
-            <Paragrafo>Python</Paragrafo>
+                <CardStyleJ>
+                    <Paragrafo>Python</Paragrafo>
                     <Imagem src={python} alt="LogoPython" />
                     <div class="card-body">
                         <CardText class="card-text" >O Python é uma linguagem de programação amplamente usada em aplicações da Web, desenvolvimento de software, ciência de dados e machine learning (ML)</CardText>
                     </div>
-                </CardStyle>
+                </CardStyleJ>
 
-                <CardStyle class="card">
-                <Paragrafo>R</Paragrafo>
+                <CardStyleJ>
+                    <Paragrafo>R</Paragrafo>
                     <Imagem src={r} alt="LogoR" />
                     <div class="card-body">
                         <CardText class="card-text" style={{ margin: "20px 0 0 0" }}>R é uma linguagem de programação estatística e gráfica que vem se especializando na manipulação, análise e visualização de dados, sendo atualmente considerada uma das melhores ferramentas para essa finalidade</CardText>
                     </div>
-                </CardStyle>
+                </CardStyleJ>
 
                 <CardStyleJ>
                     <Paragrafo>Java</Paragrafo>
@@ -104,7 +103,7 @@ const Main = () => {
                 </CardStyleJ>
 
                 <CardStyleJ>
-                <Paragrafo>Machine Learning</Paragrafo>
+                    <Paragrafo>Machine Learning</Paragrafo>
                     <Imagem src={machine} alt="LogoMachineLearning" />
                     <div class="card-body">
                         <CardText class="card-text" >De maneira geral, machine learning é a capacidade dos computadores de aprender de forma autônoma, a partir da interação com o usuário. Este fornece dados que serão analisados e interpretados pela máquina, a partir da tecnologia de Inteligência Artificial (IA).</CardText>
@@ -112,13 +111,12 @@ const Main = () => {
                 </CardStyleJ>
 
                 <CardStyleJ>
-                <Paragrafo>Deep Learning</Paragrafo>
+                    <Paragrafo>Deep Learning</Paragrafo>
                     <Imagem src={deep} alt="LogoDeepLearning" />
                     <div class="card-body">
                         <CardText class="card-text" >Deep Learning é um aprofundamento de Machine Learning, que nada mais é do que a aplicação de Inteligência Artificial e Data Science. O Deep Learning vai além, definindo padrões de análise profunda, incluindo processamento de linguagem natural.</CardText>
                     </div>
                 </CardStyleJ>
-
             </Display>
             <br></br>
 
