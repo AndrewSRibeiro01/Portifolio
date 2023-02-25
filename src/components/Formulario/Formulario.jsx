@@ -32,7 +32,7 @@ const Contato = () => {
                 <Offcanvas.Header style={{ display: "flex", justifyContent: "space-around"}}>
                         <Offcanvas.Title id="offcanvasTopLabel"><A href="https://wa.me/5511998571371?text=Oi,%20Andrew!" style={{ justifyItems: "center" }}>
                             WhatsApp
-                            <Img src={whatsApp} /></A>
+                            <Img src={whatsApp} alt="LogoWhatsapp" /></A>
                             <br></br></Offcanvas.Title>
                         <Offcanvas.Title id="offcanvasTopLabel" style={{ textAlign: "center", color: "#0d6efd" }} div>Email<P>Andrewsouza57@gmail.com</P>
                         </Offcanvas.Title>

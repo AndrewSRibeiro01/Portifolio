@@ -9,7 +9,7 @@ const IconesNavbar = () => {
   return (
     <Icones>
       {icones.map((icone) => (
-        <Icone><img src={icone} height="40px"></img></Icone>
+        <Icone><img src={icone} alt="LogoIcone" height="40px"></img></Icone>
       ))}
     </Icones>
   )
