@@ -1,10 +1,6 @@
 import styled from "styled-components"
 
 export const AppContainer = styled.div`
-    @media (max-width: 550px) {
-    position: fixed;
-    bottom: 0px;
-    }
     padding: 15px;
     width: 100%;
     color #00009f; 

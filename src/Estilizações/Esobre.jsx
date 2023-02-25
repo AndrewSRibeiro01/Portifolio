@@ -32,6 +32,9 @@ export const LogoImg = styled.img`
     border-radius: 50%;
 `
 export const AppContainer = styled.div`
+    @media (max-width: 550px) {
+        margin: 0 0 90px 0px;
+    }
    display:flex;
    justify-content: center
 `

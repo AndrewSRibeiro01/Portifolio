@@ -24,7 +24,7 @@ export const CardStyleJ = styled.div`
 `
 export const CardJD = styled.img`
     @media (max-width: 768px){
-    width: 80px;
+    width: 60px;
     margin: 0 2px 0 0;
     }
     border-radius: 130px;
@@ -38,6 +38,7 @@ export const CardText = styled.p`
 `
 export const Display = styled.div`
     @media (max-width: 768px){
+        widht:75px;
         margin: 0 2px 0 0;
     }
     justify-content: center;
@@ -46,7 +47,7 @@ export const Display = styled.div`
 `
 export const Imagem = styled.img`
     @media (max-width: 768px){
-    width: 50px;
+    width: 60px;
     }
     width: 140px;
 
