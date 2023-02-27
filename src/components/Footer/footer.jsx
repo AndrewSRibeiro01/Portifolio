@@ -91,4 +91,5 @@ export const Footer2 = () => {
         </AppContainer>
     )
 }
+alert("Não repare na foto, irei colocar uma minha")
 export default Footer
