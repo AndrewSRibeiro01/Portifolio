@@ -65,6 +65,10 @@ const Main = () => {
                     </div>
                 </CardStyleJ>
 
+            </Display>
+            <br></br>
+
+            <Display>
                 <CardStyleJ>
                     <Paragrafo>Bootstraap</Paragrafo>
                     <Imagem src={bootstrap} alt="LogoBootstrap" width="150px" />
@@ -72,11 +76,6 @@ const Main = () => {
                         <CardText class="card-text" >Bootstrap é um framework front-end que fornece estruturas de CSS para a criação de sites. Além disso, pode lidar com sites de desktop e páginas de dispositivos móveis da mesma forma.</CardText>
                     </div>
                 </CardStyleJ>
-
-            </Display>
-            <br></br>
-
-            <Display>
 
                 <CardStyleJ>
                     <Paragrafo>Python</Paragrafo>
@@ -102,6 +101,10 @@ const Main = () => {
                     </div>
                 </CardStyleJ>
 
+            </Display>
+            <br></br>
+
+            <Display>
                 <CardStyleJ>
                     <Paragrafo>Machine Learning</Paragrafo>
                     <Imagem src={machine} alt="LogoMachineLearning" />
@@ -117,10 +120,7 @@ const Main = () => {
                         <CardText class="card-text" >Deep Learning é um aprofundamento de Machine Learning, que nada mais é do que a aplicação de Inteligência Artificial e Data Science. O Deep Learning vai além, definindo padrões de análise profunda, incluindo processamento de linguagem natural.</CardText>
                     </div>
                 </CardStyleJ>
-            </Display>
-            <br></br>
 
-            <Display>
                 <CardStyleJ>
                     <Paragrafo>RobotFramework</Paragrafo>
                     <Imagem src={robot} alt="LogoRobotFramework" />
@@ -136,7 +136,9 @@ const Main = () => {
                         <CardText class="card-text" >O Postman é um API Client que facilita aos desenvolvedores criar, compartilhar, testar e documentar APIs. Isso é feito, permitindo aos usuários criar e salvar solicitações HTTP e HTTPs simples e complexas, bem como ler suas respostas.</CardText>
                     </div>
                 </CardStyleJ>
-
+            </Display>
+        <br />
+            <Display>
                 <CardStyleJ>
                     <Paragrafo>MongoDb</Paragrafo>
                     <Imagem src={mongoDb} alt="LogoMongoDb" />
@@ -152,6 +154,7 @@ const Main = () => {
                         <CardText class="card-text" >Cypress é uma ferramenta poderosa de última geração desenvolvida especialmente para engenheiros de controle de qualidade (analistas QA) e desenvolvedores, que podem usá-la para os testes de software</CardText>
                     </div>
                 </CardStyleJ>
+
             </Display>
             <br></br>
 
