@@ -6,7 +6,6 @@ export const Opcoes = styled.ul`
     flex-direction: column;
   }
 `
-
 export const Opcao = styled.li`
   font-size: 16px;
   justify-items: center;
@@ -30,4 +29,3 @@ export const Sobre = styled.p`
   text-decoration: none;
   margin: 10px 0 0 0;
 `
-

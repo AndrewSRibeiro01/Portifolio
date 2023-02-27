@@ -30,7 +30,8 @@ const Main = () => {
     return (
         <TituloCurriculo>
             <H1>Curriculo</H1>
-            <SubTituloCurriculo>Conhecimentos 🛠️ Habilidades </SubTituloCurriculo>
+            <SubTituloCurriculo>Conhecimentos 🛠️ Habilidades 
+            </SubTituloCurriculo>
 
             <Display>
                 <CardStyle class="card">
@@ -66,7 +67,7 @@ const Main = () => {
                 </CardStyleJ>
 
             </Display>
-            <br></br>
+            <br />
 
             <Display>
                 <CardStyleJ>
@@ -102,7 +103,7 @@ const Main = () => {
                 </CardStyleJ>
 
             </Display>
-            <br></br>
+            <br />
 
             <Display>
                 <CardStyleJ>
@@ -137,7 +138,8 @@ const Main = () => {
                     </div>
                 </CardStyleJ>
             </Display>
-        <br />
+            <br />
+
             <Display>
                 <CardStyleJ>
                     <Paragrafo>MongoDb</Paragrafo>
@@ -156,7 +158,7 @@ const Main = () => {
                 </CardStyleJ>
 
             </Display>
-            <br></br>
+            <br />
 
             <SubtituloExperiencia>Experiência Profissional</SubtituloExperiencia>
             <H4>ArsenalCar |Digigrow</H4><br />
@@ -186,7 +188,7 @@ const Main = () => {
                     </div>
                 </CardStyleJ>
             </Display>
-            <br></br>
+            <br />
 
         </TituloCurriculo >
     )

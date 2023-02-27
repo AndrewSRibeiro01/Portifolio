@@ -6,7 +6,6 @@ import { LogoImg } from "../../Estilizações/Esobre"
 import { AppContainer } from "../../Estilizações/Esobre"
 import imgTeste from "../../Imagens/ImagemTeste.png"
 
-
 const Sobre = () => {
     return (
         <Fragment>
