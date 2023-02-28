@@ -4,9 +4,6 @@ import { Titulo } from "../../Estilizações/Esobre"
 import { SubTitulo } from "../../Estilizações/Esobre"
 import { LogoImg } from "../../Estilizações/Esobre"
 import { AppContainer } from "../../Estilizações/Esobre"
-import eu from "../../Imagens/eu.png"
-import eu1 from "../../Imagens/eu2.png"
-import eu2 from "../../Imagens/eu3.png"
 import eu3 from "../../Imagens/eu4.png"
 
 
