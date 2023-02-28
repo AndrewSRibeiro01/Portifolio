@@ -4,7 +4,7 @@ import { Titulo } from "../../Estilizações/Esobre"
 import { SubTitulo } from "../../Estilizações/Esobre"
 import { LogoImg } from "../../Estilizações/Esobre"
 import { AppContainer } from "../../Estilizações/Esobre"
-import eu from "../../Imagens/eu.jpeg"
+import eu from "../../Imagens/eu.png"
 
 const Sobre = () => {
     return (

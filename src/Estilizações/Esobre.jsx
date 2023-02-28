@@ -27,10 +27,9 @@ export const SubTitulo = styled.h3`
 `
 export const LogoImg = styled.img`
     @media (max-width: 768px) {
-    width: 300px;
     }
     width: 300px;
-    border-radius: 160px;
+    border-radius: 125px;
 `
 export const AppContainer = styled.div`
     @media (max-width: 550px) {
