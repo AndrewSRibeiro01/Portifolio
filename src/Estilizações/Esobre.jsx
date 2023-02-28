@@ -29,7 +29,8 @@ export const LogoImg = styled.img`
     @media (max-width: 768px) {
     width: 300px;
     }
-    border-radius: 50%;
+    width: 300px;
+    border-radius: 85px;
 `
 export const AppContainer = styled.div`
     @media (max-width: 550px) {
