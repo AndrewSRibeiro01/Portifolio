@@ -32,7 +32,7 @@ const Main = () => {
             <H1>Curriculo</H1>
             <SubTituloCurriculo>Conhecimentos 🛠️ Habilidades 
             </SubTituloCurriculo>
-
+            
             <Display>
                 <CardStyle class="card">
                     <Paragrafo>React</Paragrafo>
