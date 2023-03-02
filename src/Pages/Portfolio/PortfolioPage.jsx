@@ -10,12 +10,12 @@ const AppContainer = styled.div`
 `
 const PortFolioPage = () => {
     return (
-        <AppContainer>
-            <Pesquisa />
-            <div>
-                <Footer />
-            </div>
-        </AppContainer>
+        <div>
+            <AppContainer>
+                <Pesquisa />
+            </AppContainer>
+            <Footer />
+        </div>
     )
 }
 

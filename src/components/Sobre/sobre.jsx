@@ -3,10 +3,10 @@ import eu3 from "../../Imagens/eu4.png"
 
 const SubTitulo = styled.h3`
     @media (max-width: 450px) {
-    font-size: 14px;
+    font-size: 13px;
+    margin: 0 2px 0 0;
     }
     text-align: inherit;
-    margon: 0px 20px 0 20px; 
     font-size: 16px;
     text-align: center;
     color: #FFF;
@@ -39,7 +39,7 @@ const Margin = styled.div`
 `
 const CardStyle = styled.div`
     @media (max-width: 768px){
-    margin: 0 2px 0 0px;
+    margin: 0 7px 0 7px;
     }
     text-align: inherit;
     margin: 0 15px 0 0;
