@@ -1,12 +1,5 @@
-// import { Fragment } from "react"
 import styled from "styled-components"
-// import { Display } from "../../Estilizações/CardStyle"
-// import { FotoContainer } from "../../Estilizações/Esobre"
-// import { LogoImg } from "../../Estilizações/Esobre"
-// import { AppContainer } from "../../Estilizações/Esobre"
 import eu3 from "../../Imagens/eu4.png"
-// import eu4 from "../../Imagens/eu5.png"
-
 
 const SubTitulo = styled.h3`
     @media (max-width: 450px) {
@@ -64,7 +57,6 @@ const Imagem = styled.img`
     height: 320px;  
     border-radius: 10px;
     margin: 20px;
-
 `
 const Card = styled.div`
     display:flex;
@@ -77,23 +69,12 @@ const CardBody = styled.div`
     border-bottom-right-radius:11px;
     border-bottom-left-radius:11px;
 `
-
-const Div =styled.div`
+const Div = styled.div`
     text-align: center;
 `
-
-
 const Sobre = () => {
     return (
         <Margin>
-            {/* <FotoContainer>
-                <Titulo>Um pouco sobre mim!</Titulo>
-            </FotoContainer> */}
-            {/* <SubTitulo>
-                Me chamo Andrew, tenho 24 anos, trabalho como Quality Assurance na empresa ArsenalCar| Digigrow.<br /> Moro em Santa Isabel SP, faço faculdade de Gestão da tecnologia da informação <br /> Estou sempre buscando por novos conhecimentos!
-            </SubTitulo> */}
-
-
             <DisplayCard>
                 <CardStyle class="card">
                     <Titulo>Um pouco sobre mim! <hr /> </Titulo>
@@ -107,9 +88,8 @@ const Sobre = () => {
                                 <br /> <br />
                                 Estou sempre buscando por novos conhecimentos!
                             </SubTitulo>
-
                         </Card>
-                        <button style={{fontWeight: "500", width: "200px", borderRadius: "15px", textDecoration: "none"}} type="button" class="btn btn-light btn-lg"> < a href="/contato" style={{textDecoration: "none", color: "black"}}> Contato</a></button>
+                        <button style={{ fontWeight: "500", width: "200px", borderRadius: "15px", textDecoration: "none" }} type="button" class="btn btn-light btn-lg"> < a href="/contato" style={{ textDecoration: "none", color: "black" }}> Contato</a></button>
                     </Div>
                     <CardBody>
                         <div class="card-body">
@@ -118,13 +98,7 @@ const Sobre = () => {
                     </CardBody>
                 </CardStyle>
             </DisplayCard>
-
-            {/* <AppContainer>
-                <LogoImg src={eu3} alt="Eu" />
-            </AppContainer> */}
         </Margin>
-
     )
 }
-
 export default Sobre
