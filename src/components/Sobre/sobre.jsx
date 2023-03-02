@@ -30,9 +30,6 @@ const Titulo = styled.h2`
     border-top-left-radius:11px;
 `
 const DisplayCard = styled.div`
-    @media (max-width: 768px) {
-        // width: 100px;
-        }
     justify-content: center;
     display:flex;
     max-width: 100%;
@@ -42,7 +39,6 @@ const Margin = styled.div`
 `
 const CardStyle = styled.div`
     @media (max-width: 768px){
-    // width: 100px;
     margin: 0 2px 0 0px;
     }
     text-align: inherit;

@@ -26,8 +26,6 @@ export const SubTitulo = styled.h3`
     margin-bottom: 40px;
 `
 export const LogoImg = styled.img`
-    @media (max-width: 768px) {
-    }
     width: 260px;
     border-radius: 125px;
 `
