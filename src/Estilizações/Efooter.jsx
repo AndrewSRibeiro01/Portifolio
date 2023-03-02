@@ -6,7 +6,9 @@ export const AppContainer = styled.div`
         bottom:0;
         }
     @media (max-width: 1599px) {
-        margin-top: 50px;
+        margin-top: 361px;
+        position: fixed;
+        bottom:0;
         }
     padding: 15px;
     width: 100%;
