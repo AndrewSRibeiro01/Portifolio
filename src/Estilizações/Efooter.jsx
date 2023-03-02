@@ -1,6 +1,23 @@
 import styled from "styled-components"
 
 export const AppContainer = styled.div`
+    @media (min-width: 1600px) {
+        position: fixed;
+        bottom:0;
+        }
+    @media (max-width: 1599px) {
+        position: fixed;
+        bottom:0;
+        }
+    padding: 15px;
+    width: 100%;
+    color #00009f; 
+    display:flex;
+    justify-content: center;
+    background-color: #e1e1e1;
+    margin-block: 10px 0px;
+`
+export const AppContainer1 = styled.div`
     padding: 15px;
     width: 100%;
     color #00009f; 
@@ -23,7 +40,7 @@ export const FooterDiv = styled.div`
     text-align: center;
 `
 export const FooterDivColumn = styled.div`
-    @media (max-width: 450px) {
+    @media (max-width: 550px) {
         font-size: 10px
     }
     background-color: #e1e1e1;  

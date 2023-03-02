@@ -31,7 +31,7 @@ const Titulo = styled.h2`
 `
 const DisplayCard = styled.div`
     @media (max-width: 768px) {
-        width: 100px;
+        // width: 100px;
         }
     justify-content: center;
     display:flex;
@@ -42,7 +42,7 @@ const Margin = styled.div`
 `
 const CardStyle = styled.div`
     @media (max-width: 768px){
-    width: 100px;
+    // width: 100px;
     margin: 0 2px 0 0px;
     }
     text-align: inherit;
@@ -54,6 +54,9 @@ const CardStyle = styled.div`
     background: linear-gradient(to right,#fe5d26,#370d44)
 `
 const Imagem = styled.img`
+    @media (max-width: 768px){
+        height: 220px;
+    }
     height: 320px;  
     border-radius: 10px;
     margin: 20px;
