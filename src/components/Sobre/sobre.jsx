@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom"
 import styled from "styled-components"
 import eu3 from "../../Imagens/eu4.png"
 
@@ -88,7 +89,7 @@ const Sobre = () => {
                                 Estou sempre buscando por novos conhecimentos!
                             </SubTitulo>
                         </Card>
-                        <button style={{ fontWeight: "500", width: "200px", borderRadius: "15px", textDecoration: "none" }} type="button" class="btn btn-light btn-lg"> < a href="/contato" style={{ textDecoration: "none", color: "black" }}> Contato</a></button>
+                        <button style={{ fontWeight: "500", width: "200px", borderRadius: "15px", textDecoration: "none" }} type="button" class="btn btn-light btn-lg"> < Link to={"/contato"} style={{ textDecoration: "none", color: "black" }}> Contato</Link></button>
                     </Div>
                     <CardBody>
                         <div class="card-body">
