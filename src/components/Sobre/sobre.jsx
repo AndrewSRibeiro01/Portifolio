@@ -1,11 +1,11 @@
-import { Fragment } from "react"
+// import { Fragment } from "react"
 import styled from "styled-components"
-import { Display } from "../../Estilizações/CardStyle"
-import { FotoContainer } from "../../Estilizações/Esobre"
-import { LogoImg } from "../../Estilizações/Esobre"
-import { AppContainer } from "../../Estilizações/Esobre"
+// import { Display } from "../../Estilizações/CardStyle"
+// import { FotoContainer } from "../../Estilizações/Esobre"
+// import { LogoImg } from "../../Estilizações/Esobre"
+// import { AppContainer } from "../../Estilizações/Esobre"
 import eu3 from "../../Imagens/eu4.png"
-import eu4 from "../../Imagens/eu5.png"
+// import eu4 from "../../Imagens/eu5.png"
 
 
 const SubTitulo = styled.h3`
