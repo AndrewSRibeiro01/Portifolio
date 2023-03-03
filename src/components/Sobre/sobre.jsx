@@ -4,29 +4,25 @@ import eu3 from "../../Imagens/eu4.png"
 
 const SubTitulo = styled.h3`
     @media (max-width: 450px) {
-    font-size: 13px;
-    margin: 0 2px 0 0;
+    font-size: 15px;
+    margin: 0 auto;
     }
     text-align: inherit;
     font-size: 16px;
-    text-align: center;
     color: #FFF;
     font-weight: 400;
     margin-bottom: 40px;
-    align-items: center;
-    text-align: inherit;
 `
 const Titulo = styled.h2`
     @media (max-width: 450px) {
     font-size: 20px;
     }
-    padding 20px;
+    padding: 20px;
     margin: 0 0 5px 0;
     color: #FFF;
     font-size: 29px;
     text-align: center;
     width: 100%;
-    background: linear-gradient(to right,#fe5d26,#370d44)
     border-top-right-radius:11px;
     border-top-left-radius:11px;
 `
@@ -41,12 +37,12 @@ const Margin = styled.div`
 const CardStyle = styled.div`
     @media (max-width: 768px){
     margin: 0 7px 0 7px;
+    width:420px;
     }
     text-align: inherit;
     margin: 0 15px 0 0;
     border-radius: 15px;
     width: 680px;
-    heigth: 300px;
     margin: 30px;
     background: linear-gradient(to right,#fe5d26,#370d44)
 `
@@ -59,13 +55,16 @@ const Imagem = styled.img`
     margin: 20px;
 `
 const Card = styled.div`
+    @media (max-width: 768px){
+    flex-direction: column;
+    }
     display:flex;
+    padding: 20px;
     align-items: center;
     background: linear-gradient(to right,#fe5d26,#370d44);
     text-align: initial;
 `
 const CardBody = styled.div`
-    background: linear-gradient(to right,#fe5d26,#370d44)
     border-bottom-right-radius:11px;
     border-bottom-left-radius:11px;
 `

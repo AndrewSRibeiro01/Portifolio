@@ -1,15 +1,15 @@
 import styled from "styled-components"
 
 export const CardStyle = styled.div`
-    @media (max-width: 768px){
-    width: 100px;
-    margin: 0 2px 0 0px;
-    }
-    margin: 0 15px 0 0;
+    /* margin: 0 15px 0 0; */
     text-align: center;
     border-radius: 15px;
-    width: 250px;
+    width:100%;
     background-image: linear-gradient(to right, #fe5d26, #370d44);
+    @media (max-width: 768px){
+    width:100%;
+    flex-direction:column;
+    }
 `
 export const CardStyleJ = styled.div`
     @media (max-width: 768px){
@@ -33,20 +33,43 @@ export const CardJD = styled.img`
 export const CardText = styled.p`
     @media (max-width: 768px){
     font-size: 7px;
+    margin: 0;
+    }
+    @media (max-width: 500px){
+    font-size: 10px;
+    margin: 0;
     }
     text-align: initial;
 `
 export const Display = styled.div`
-    @media (max-width: 768px){
-        margin: 0 2px 0 0;
-    }
     justify-content: center;
     display:flex;
+    width:100%;
     max-width: 100%;
+    margin: 0 auto;
+    gap:5px;
+    @media (max-width: 768px){
+        margin: 0 auto;
+        gap:5px;
+        width:80%;
+        flex-direction: row;
+    }
+`
+export const Display1 = styled.div`
+    justify-content: center;
+    display:flex;
+    width:100%;
+    max-width: 100%;
+    @media (max-width: 768px){
+        margin: 0 auto;
+        gap:5px;
+        width:80%;
+        flex-direction: row;
+    }
 `
 export const Imagem = styled.img`
     @media (max-width: 768px){
-    width: 60px;
+    width: 80px;
     }
     width: 140px;
 

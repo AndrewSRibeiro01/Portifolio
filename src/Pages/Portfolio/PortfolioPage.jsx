@@ -5,8 +5,8 @@ import Footer from '../../components/Footer/footer'
 
 const AppContainer = styled.div`
     width: 100vw;
-    height: 100vh;
     bottom:0px;
+    margin-bottom: 100px;
 `
 const PortFolioPage = () => {
     return (

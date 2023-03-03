@@ -7,6 +7,7 @@ import { createGlobalStyle } from 'styled-components';
 const GlobalStyle = createGlobalStyle`
   body {
     margin:0px;
+    max-width:1124;
  
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
       'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -26,11 +27,11 @@ const GlobalStyle = createGlobalStyle`
 `
 const App = () => {
   return (
-      <BrowserRouter>
-       <GlobalStyle />
-        <Navbar />
-        <AppRoute />
-      </BrowserRouter>
+    <BrowserRouter>
+      <GlobalStyle />
+      <Navbar />
+      <AppRoute />
+    </BrowserRouter>
   )
 }
 

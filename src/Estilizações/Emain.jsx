@@ -2,9 +2,10 @@ import styled from "styled-components"
 
 export const TituloCurriculo = styled.section`
     color: #fff;
-    margin-top: 20vh;
+    padding:30px;
+    max-width:1225px;
     font-size: 18px;
-    margin: 150px 0 0 25px;
+    margin:  0 auto ;
 `
 export const SubTituloCurriculo = styled.h3`
     @media (max-width: 768px){
