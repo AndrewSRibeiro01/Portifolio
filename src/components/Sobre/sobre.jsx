@@ -1,14 +1,14 @@
 import { Link } from "react-router-dom"
 import eu6 from "../../Imagens/eu6.png"
-import { SubTitulo1 } from "../../Estilizações/Esobre"
-import { Titulo1 } from "../../Estilizações/Esobre"
-import { DisplayCard } from "../../Estilizações/Esobre"
-import { CardStyle } from "../../Estilizações/Esobre"
-import { Imagem } from "../../Estilizações/Esobre"
-import { Card } from "../../Estilizações/Esobre"
-import { CardBody } from "../../Estilizações/Esobre"
-import { Div } from "../../Estilizações/Esobre"
-import { Margin } from "../../Estilizações/Esobre"
+import { SubTitulo1 } from "../../Estilizações/Emain" 
+import { Titulo1 }  from "../../Estilizações/Emain" 
+import { DisplayCard } from "../../Estilizações/Emain" 
+import { CardStyle } from "../../Estilizações/Emain" 
+import { Imagem } from "../../Estilizações/Emain" 
+import { Card } from "../../Estilizações/Emain"  
+import { CardBody } from "../../Estilizações/Emain" 
+import { Div } from "../../Estilizações/Emain" 
+import { Margin } from "../../Estilizações/Emain" 
 
 
 const Sobre = () => {
