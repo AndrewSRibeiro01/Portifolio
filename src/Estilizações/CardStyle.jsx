@@ -11,17 +11,6 @@ export const CardStyle = styled.div`
     flex-direction:column;
     }
 `
-export const CardStyleJ = styled.div`
-    @media (max-width: 768px){
-    width: 100px;
-    margin: 0 2px 0 0;
-    }
-    margin: 0 15px 0 0;
-    text-align: center;
-    border-radius: 15px;
-    width: 250px;
-    background-image: linear-gradient(to right, #fe5d26, #370d44);
-`
 export const CardJD = styled.img`
     @media (max-width: 768px){
     width: 60px;

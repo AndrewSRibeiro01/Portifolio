@@ -19,7 +19,6 @@ import postman from "../../Imagens/postman.png"
 import arsenalcar from "../../Imagens/arsenalcar.png"
 import digigrow from "../../Imagens/logoDigi.png"
 import { CardStyle, H1, Imagem, Paragrafo } from "../../Estilizações/CardStyle"
-import { CardStyleJ } from "../../Estilizações/CardStyle"
 import { CardJD } from "../../Estilizações/CardStyle"
 import { CardText } from "../../Estilizações/CardStyle"
 import { Display } from "../../Estilizações/CardStyle"
@@ -27,14 +26,11 @@ import Qa from "../../Imagens/QA.png"
 import { SubtituloExperiencia } from "../../Estilizações/Emain"
 import styled from "styled-components"
 
-
-
 const DisplayFLex = styled.div`
     @media (min-width: 500px ) {
         display: flex;
         flex-direction: row;
        width: 100%;
-
     }
     margin: 0% 0% 0% 25%;
     gap:2px;
@@ -46,15 +42,12 @@ const DisplayFLex1 = styled.div`
         display: flex;
         flex-direction: row;
        width: 50%;
-
     }
     margin: 0% 0% 0% 25%;
     gap:2px;
     margin: auto;
     width: 70%;
 `
-
-
 const Main = () => {
     return (
         <TituloCurriculo>
