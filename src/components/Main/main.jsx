@@ -24,30 +24,9 @@ import { CardText } from "../../Estilizações/CardStyle"
 import { Display } from "../../Estilizações/CardStyle"
 import Qa from "../../Imagens/QA.png"
 import { SubtituloExperiencia } from "../../Estilizações/Emain"
-import styled from "styled-components"
+import { DisplayFLex } from "../../Estilizações/CardStyle"
+import { DisplayFLex1 } from "../../Estilizações/CardStyle"
 
-const DisplayFLex = styled.div`
-    @media (min-width: 500px ) {
-        display: flex;
-        flex-direction: row;
-       width: 100%;
-    }
-    margin: 0% 0% 0% 25%;
-    gap:2px;
-    margin: auto;
-    width: 70%;
-`
-const DisplayFLex1 = styled.div`
-    @media (min-width: 500px ) {
-        display: flex;
-        flex-direction: row;
-       width: 50%;
-    }
-    margin: 0% 0% 0% 25%;
-    gap:2px;
-    margin: auto;
-    width: 70%;
-`
 const Main = () => {
     return (
         <TituloCurriculo>
@@ -217,6 +196,7 @@ const Main = () => {
                     </CardStyle>
                     </Display>
                     <br />
+
                     <Display>
                     <CardStyle>
                         <Paragrafo>Cypress</Paragrafo>
@@ -254,8 +234,8 @@ const Main = () => {
                     </CardStyle>
                 </Display>
                 <br />
-                <Display>
 
+                <Display>
                     <CardStyle class="card">
                         <Paragrafo>Quality Assurance</Paragrafo>
                         <CardJD src={Qa} alt="LogoQuality Assurance" />
@@ -266,7 +246,7 @@ const Main = () => {
                 </Display>
             </DisplayFLex>
             <br />
-
+            
         </TituloCurriculo >
     )
 }

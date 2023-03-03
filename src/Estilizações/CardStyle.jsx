@@ -1,7 +1,6 @@
 import styled from "styled-components"
 
 export const CardStyle = styled.div`
-    /* margin: 0 15px 0 0; */
     text-align: center;
     border-radius: 15px;
     width:100%;
@@ -72,4 +71,26 @@ export const H1 = styled.h1`
     @media (max-width: 768px){
     font-size: 15px;
     }
+`
+export const DisplayFLex = styled.div`
+    @media (min-width: 500px ) {
+        display: flex;
+        flex-direction: row;
+       width: 100%;
+    }
+    margin: 0% 0% 0% 25%;
+    gap:2px;
+    margin: auto;
+    width: 70%;
+`
+export const DisplayFLex1 = styled.div`
+    @media (min-width: 500px ) {
+        display: flex;
+        flex-direction: row;
+       width: 50%;
+    }
+    margin: 0% 0% 0% 25%;
+    gap:2px;
+    margin: auto;
+    width: 70%;
 `
