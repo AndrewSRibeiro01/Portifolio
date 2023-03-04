@@ -16,6 +16,7 @@ export const CardJD = styled.img`
     margin: 0 2px 0 0;
     }
     :hover{
+        transition: 1s;
         cursor: pointer;
         width: 180px    
     }
@@ -64,6 +65,7 @@ export const Imagem = styled.img`
     width: 80px;
     }
     :hover{
+        transition: 1s;
         cursor: pointer;
         width: 180px    
     }

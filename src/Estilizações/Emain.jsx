@@ -75,9 +75,6 @@ export const Imagem = styled.img`
     @media (max-width: 768px){
         height: 220px;
     }
-    :hover{
-        height: 420px;
-    }
     height: 320px;  
     border-radius: 10px;
     margin: 20px;
