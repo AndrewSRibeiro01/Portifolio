@@ -7,7 +7,7 @@ const Logo = () => {
     return (
         <LogoContainer>
             <LogoImage src={bug} alt='logo'/>
-            <Portifólio>Portifólio</Portifólio>
+            <Portifólio>Portfólio</Portifólio>
         </LogoContainer>
     )
 }

@@ -10,7 +10,6 @@ import { CardBody } from "../../Estilizações/Emain"
 import { Div } from "../../Estilizações/Emain" 
 import { Margin } from "../../Estilizações/Emain" 
 
-
 const Sobre = () => {
     return (
         <Margin>
@@ -28,7 +27,7 @@ const Sobre = () => {
                                 Estou sempre buscando por novos conhecimentos!
                             </SubTitulo1>
                         </Card>
-                        <button style={{ fontWeight: "500", width: "200px", borderRadius: "15px", textDecoration: "none" }} type="button" class="btn btn-light btn-lg"> < Link to={"/contato"} style={{ textDecoration: "none", color: "black" }}> Contato</Link></button>
+                        <button style={{ fontWeight: "500", width: "200px", borderRadius: "15px", textDecoration: "none" }} type="button" class="btn btn-light btn-lg"> < Link to={"/contato"} style={{ textDecoration: "none", color: "black",  }}> Contato</Link></button>
                     </Div>
                     <CardBody>
                         <div class="card-body">
