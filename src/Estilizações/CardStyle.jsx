@@ -15,11 +15,6 @@ export const CardJD = styled.img`
     width: 60px;
     margin: 0 2px 0 0;
     }
-    :hover{
-        transition: 1s;
-        cursor: pointer;
-        width: 180px    
-    }
     border-radius: 130px;
     width: 140px;
 `
@@ -63,11 +58,6 @@ export const Display1 = styled.div`
 export const Imagem = styled.img`
     @media (max-width: 768px){
     width: 80px;
-    }
-    :hover{
-        transition: 1s;
-        cursor: pointer;
-        width: 180px    
     }
     width: 140px;
 

@@ -1,14 +1,14 @@
 import { Link } from "react-router-dom"
 import eu6 from "../../Imagens/eu6.png"
-import { SubTitulo1 } from "../../Estilizações/Emain" 
-import { Titulo1 }  from "../../Estilizações/Emain" 
-import { DisplayCard } from "../../Estilizações/Emain" 
-import { CardStyle } from "../../Estilizações/Emain" 
-import { Imagem } from "../../Estilizações/Emain" 
-import { Card } from "../../Estilizações/Emain"  
-import { CardBody } from "../../Estilizações/Emain" 
-import { Div } from "../../Estilizações/Emain" 
-import { Margin } from "../../Estilizações/Emain" 
+import { SubTitulo1 } from "../../Estilizações/Emain"
+import { Titulo1 } from "../../Estilizações/Emain"
+import { DisplayCard } from "../../Estilizações/Emain"
+import { CardStyle } from "../../Estilizações/Emain"
+import { Imagem } from "../../Estilizações/Emain"
+import { Card } from "../../Estilizações/Emain"
+import { CardBody } from "../../Estilizações/Emain"
+import { Div } from "../../Estilizações/Emain"
+import { Margin } from "../../Estilizações/Emain"
 
 const Sobre = () => {
     return (
@@ -27,7 +27,21 @@ const Sobre = () => {
                                 Estou sempre buscando por novos conhecimentos!
                             </SubTitulo1>
                         </Card>
-                        <button style={{ fontWeight: "500", width: "200px", borderRadius: "15px", textDecoration: "none" }} type="button" class="btn btn-light btn-lg"> < Link to={"/contato"} style={{ textDecoration: "none", color: "black",  }}> Contato</Link></button>
+                        <button style={{
+                            fontWeight: "500",
+                            width: "200px",
+                            borderRadius: "15px",
+                            textDecoration: "none"
+                        }} type="button"
+                            class="btn btn-light btn-lg">
+                            < Link to={"/contato"}
+                                style={{
+                                    textDecoration: "none",
+                                    color: "black",
+                                }}>
+                                Contato
+                            </Link>
+                        </button>
                     </Div>
                     <CardBody>
                         <div class="card-body">

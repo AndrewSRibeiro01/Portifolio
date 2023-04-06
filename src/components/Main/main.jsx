@@ -227,7 +227,7 @@ const Main = () => {
                 <Display>
                     <CardStyle class="card">
                         <Paragrafo>Digigrow</Paragrafo>
-                        <CardJD src={digigrow} alt="LogoDigigrow" />
+                        <CardJD draggable="false" src={digigrow} alt="LogoDigigrow" />
                         <div class="card-body">
                             <CardText class="card-text" >A Digigrow nasceu com o objetivo de facilitar a entrada de empresas no mercado digital, sejam pequenas, médias e até grandes empresas, facilitando o caminho para o sucesso das vendas de nossos parceiros</CardText>
                         </div>
@@ -238,7 +238,7 @@ const Main = () => {
                 <Display>
                     <CardStyle class="card">
                         <Paragrafo>Quality Assurance</Paragrafo>
-                        <CardJD src={Qa} alt="LogoQuality Assurance" />
+                        <CardJD draggable="false" src={Qa} alt="LogoQuality Assurance" />
                         <div class="card-body">
                             <CardText class="card-text" >O Analista de Quality Assurance, é o profissional responsável por realizar testes, procurar bugs, falhas e reportá-los para a equipe de desenvolvimento, além de sugerir estratégias de otimização para programas e sistemas.</CardText>
                         </div>
