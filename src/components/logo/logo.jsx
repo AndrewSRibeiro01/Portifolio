@@ -3,6 +3,7 @@ import { LogoContainer } from '../../Estilizações/Elogo'
 import { LogoImage } from '../../Estilizações/Elogo'
 import { Portifólio } from '../../Estilizações/Elogo'
 
+
 const Logo = () => {
     return (
         <LogoContainer>
