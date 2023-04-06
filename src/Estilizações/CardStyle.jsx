@@ -4,7 +4,7 @@ export const CardStyle = styled.div`
     text-align: center;
     border-radius: 15px;
     width:100%;
-    background-image: linear-gradient(to right, #fe5d26, #370d44);
+    background-image: linear-gradient(to right, transparent, #3c3c3c);
     @media (max-width: 768px){
     width:100%;
     flex-direction:column;

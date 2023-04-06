@@ -32,6 +32,10 @@ export const SubTitulo1 = styled.h3`
     font-size: 15px;
     margin: 0 auto;
     }
+    @media (min-width: 1448px) {
+    font-size: 25px;
+    margin: 0 auto;
+    }
     text-align: inherit;
     font-size: 16px;
     color: #FFF;
@@ -64,13 +68,36 @@ export const CardStyle = styled.div`
     margin: 0 7px 0 7px;
     width:420px;
     }
+    @media (min-width: 1448px){
+    margin: 0 7px 0 7px;
+    width:1000px;
+
+    }
     text-align: inherit;
     margin: 0 15px 0 0;
     border-radius: 15px;
     width: 680px;
     margin: 30px;
-    background: linear-gradient(to right,#fe5d26,#370d44)
-`
+    /* background: linear-gradient(to right,#000000,#3c3c3c) */
+    background: transparent;
+    backdrop-filter: blur( 13.5px );
+    -webkit-backdrop-filter: blur( 13.5px );
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    
+    `
+export const Card = styled.div`
+        @media (max-width: 768px){
+        flex-direction: column;
+        }
+        display:flex;
+        padding: 0 20px 20px 20px ;
+        align-items: center;
+        /* background: linear-gradient(to right,#000000,#3c3c3c); */
+        text-align: initial;
+        background: transparent;
+        backdrop-filter: blur( 13.5px );
+        -webkit-backdrop-filter: blur( 13.5px );
+    `
 export const Imagem = styled.img`
     @media (max-width: 768px){
         height: 220px;
@@ -78,16 +105,6 @@ export const Imagem = styled.img`
     height: 320px;  
     border-radius: 10px;
     margin: 20px;
-`
-export const Card = styled.div`
-    @media (max-width: 768px){
-    flex-direction: column;
-    }
-    display:flex;
-    padding: 0 20px 20px 20px ;
-    align-items: center;
-    background: linear-gradient(to right,#fe5d26,#370d44);
-    text-align: initial;
 `
 export const CardBody = styled.div`
     border-bottom-right-radius:11px;

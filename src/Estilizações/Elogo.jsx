@@ -14,6 +14,9 @@ export const Portifólio = styled.p`
     @media (max-width: 450px) {
     font-size: 25px;
     }
+    @media (min-width: 1448px) {
+        font-size: 35px;
+    }
     font-weight: bold;
-    color: #00009f;
+    color: #000000;
 `

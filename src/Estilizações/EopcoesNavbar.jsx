@@ -14,6 +14,7 @@ export const Opcao = styled.li`
   padding: 0 5px;
   cursor: pointer;
   min-width: 120px;
+  
   @media (max-width: 768px) {
     flex-direction: column;
   }
@@ -23,6 +24,12 @@ export const Sobre = styled.p`
    font-size: 14px;     
    padding: 0px;
   }
+  @media (min-width: 1448px) {
+        font-size: 17px;
+    }
+  @media (min-width: 2000px) {
+        font-size: 23px;
+    }
   font-size: 15px;
   padding: 15px;
   cursor: pointer;

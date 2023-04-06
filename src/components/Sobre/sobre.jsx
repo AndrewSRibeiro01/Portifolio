@@ -9,6 +9,7 @@ import { Card } from "../../Estilizações/Emain"
 import { CardBody } from "../../Estilizações/Emain"
 import { Div } from "../../Estilizações/Emain"
 import { Margin } from "../../Estilizações/Emain"
+import eu from "../../Imagens/eu0.png"
 
 const Sobre = () => {
     return (
@@ -18,7 +19,7 @@ const Sobre = () => {
                     <Titulo1>Um pouco sobre mim! <hr /> </Titulo1>
                     <Div>
                         <Card>
-                            <Imagem draggable="false" src={eu6} class="card-img-top" alt="Eu" />
+                            <Imagem draggable="false" src={eu} class="card-img-top" alt="Eu" />
                             <SubTitulo1>
                                 Me chamo Andrew, tenho 24 anos, trabalho como Quality Assurance na empresa ArsenalCar| Digigrow.
                                 <br /> <br />
@@ -39,7 +40,7 @@ const Sobre = () => {
                                     textDecoration: "none",
                                     color: "black",
                                 }}>
-                                Contato
+                                Projetos
                             </Link>
                         </button>
                     </Div>

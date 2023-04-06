@@ -3,16 +3,19 @@ import styled from "styled-components"
 export const AppContainer = styled.div`
     padding: 15px;
     width: 100%;
-    color #00009f; 
+    color: #00009f; 
     display:flex;
     justify-content: center;
     background-color: #e1e1e1;
     margin-block: 10px 0px;
+    @media (min-width: 1448px) {
+        margin-block: 350px 0px;
+    }
 `
 export const AppContainer1 = styled.div`
     padding: 15px;
     width: 100%;
-    color #00009f; 
+    color: #00009f; 
     display:flex;
     justify-content: center;
     background-color: #e1e1e1;
@@ -25,7 +28,7 @@ export const FooterDiv = styled.div`
     display:flex;
     flex-direction: row;
     justify-content: center;
-    color #00009f; 
+    color: #00009f; 
     bottom: 0px; 
     padding: 0px;    
     width: 50%;
@@ -36,7 +39,7 @@ export const FooterDivColumn = styled.div`
         font-size: 10px
     }
     background-color: #e1e1e1;  
-    color #00009f;   
+    color: #00009f;   
 `
 export const LogoImage = styled.img`
     @media (max-width: 450px) {
