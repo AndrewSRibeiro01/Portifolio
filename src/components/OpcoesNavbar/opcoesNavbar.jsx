@@ -4,18 +4,16 @@ import { Sobre } from "../../Estilizações/EopcoesNavbar";
 import styled from "styled-components"
 
 const NavLink = styled(Link)`
-  color: black;
+  color: black !important;
   text-decoration: none;
   padding: 0 1rem;
   
   :hover{
-    color: #00009f;
     transition: 1s;
     font-size: 16px;
   }
     @media (min-width: 1448px) {
       :hover{
-    color: #00009f;
     transition: 1s;
     font-size: 18px;
     }
@@ -23,7 +21,6 @@ const NavLink = styled(Link)`
 
     @media (min-width: 2000px) {
       :hover{
-    color: #00009f;
     transition: 1s;
     font-size: 25px;
     }
@@ -35,7 +32,7 @@ const OpcoesHeader = () => {
     <Opcoes>
       <Sobre><NavLink to="/">SOBRE</NavLink></Sobre>
       <Sobre><NavLink to="/curriculo">CURRICULO</NavLink></Sobre>
-      <Sobre><NavLink to="/contato">PROJETOS</NavLink></Sobre>
+      <Sobre><NavLink to="/contato">PROJETO</NavLink></Sobre>
     </Opcoes>
   )
 }

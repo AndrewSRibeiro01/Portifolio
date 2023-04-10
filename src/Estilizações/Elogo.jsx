@@ -7,8 +7,8 @@ export const LogoContainer = styled.div`
 `
 export const LogoImage = styled.img`
     margin-right: 10px;
-    height: 35px;
-    margin-top: 9px; 
+    height: 25px;
+    margin-top: 13px; 
 `
 export const Portifólio = styled.p`
     @media (max-width: 450px) {
@@ -18,5 +18,5 @@ export const Portifólio = styled.p`
         font-size: 35px;
     }
     font-weight: bold;
-    color: #000000;
+    color: #3c3c3c;
 `

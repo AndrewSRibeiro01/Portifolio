@@ -6,7 +6,7 @@ import Formulario from "../../components/Formulario/Formulario"
 const Contato = () => {
     return (
         <DivContato>
-            <TituloContato>Quer entrar em contato comigo?</TituloContato><br></br>
+            <TituloContato>Projeto</TituloContato><br></br>
             <Formulario />
             <Footer2 />
         </DivContato>
