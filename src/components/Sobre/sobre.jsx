@@ -40,7 +40,7 @@ const Sobre = () => {
                                     textDecoration: "none",
                                     color: "black",
                                 }}>
-                                Projetos
+                                Projeto
                             </Link>
                         </button>
                     </Div>
