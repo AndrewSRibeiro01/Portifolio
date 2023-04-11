@@ -1,90 +1,138 @@
 import React from "react"
 import { Offcanvas } from 'react-bootstrap';
 import whatsApp from "../../Imagens/whatsApp.png"
-import { DivForm } from "../../Estilizações/Eformulario";
-import { A } from "../../Estilizações/Eformulario";
-import { Img } from "../../Estilizações/Eformulario";
-import { P } from "../../Estilizações/Eformulario";
-import styled from "styled-components";
 import imagemProjeto from "../../Imagens/imagemProjeto.png";
+import { Margin, Imagem, Div, P, Img, A, DivForm } from "../../Estilizações/Eformulario";
+import imagemProjeto2 from "../../Imagens/imagemProjeto2.png"
+import imagemProjeto3 from "../../Imagens/imagemProjeto3.png"
+import imagemProjeto4 from "../../Imagens/imagemProjeto4.png"
 
-const Imagem = styled.img`
-    width: 500px; 
-    height: 240px;
-    @media (min-width: 1440px) {
-        width: 700px;
-        height: 300px;
-    }
-    @media (min-width: 2000px) {
-        width: 1150px;
-        height: 550px;
-    }
-    @media (max-width: 440px) {
-        width: 310px;
-        height: 160px;
-    }
-`
-const Div = styled.div`
-    width: 100%;
-    height: 250px;
-    color: white;
-`
-const Margin = styled.div`
-    @media (min-width: 1440px) {
-        margin-top: 100px;
-    }
-    @media (max-width: 1439px) {
-        margin-top: 30px;
-    }
-    @media (max-width: 440px) {
-        margin-top: 0;
-    }
-    @media (min-width: 2000px) {
-        margin-top: 400px;
+import styled from "styled-components";
+
+
+const FundoEspelho = styled.div`
+    background: transparent;
+    backdrop-filter: blur( 13.5px );
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    border-radius: 15px;
+    padding: 40px;
+    box-shadow: 15px 15px 15px #000;
+    @media (max-width: 414px) {
+        width: 95%;
     }
 `
+const Hr = styled.hr`
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+`
+
 const Contato = () => {
     const [showOffcanvas, setShowOffcanvas] = React.useState(false);
 
     const handleOffcanvas = () => setShowOffcanvas((prev) => !prev);
 
     return (
-        <DivForm>
+        <FundoEspelho>
 
-            <div>
-                <Div>
-                    <Imagem src={imagemProjeto} alt="Projeto" />
-                </Div>
-            </div>
-            <Margin />
+            <DivForm>
 
-            <button type="button" class="btn btn-secondary"
-                variant="primary"
-                data-bs-toggle="offcanvas"
-                data-bs-target="#offcanvasTop"
-                aria-controls="offcanvasTop"
-                onClick={handleOffcanvas}>
+                <div>
+                    <Div>
 
-                Contato</button>
+                        <body style={{ background: "transparent" }} class="bd-example">
 
-            <Offcanvas style={{ justifyContent: "center", background: "#e1e1e1", borderEndEndRadius: "1000px", borderEndStartRadius: "1000px" }}
-                show={showOffcanvas}
-                onHide={handleOffcanvas}
-                placement="top"
-                aria-labelledby="offcanvasTopLabel">
+                            <div id="carouselExampleIndicators" class="carousel slide">
+                                <div style={{ margin: "-20px" }} class="carousel-indicators">
+                                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" aria-label="Slide 1" />
+                                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2" class="active" aria-current="true" />
+                                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3" />
+                                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4" />
+                                </div>
+                                <div class="carousel-inner">
+                                    <div class="carousel-item">
+                                        <Imagem src={imagemProjeto} alt="imagemProjeto" />
+                                    </div>
+                                    <div class="carousel-item active">
+                                        <Imagem src={imagemProjeto2} alt="imagemProjeto" />
+                                    </div>
+                                    <div class="carousel-item">
+                                        <Imagem src={imagemProjeto3} alt="imagemProjeto" />
+                                    </div>
+                                    <div class="carousel-item">
+                                        <Imagem src={imagemProjeto4} alt="imagemProjeto" />
+                                    </div>
+                                </div>
+                            </div>
+                        </body>
 
-                <Offcanvas.Header style={{ display: "flex", justifyContent: "space-around" }}>
-                    <Offcanvas.Title id="offcanvasTopLabel"><A href="https://wa.me/5511998571371?text=Oi,%20Andrew!" style={{ justifyItems: "center", color: "black" }}>
-                        WhatsApp
-                        <Img src={whatsApp} alt="LogoWhatsapp" /></A>
-                        <br></br></Offcanvas.Title>
-                    <Offcanvas.Title id="offcanvasTopLabel" style={{ textAlign: "center", color: "#000" }} div>Email<P>Andrewsouza57@gmail.com</P>
-                    </Offcanvas.Title>
-                </Offcanvas.Header>
+                    </Div>
+                </div>
+                <Margin />
+                <Hr />
+                <button style={{
+                    background: "transparent",
+                    borderColor: "rgba( 255, 255, 255, 0.18)",
+                    width: "200px",
+                    height: "48px",
+                    borderRadius: "15px",
+                    fontWeight: "bold",
+                    fontSize: "1.25rem"
+                }}
+                    type="button" className="btn btn-secondary"
+                    variant="primary"
+                    data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasTop"
+                    aria-controls="offcanvasTop"
+                    onClick={handleOffcanvas}>
 
-            </Offcanvas>
+                    Contato</button>
 
-        </DivForm>
+                <Offcanvas style={{
+                    justifyContent: "center",
+                    background: "#e1e1e1",
+                    borderEndEndRadius: "1000px",
+                    borderEndStartRadius: "1000px"
+                }}
+                    show={showOffcanvas}
+                    onHide={handleOffcanvas}
+                    placement="top"
+                    aria-labelledby="offcanvasTopLabel">
+
+                    <Offcanvas.Header style={{
+                        display: "flex",
+                        justifyContent: "space-around"
+                    }}>
+                        <Offcanvas.Title id="offcanvasTopLabel">
+                            <A href="https://wa.me/5511998571371?text=Oi,%20Andrew!"
+                                style={{
+                                    justifyItems: "center",
+                                    color: "black"
+                                }}>
+                                WhatsApp
+                                <Img src={whatsApp} alt="LogoWhatsapp" />
+                            </A>
+                            <br>
+                            </br>
+                        </Offcanvas.Title>
+                        <Offcanvas.Title id="offcanvasTopLabel"
+                            style={{
+                                textAlign: "center",
+                                color: "#000"
+                            }}>
+                            Email
+                            <P>
+                                Andrewsouza57@gmail.com
+                            </P>
+                        </Offcanvas.Title>
+                    </Offcanvas.Header>
+
+                </Offcanvas>
+
+            </DivForm>
+        </FundoEspelho>
     )
 }
 

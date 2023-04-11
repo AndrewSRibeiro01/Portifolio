@@ -11,8 +11,6 @@ import mongoDb from "../../Imagens/mongodb.png"
 import python from "../../Imagens/python.png"
 import r from "../../Imagens/r.png"
 import java from "../../Imagens/java.png"
-import machine from "../../Imagens/machine.png"
-import deep from "../../Imagens/deep.png"
 import cypress from "../../Imagens/cypress.png"
 import robot from "../../Imagens/robot.png"
 import postman from "../../Imagens/postman.png"
@@ -25,7 +23,6 @@ import { Display } from "../../Estilizações/CardStyle"
 import Qa from "../../Imagens/QA.png"
 import { SubtituloExperiencia } from "../../Estilizações/Emain"
 import { DisplayFLex } from "../../Estilizações/CardStyle"
-import { DisplayFLex1 } from "../../Estilizações/CardStyle"
 import ferramenta from "../../Imagens/ferramenta.png"
 
 const Main = () => {
@@ -36,11 +33,11 @@ const Main = () => {
             <DisplayFLex>
 
                 <Display>
-                    <CardStyle class="card">
+                    <CardStyle>
                         <Paragrafo>React</Paragrafo>
                         <Imagem draggable="false" src={LogoReact} class="card-img-top" alt="LogoReact" />
-                        <div class="card-body">
-                            <CardText class="card-text" >O React é a biblioteca mais popular do JavaScript e é usada para construir uma interface de usuário (IU).</CardText> <br></br>
+                        <div cclassNamelass="card-body">
+                            <CardText className="card-text" >O React é a biblioteca mais popular do JavaScript e é usada para construir uma interface de usuário (IU).</CardText> <br></br>
                         </div>
                     </CardStyle>
 
@@ -48,11 +45,11 @@ const Main = () => {
                 <br />
                 <Display>
 
-                    <CardStyle class="card">
+                    <CardStyle>
                         <Paragrafo>javascript</Paragrafo>
                         <Imagem draggable="false" src={javascript} alt="LogoJavascript" />
-                        <div class="card-body">
-                            <CardText class="card-text" >JavaScript é uma linguagem de programação que permite a você implementar itens complexos em páginas web.</CardText>
+                        <div className="card-body">
+                            <CardText className="card-text" >JavaScript é uma linguagem de programação que permite a você implementar itens complexos em páginas web.</CardText>
                         </div>
                     </CardStyle>
 
@@ -61,11 +58,11 @@ const Main = () => {
                 <br />
                 <Display>
 
-                    <CardStyle class="card" >
+                    <CardStyle>
                         <Paragrafo>Css</Paragrafo>
                         <Imagem draggable="false" src={Css} alt="LogoCss" />
-                        <div class="card-body">
-                            <CardText class="card-text" >CSS (Cascading Style Sheets ou Folhas de Estilo em Cascata) é uma linguagem de estilo (en-US) usada para descrever a apresentação de um documento escrito em HTML ou em XML</CardText>
+                        <div className="card-body">
+                            <CardText className="card-text" >CSS (Cascading Style Sheets ou Folhas de Estilo em Cascata) é uma linguagem de estilo (en-US) usada para descrever a apresentação de um documento escrito em HTML ou em XML</CardText>
                         </div>
                     </CardStyle>
 
@@ -74,11 +71,11 @@ const Main = () => {
 
                 <Display>
 
-                    <CardStyle class="card">
+                    <CardStyle>
                         <Paragrafo>Sass</Paragrafo>
                         <Imagem draggable="false" src={sass} alt="LogoSass" width="150px" style={{ marginTop: "25px" }} />
-                        <div class="card-body">
-                            <CardText class="card-text" style={{ marginTop: "20px" }}>O SASS significa (Syntactically Awesome Style Sheets), folhas de estilo com uma sintaxe incrível. Sua ideia é adicionar recursos especiais como variáveis, mixins, funções, operações e outras opções variadas </CardText>
+                        <div className="card-body">
+                            <CardText className="card-text" style={{ marginTop: "20px" }}>O SASS significa (Syntactically Awesome Style Sheets), folhas de estilo com uma sintaxe incrível. Sua ideia é adicionar recursos especiais como variáveis, mixins, funções, operações e outras opções variadas </CardText>
                         </div>
                     </CardStyle>
 
@@ -90,7 +87,7 @@ const Main = () => {
             <DisplayFLex>
                 <Display>
 
-                    <CardStyle class="card">
+                    <CardStyle>
                         <Paragrafo>Bootstraap</Paragrafo>
                         <Imagem draggable="false" src={bootstrap} alt="LogoBootstrap" width="150px" />
                         <div class="card-body">
@@ -102,10 +99,10 @@ const Main = () => {
                 <br />
                 <Display>
 
-                    <CardStyle class="card">
+                    <CardStyle>
                         <Paragrafo>Python</Paragrafo>
                         <Imagem draggable="false" src={python} alt="LogoPython" />
-                        <div class="card-body">
+                        <div className="card-body">
                             <CardText class="card-text" >O Python é uma linguagem de programação amplamente usada em aplicações da Web, desenvolvimento de software, ciência de dados e machine learning (ML)</CardText>
                         </div>
                     </CardStyle>

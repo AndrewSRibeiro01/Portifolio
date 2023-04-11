@@ -113,3 +113,6 @@ export const CardBody = styled.div`
 export const Div = styled.div`
     text-align: center;
 `
+export const Espaço = styled.div`
+    height: 50px
+`

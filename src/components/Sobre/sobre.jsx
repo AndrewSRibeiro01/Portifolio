@@ -1,22 +1,13 @@
 import { Link } from "react-router-dom"
-import eu6 from "../../Imagens/eu6.png"
-import { SubTitulo1 } from "../../Estilizações/Emain"
-import { Titulo1 } from "../../Estilizações/Emain"
-import { DisplayCard } from "../../Estilizações/Emain"
-import { CardStyle } from "../../Estilizações/Emain"
-import { Imagem } from "../../Estilizações/Emain"
-import { Card } from "../../Estilizações/Emain"
-import { CardBody } from "../../Estilizações/Emain"
-import { Div } from "../../Estilizações/Emain"
-import { Margin } from "../../Estilizações/Emain"
+import { DisplayCard, Imagem, CardStyle, Card, Div, Margin, Titulo1, SubTitulo1, Espaço } from "../../Estilizações/Emain"
 import eu from "../../Imagens/eu0.png"
 
 const Sobre = () => {
     return (
         <Margin>
             <DisplayCard>
-                <CardStyle class="card">
-                    <Titulo1>Um pouco sobre mim! <hr /> </Titulo1>
+                <CardStyle>
+                    <Titulo1>Um pouco sobre mim! <hr /></Titulo1>
                     <Div>
                         <Card>
                             <Imagem draggable="false" src={eu} class="card-img-top" alt="Eu" />
@@ -29,26 +20,24 @@ const Sobre = () => {
                             </SubTitulo1>
                         </Card>
                         <button style={{
+                            background: "transparent",
+                            borderColor: "rgba( 255, 255, 255, 0.18 )",
                             fontWeight: "500",
                             width: "200px",
                             borderRadius: "15px",
                             textDecoration: "none"
                         }} type="button"
-                            class="btn btn-light btn-lg">
+                            className="btn btn-light btn-lg">
                             < Link to={"/contato"}
                                 style={{
                                     textDecoration: "none",
-                                    color: "black",
+                                    color: "#fff",
                                 }}>
                                 Projeto
                             </Link>
                         </button>
+                        <Espaço />
                     </Div>
-                    <CardBody>
-                        <div class="card-body">
-                            <div class="card-text" />
-                        </div>
-                    </CardBody>
                 </CardStyle>
             </DisplayCard>
         </Margin>

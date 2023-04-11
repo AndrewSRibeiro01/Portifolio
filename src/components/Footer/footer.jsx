@@ -65,7 +65,7 @@ export const Footer1 = () => {
 }
 export const Footer2 = () => {
     return (
-        <AppContainer style={{ bottom: "0px", position: "fixed" }}>
+        <AppContainer>
             <Siga>Siga-me nas redes sociais!</Siga>
             <FooterDiv>
 
