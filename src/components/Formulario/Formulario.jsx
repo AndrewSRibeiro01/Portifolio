@@ -2,32 +2,10 @@ import React from "react"
 import { Offcanvas } from 'react-bootstrap';
 import whatsApp from "../../Imagens/whatsApp.png"
 import imagemProjeto from "../../Imagens/imagemProjeto.png";
-import { Margin, Imagem, Div, P, Img, A, DivForm } from "../../Estilizações/Eformulario";
+import { Margin, Imagem, Div, P, Img, A, DivForm, Hr, FundoEspelho } from "../../Estilizações/Eformulario";
 import imagemProjeto2 from "../../Imagens/imagemProjeto2.png"
 import imagemProjeto3 from "../../Imagens/imagemProjeto3.png"
 import imagemProjeto4 from "../../Imagens/imagemProjeto4.png"
-
-import styled from "styled-components";
-
-
-const FundoEspelho = styled.div`
-    background: transparent;
-    backdrop-filter: blur( 13.5px );
-    border: 1px solid rgba( 255, 255, 255, 0.18 );
-    width: 50%;
-    display: flex;
-    justify-content: center;
-    margin: 0 auto;
-    border-radius: 15px;
-    padding: 40px;
-    box-shadow: 15px 15px 15px #000;
-    @media (max-width: 414px) {
-        width: 95%;
-    }
-`
-const Hr = styled.hr`
-    border: 1px solid rgba( 255, 255, 255, 0.18 );
-`
 
 const Contato = () => {
     const [showOffcanvas, setShowOffcanvas] = React.useState(false);
@@ -46,16 +24,16 @@ const Contato = () => {
 
                             <div id="carouselExampleIndicators" class="carousel slide">
                                 <div style={{ margin: "-20px" }} class="carousel-indicators">
-                                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" aria-label="Slide 1" />
-                                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2" class="active" aria-current="true" />
+                                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" aria-label="Slide 1" class="active" aria-current="true" />
+                                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2" />
                                     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3" />
                                     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4" />
                                 </div>
                                 <div class="carousel-inner">
-                                    <div class="carousel-item">
+                                    <div class="carousel-item active">
                                         <Imagem src={imagemProjeto} alt="imagemProjeto" />
                                     </div>
-                                    <div class="carousel-item active">
+                                    <div class="carousel-item">
                                         <Imagem src={imagemProjeto2} alt="imagemProjeto" />
                                     </div>
                                     <div class="carousel-item">

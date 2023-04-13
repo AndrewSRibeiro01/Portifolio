@@ -51,3 +51,21 @@ export const Div = styled.div`
     height: 250px;
     color: white;
 `
+export const FundoEspelho = styled.div`
+    background: transparent;
+    backdrop-filter: blur( 13.5px );
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    border-radius: 15px;
+    padding: 40px;
+    box-shadow: 15px 15px 15px #000;
+    @media (max-width: 1024px) {
+        width: 95%;
+    }
+`
+export const Hr = styled.hr`
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+`
