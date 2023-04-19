@@ -30,7 +30,6 @@ const Main = () => {
     }, []);
     return (
         <TituloCurriculo>
-            <H1>Curriculo</H1>
             <div data-aos="fade-up">
                 <img src={curriculo} alt="curriculo" />
             </div>

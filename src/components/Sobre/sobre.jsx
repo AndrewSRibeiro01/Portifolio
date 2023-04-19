@@ -20,8 +20,8 @@ const Sobre = () => {
                 <div data-aos="fade-right"
                     data-aos-offset="300"
                     data-aos-easing="ease-in-sine">
-                    <h2 style={{ textAlign: "center", paddingTop: "15px" }}>Bem vindo!</h2>
-                    <h4 style={{ width: "1050px", margin: "0 auto", paddingTop: "50px", lineHeight: 2 }}> Como desenvolvedor front-end, tenho o prazer de criar interfaces incríveis que tornam a experiência do usuário final agradável e intuitiva. Com habilidades em React, CSS e JavaScript, estou sempre procurando maneiras de melhorar minhas técnicas e habilidades para entregar sites e aplicativos web responsivos e altamente funcionais. Além disso, estou constantemente aprendendo novas tecnologias e ferramentas para manter-me atualizado e oferecer à minha equipe as soluções mais eficientes e modernas possíveis.</h4>
+                    <h2 style={{ textAlign: "center", paddingTop: "15px" }}><i>Bem vindo!</i></h2>
+                    <h4 style={{ width: "1050px", margin: "0 auto", paddingTop: "50px", lineHeight: 2 }}><i> Como desenvolvedor front-end, tenho o prazer de criar interfaces incríveis que tornam a experiência do usuário final agradável e intuitiva. Com habilidades em React, CSS e JavaScript, estou sempre procurando maneiras de melhorar minhas técnicas e habilidades para entregar sites e aplicativos web responsivos e altamente funcionais. Além disso, estou constantemente aprendendo novas tecnologias e ferramentas para manter-me atualizado e oferecer à minha equipe as soluções mais eficientes e modernas possíveis.</i></h4>
                     <br />
                     <br />
                 </div>
@@ -41,7 +41,7 @@ const Sobre = () => {
                     </Background>
                 </div>
             </div>
-            <div style={{width: "85%", margin: "0 auto"}}>
+            <div style={{ width: "85%", margin: "0 auto" }}>
                 <div data-aos="fade-up">
                     <Titulo1><i> Um pouco sobre mim!</i> <hr /></Titulo1>
                     <Div>
