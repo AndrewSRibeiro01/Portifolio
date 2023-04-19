@@ -4,7 +4,9 @@ export const CardStyle = styled.div`
     text-align: center;
     border-radius: 15px;
     width:100%;
-    background-image: linear-gradient(to right, transparent, #3c3c3c);
+    /* background-image: linear-gradient(to right, transparent, #3c3c3c); */
+    /* background-image: linear-gradient(to right, transparent, #800000); */
+    background: linear-gradient(to right, transparent, #4b4a4a);
     @media (max-width: 768px){
     width:100%;
     flex-direction:column;
@@ -71,6 +73,7 @@ export const H1 = styled.h1`
     @media (max-width: 768px){
     font-size: 15px;
     }
+    color: floralwhite;
 `
 export const DisplayFLex = styled.div`
     @media (min-width: 500px ) {

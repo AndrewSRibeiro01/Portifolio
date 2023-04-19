@@ -61,11 +61,13 @@ export const FundoEspelho = styled.div`
     margin: 0 auto;
     border-radius: 15px;
     padding: 40px;
-    box-shadow: 15px 15px 15px #000;
+    box-shadow: -20px -20px 30px #000;
     @media (max-width: 1024px) {
         width: 95%;
     }
 `
 export const Hr = styled.hr`
+    opacity: 0.1;
+    color: white;
     border: 1px solid rgba( 255, 255, 255, 0.18 );
 `

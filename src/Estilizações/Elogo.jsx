@@ -9,6 +9,9 @@ export const LogoImage = styled.img`
     margin-right: 10px;
     height: 25px;
     margin-top: 13px; 
+    @media (min-width: 2000px) {
+        height: 30px;
+    }
 `
 export const Portifólio = styled.p`
     @media (max-width: 450px) {
@@ -18,5 +21,5 @@ export const Portifólio = styled.p`
         font-size: 35px;
     }
     font-weight: bold;
-    color: #3c3c3c;
+    color: floralwhite;
 `

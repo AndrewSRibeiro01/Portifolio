@@ -2,14 +2,16 @@
   margin: 0px;
   padding: 0px;
   max-width: 100%;
+  box-sizing: border-box;
 }
 
 body {
   /* background-image: url(https://www.10wallpaper.com/wallpaper/2560x1600/1205/red_galaxy-Universe_Photography_Wallpaper_2560x1600.jpg); */
 
-  background-image: url(https://img.freepik.com/fotos-gratis/fundo-preto-antigo-textura-do-grunge-papel-de-parede-escuro-quadro-negro-quadro-negro-parede-da-sala_1258-28313.jpg?w=360)
+  /* background-image: url(https://img.freepik.com/fotos-gratis/fundo-preto-antigo-textura-do-grunge-papel-de-parede-escuro-quadro-negro-quadro-negro-parede-da-sala_1258-28313.jpg?w=360) */
 
-  /* background: linear-gradient(to right, #332609, #261C07 ); */
+  /* background: linear-gradient(360deg, #4b4a4a, #cdcdcf); */
+  background-color: #9a9a9a !important;
 }
 
 ::-webkit-scrollbar {
@@ -27,4 +29,15 @@ body {
 
 ::-webkit-scrollbar-thumb:hover {
   background-color: #000;
+}
+
+.item {
+  width: 200px;
+  height: 200px;
+  margin: 50px auto;
+  padding-top: 75px;
+  background: #ccc;
+  text-align: center;
+  color: #FFF;
+  font-size: 3em;
 }

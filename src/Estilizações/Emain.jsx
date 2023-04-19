@@ -12,6 +12,7 @@ export const SubTituloCurriculo = styled.h3`
     font-size: 10px;
     }
     font-size: 25px;
+    color: floralwhite;
 `
 export const SubtituloExperiencia = styled.h3`
     @media (max-width: 768px){
@@ -29,15 +30,22 @@ export const H4 = styled.h4`
 `
 export const SubTitulo1 = styled.h3`
     @media (max-width: 450px) {
+    padding: 0;
     font-size: 15px;
     margin: 0 auto;
     }
-    @media (min-width: 1448px) {
-    font-size: 25px;
+    @media (min-width: 451px) {
+    padding: 0;
+    font-size: 20px;
     margin: 0 auto;
     }
-    text-align: inherit;
-    font-size: 16px;
+    @media (min-width: 1448px) {
+    font-size: 23px;
+    margin: 0 auto;
+    }
+    padding: 50px;
+    text-align: center;
+    font-size: 20px;
     color: #FFF;
     font-weight: 400;
     margin-bottom: 40px;
@@ -60,51 +68,45 @@ export const DisplayCard = styled.div`
     display:flex;
     max-width: 100%;
 `
-export const Margin = styled.div`
-    margin-top: 100px;
-`
+
 export const CardStyle = styled.div`
-    @media (max-width: 768px){
-    margin: 0 7px 0 7px;
-    width:420px;
+   @media (max-width: 768px){
+        width: 100%;
     }
     @media (min-width: 1448px){
-    margin: 0 7px 0 7px;
-    width:1000px;
-
+    width:100%;
     }
-    text-align: inherit;
-    margin: 0 15px 0 0;
-    border-radius: 15px;
-    width: 680px;
-    margin: 30px;
-    /* background: linear-gradient(to right,#000000,#3c3c3c) */
-    background: transparent;
-    backdrop-filter: blur( 13.5px );
-    -webkit-backdrop-filter: blur( 13.5px );
-    border: 1px solid rgba( 255, 255, 255, 0.18 );
-    
     `
 export const Card = styled.div`
         @media (max-width: 768px){
         flex-direction: column;
         }
         display:flex;
+        flex-direction: row-reverse;
         padding: 0 20px 20px 20px ;
         align-items: center;
-        /* background: linear-gradient(to right,#000000,#3c3c3c); */
         text-align: initial;
         background: transparent;
         backdrop-filter: blur( 13.5px );
         -webkit-backdrop-filter: blur( 13.5px );
     `
 export const Imagem = styled.img`
+     @media (max-width: 450px){
+        height: 100px;
+    }
     @media (max-width: 768px){
         height: 220px;
     }
-    height: 320px;  
+    @media (max-width: 1064px){
+        height: 290px;
+    }
+        @media (max-width: 1448px){
+        height: 390px;
+    }
+    height: 520px;  
     border-radius: 10px;
     margin: 20px;
+    box-shadow: -30px -30px 30px #000000;
 `
 export const CardBody = styled.div`
     border-bottom-right-radius:11px;
@@ -113,6 +115,14 @@ export const CardBody = styled.div`
 export const Div = styled.div`
     text-align: center;
 `
+export const Background = styled.div`
+    height: 550px;
+    background: linear-gradient(180deg, #616161, #9a9a9a);
+`
+export const H5 = styled.h5`
+    cursor: default;
+    line-height: 7
+`
 export const Espaço = styled.div`
-    height: 50px
+    height: 50px;
 `

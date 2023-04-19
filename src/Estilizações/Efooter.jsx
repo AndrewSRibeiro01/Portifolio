@@ -3,10 +3,10 @@ import styled from "styled-components"
 export const AppContainer = styled.div`
     padding: 15px;
     width: 100%;
-    color: #000; 
+    color: #898989; 
     display:flex;
     justify-content: center;
-    background-color: #e1e1e1;
+    background-color: #4b4b4b;
     margin-block: 160px 0px;
     @media (min-width: 1448px) {
         margin-block: 350px 0px;
@@ -19,26 +19,22 @@ export const AppContainer = styled.div`
         bottom: 0;
         position: fixed;
     }
-
-
 `
 export const AppContainer1 = styled.div`
     padding: 15px;
     width: 100%;
-    color: #000; 
     display:flex;
     justify-content: center;
-    background-color: #e1e1e1;
+    background-color: #4b4b4b;
     margin-block: 10px 0px;
 `
 export const FooterDiv = styled.div`
     min-width: 55px;
     max-width: 100%;
-    background-color: #e1e1e1;
+    background-color: #4b4b4b;
     display:flex;
     flex-direction: row;
     justify-content: center;
-    color: #000;
     padding: 0px;
     width: 50%;
     text-align: center;
@@ -47,8 +43,9 @@ export const FooterDivColumn = styled.div`
     @media (max-width: 550px) {
         font-size: 10px
     }
-    background-color: #e1e1e1;
-    color: #000;
+    background-color: #4b4b4b;
+    color:#898989;
+;
 `
 export const LogoImage = styled.img`
     @media (max-width: 450px) {
@@ -68,6 +65,7 @@ export const Siga = styled.h1`
     @media (max-width: 450px) {
         font-size: 14px
     }
+    color: #898989;
     display:flex;
     align-items: center;
     font-size: 20px;

@@ -4,25 +4,24 @@ import { Sobre } from "../../Estilizações/EopcoesNavbar";
 import styled from "styled-components"
 
 const NavLink = styled(Link)`
-  color: black !important;
+  color: #898989;
   text-decoration: none;
   padding: 0 1rem;
-  
+
   :hover{
-    transition: 1s;
-    font-size: 16px;
+    transition: 1.2s;
+    color: floralwhite;
   }
     @media (min-width: 1448px) {
       :hover{
-    transition: 1s;
-    font-size: 18px;
+        transition: 1.2s;
+    color: floralwhite;
     }
   }
-
     @media (min-width: 2000px) {
       :hover{
-    transition: 1s;
-    font-size: 25px;
+        transition: 1.2s;
+    color: floralwhite;
     }
   }
 `
