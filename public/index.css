@@ -23,12 +23,12 @@ body {
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: #4b4b4b;
+  background-color: #9a9a9a;
   border-radius: 5px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background-color: #9a9a9a;
+  background-color: #4b4b4b;
 }
 
 .item {
