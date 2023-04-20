@@ -7,7 +7,6 @@ export const AppContainer = styled.div`
     display:flex;
     justify-content: center;
     background-color: #4b4b4b;
-    margin-block: 160px 0px;
     @media (min-width: 1448px) {
         margin-block: 350px 0px;
     }

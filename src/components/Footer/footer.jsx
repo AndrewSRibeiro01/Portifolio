@@ -65,7 +65,7 @@ export const Footer1 = () => {
 }
 export const Footer2 = () => {
     return (
-        <AppContainer>
+        <AppContainer style={{marginBlock: "160px 0"}}>
             <Siga>Siga-me nas redes sociais!</Siga>
             <FooterDiv>
 

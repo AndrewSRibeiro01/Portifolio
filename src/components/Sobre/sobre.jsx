@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom"
 import { Background, H5, Imagem, CardStyle, Card, Div, Titulo1, SubTitulo1, Espaço } from "../../Estilizações/Emain"
+import { SubTitle, Title, DivSobre, DivBox } from "../../Estilizações/Emain"
 import eu from "../../Imagens/eu0.png"
 import React, { useEffect } from "react"
 import AOS from "aos"
@@ -20,24 +21,22 @@ const Sobre = () => {
                 <div data-aos="fade-right"
                     data-aos-offset="300"
                     data-aos-easing="ease-in-sine">
-                    <h2 style={{ textAlign: "center", paddingTop: "15px" }}><i>Bem vindo!</i></h2>
-                    <h4 style={{ width: "1050px", margin: "0 auto", paddingTop: "50px", lineHeight: 2 }}><i> Como desenvolvedor front-end, tenho o prazer de criar interfaces incríveis que tornam a experiência do usuário final agradável e intuitiva. Com habilidades em React, CSS e JavaScript, estou sempre procurando maneiras de melhorar minhas técnicas e habilidades para entregar sites e aplicativos web responsivos e altamente funcionais. Além disso, estou constantemente aprendendo novas tecnologias e ferramentas para manter-me atualizado e oferecer à minha equipe as soluções mais eficientes e modernas possíveis.</i></h4>
-                    <br />
-                    <br />
+                    <Title><i>Bem vindo!</i></Title>
+                    <SubTitle><i> Como desenvolvedor front-end, tenho o prazer de criar interfaces incríveis que tornam a experiência do usuário final agradável e intuitiva. Com habilidades em React, CSS e JavaScript, estou sempre procurando maneiras de melhorar minhas técnicas e habilidades para entregar sites e aplicativos web responsivos e altamente funcionais. Além disso, estou constantemente aprendendo novas tecnologias e ferramentas para manter-me atualizado e oferecer à minha equipe as soluções mais eficientes e modernas possíveis.</i></SubTitle>
                 </div>
                 <div data-aos="fade-up">
                     <Background>
-                        <div style={{ background: "transparent", width: "500px", height: "500px", margin: "0 auto", border: "solid 1px rgba(255, 255, 255, 0.18)", borderRadius: "5px 5px ", padding: "25px", boxShadow: "-20px -20px 30px #4a4a4a" }}>
-                            <div style={{ display: "flex", justifyContent: "space-between" }}>
+                        <DivBox>
+                            <DivSobre>
                                 <H5>Idade: 24 anos</H5>
                                 <H5>Nacionalidade: Brasileiro</H5>
-                            </div>
-                            <div style={{ display: "flex", justifyContent: "space-between" }}>
+                            </DivSobre>
+                            <DivSobre>
                                 <H5>Endereço: Guarulhos-SP</H5>
                                 <H5>Freelance: Disponivel!</H5>
-                            </div>
+                            </DivSobre>
                             <H5 style={{}}><a href="https://wa.me/5511998571371?text=Oi,%20Andrew!" target="_blank" style={{ textDecoration: "none", color: "#cacaca" }}>Telefone: (11)998571371</a></H5>
-                        </div>
+                        </DivBox>
                     </Background>
                 </div>
             </div>

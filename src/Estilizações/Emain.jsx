@@ -91,16 +91,16 @@ export const Card = styled.div`
         -webkit-backdrop-filter: blur( 13.5px );
     `
 export const Imagem = styled.img`
-     @media (max-width: 450px){
-        height: 100px;
+     @media (min-width: 320px){
+        height: 300px;
     }
-    @media (max-width: 768px){
-        height: 220px;
+    @media (min-width: 768px){
+        height: 320px;
     }
-    @media (max-width: 1064px){
-        height: 290px;
+    @media (min-width: 1064px){
+        height: 350px;
     }
-        @media (max-width: 1448px){
+    @media (min-width: 1448px){
         height: 390px;
     }
     height: 520px;  
@@ -115,13 +115,87 @@ export const CardBody = styled.div`
 export const Div = styled.div`
     text-align: center;
 `
+export const DivSobre = styled.div`
+    display: flex;
+    justify-content: space-between
+`
 export const Background = styled.div`
+@media (min-width: 320px) {
+    height: 320px;
+}
+@media (max-width: 768px) {
+    height: 430px;
+}
+@media (min-width: 769px) {
     height: 550px;
+
+}
     background: linear-gradient(180deg, #616161, #9a9a9a);
 `
+export const DivBox = styled.div`
+    background: transparent;
+    margin: 0 auto;
+    border: solid 1px rgba(255, 255, 255, 0.18);
+    border-radius: 5px 5px;
+    box-shadow: -20px -20px 30px #4a4a4a;
+    @media (min-width: 320px){
+        padding: 5px;
+        width: 300px;
+        height: 300px;
+    }
+    @media (min-width: 413px){
+    padding: 10px;
+    width: 385px;
+    height: 380px;
+    }
+    @media (min-width: 769px){        
+    width: 500px;
+    height: 450px;
+    padding: 25px;
+    }
+`
+export const SubTitle = styled.h4`
+    width: 1050px;
+    margin: 0 auto;
+    padding-top: 50px;
+    line-height: 2;
+    @media (min-width: 1000px ) {
+        margin-bottom: 80px;
+    }
+    @media (min-width: 1500px ) {
+        margin-bottom: 100px;
+    }
+    @media (min-width: 1800px ) {
+        margin-bottom: 140px;
+    }
+    @media (min-width: 2000px ) {
+        margin-bottom: 190px;
+    }
+    @media (max-width: 999px ) {
+        margin-bottom: 40px;
+        font-size: 15px;
+        padding: 15px;
+    }
+    @media (max-width: 1024px ) {
+        font-size: 17px;
+        padding: 15px;
+    }
+`
+export const Title = styled.h2`
+    text-align: center;
+     padding-top: 15px 
+`
 export const H5 = styled.h5`
+@media (min-width: 414px) {
+    line-height: 7;
+    font-size: 17px;
+}
+@media (max-width: 413px) {
+    line-height: 7;
+    font-size: 13px;
+}
     cursor: default;
-    line-height: 7
+    line-height: 7;
 `
 export const Espaço = styled.div`
     height: 50px;
