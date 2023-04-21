@@ -6,7 +6,4 @@ export const NavbarContainer = styled.header`
     width:100%;
     align-items: center;
     justify-content: center;
-    @media (max-width: 400px) {
-        /* flex-direction: column; */
-      }
-`
+    `
