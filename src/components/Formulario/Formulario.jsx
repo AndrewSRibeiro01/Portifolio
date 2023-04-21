@@ -28,16 +28,16 @@ const Contato = () => {
                                     </div>
                                     <div class="carousel-inner">
                                         <div class="carousel-item active">
-                                            <Imagem src={imagemProjeto} alt="imagemProjeto" />
+                                            <Imagem src={imagemProjeto} alt="imagemProjeto" draggable="false" />
                                         </div>
                                         <div class="carousel-item">
-                                            <Imagem src={imagemProjeto2} alt="imagemProjeto" />
+                                            <Imagem src={imagemProjeto2} alt="imagemProjeto" draggable="false" />
                                         </div>
                                         <div class="carousel-item">
-                                            <Imagem src={imagemProjeto3} alt="imagemProjeto" />
+                                            <Imagem src={imagemProjeto3} alt="imagemProjeto" draggable="false" />
                                         </div>
                                         <div class="carousel-item">
-                                            <Imagem src={imagemProjeto4} alt="imagemProjeto" />
+                                            <Imagem src={imagemProjeto4} alt="imagemProjeto" draggable="false" />
                                         </div>
                                     </div>
                                 </div>
