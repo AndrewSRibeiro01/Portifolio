@@ -188,7 +188,7 @@ export const Title = styled.h2`
 export const H5 = styled.h5`
 @media (min-width: 414px) {
     line-height: 7;
-    font-size: 17px;
+    font-size: 16px;
 }
 @media (max-width: 413px) {
     line-height: 7;
