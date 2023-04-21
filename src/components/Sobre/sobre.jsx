@@ -35,7 +35,7 @@ const Sobre = () => {
                                 <H5>Endereço: Guarulhos-SP</H5>
                                 <H5>Freelance: Disponivel!</H5>
                             </DivSobre>
-                            <H5 style={{}}><a href="https://wa.me/5511998571371?text=Oi,%20Andrew!" target="_blank" style={{ textDecoration: "none", color: "#cacaca" }}>Telefone: (11)998571371</a></H5>
+                            <H5><a href="https://wa.me/5511998571371?text=Oi,%20Andrew!" target="_blank" rel="noreferrer" style={{ textDecoration: "none", color: "#cacaca" }}>Telefone: (11)998571371</a></H5>
                         </DivBox>
                     </Background>
                 </div>

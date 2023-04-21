@@ -14,7 +14,7 @@ import robot from "../../Imagens/robot.png"
 import postman from "../../Imagens/postman.png"
 import arsenalcar from "../../Imagens/arsenalcar.png"
 import digigrow from "../../Imagens/logoDigi.png"
-import { CardStyle, H1, Imagem, Paragrafo, DisplayFLex } from "../../Estilizações/CardStyle"
+import { CardStyle, Imagem, Paragrafo, DisplayFLex } from "../../Estilizações/CardStyle"
 import { CardJD, Display, CardText } from "../../Estilizações/CardStyle"
 import Qa from "../../Imagens/QA.png"
 import ferramenta from "../../Imagens/ferramenta.png"
@@ -41,7 +41,7 @@ const Main = () => {
                         width: "35px",
                         margin: "6px"
                     }}
-                        src={ferramenta}
+                        src={ferramenta} alt="ferramenta"
                     />
                     Habilidades
                 </SubTituloCurriculo>
