@@ -13,16 +13,12 @@ const Contato = () => {
     const handleOffcanvas = () => setShowOffcanvas((prev) => !prev);
 
     return (
-        <div style={{ display: "flex", justifyContent: "center"}}>
+        <div style={{ display: "flex", justifyContent: "center" }}>
             <FundoEspelho>
-
                 <DivForm>
-
                     <div>
                         <Div>
-
                             <body style={{ background: "transparent" }} class="bd-example">
-
                                 <div id="carouselExampleIndicators" class="carousel slide">
                                     <div style={{ margin: "-20px" }} class="carousel-indicators">
                                         <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" aria-label="Slide 1" class="active" aria-current="true" />
@@ -46,7 +42,6 @@ const Contato = () => {
                                     </div>
                                 </div>
                             </body>
-
                         </Div>
                     </div>
                     <Margin />
@@ -66,9 +61,7 @@ const Contato = () => {
                         data-bs-target="#offcanvasTop"
                         aria-controls="offcanvasTop"
                         onClick={handleOffcanvas}>
-
                         Contato</button>
-
                     <Offcanvas style={{
                         justifyContent: "center",
                         background: "#e1e1e1",
@@ -79,7 +72,6 @@ const Contato = () => {
                         onHide={handleOffcanvas}
                         placement="top"
                         aria-labelledby="offcanvasTopLabel">
-
                         <Offcanvas.Header style={{
                             display: "flex",
                             justifyContent: "space-around"
@@ -107,13 +99,9 @@ const Contato = () => {
                                 </P>
                             </Offcanvas.Title>
                         </Offcanvas.Header>
-
                     </Offcanvas>
                 </DivForm>
             </FundoEspelho>
-
-            {/* <iframe style={{borderRadius:"15px"}} src="https://portifolio-andrew.netlify.app/" width="90%" height="800"></iframe> */}
-
         </div>
     )
 }

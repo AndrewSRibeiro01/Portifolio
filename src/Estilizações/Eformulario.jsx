@@ -38,8 +38,8 @@ export const Imagem = styled.img`
         height: 300px;
     }
     @media (min-width: 2000px) {
-        width: 1150px;
-        height: 550px;
+        width: 100%;
+        height: 100%;
     }
     @media (max-width: 440px) {
         width: 310px;
@@ -64,6 +64,14 @@ export const FundoEspelho = styled.div`
     box-shadow: -20px -20px 30px #000;
     @media (max-width: 1024px) {
         width: 95%;
+    }
+    @media (min-width: 2000px) {
+        width: 60%;
+        :hover{
+            transform: none;
+            transition: none;
+            animation: none;
+        }
     }
 `
 export const Hr = styled.hr`

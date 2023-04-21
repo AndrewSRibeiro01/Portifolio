@@ -2,11 +2,7 @@ import linkedin from "../../Imagens/linkedin.png"
 import instagram from "../../Imagens/insta.png"
 import gitHub from "../../Imagens/gitHub.png"
 import React from "react"
-import { AppContainer, AppContainer1, LogoImage1 } from "../../Estilizações/Efooter"
-import { Siga } from "../../Estilizações/Efooter"
-import { FooterDiv } from "../../Estilizações/Efooter"
-import { LogoImage } from "../../Estilizações/Efooter"
-import { FooterDivColumn } from "../../Estilizações/Efooter"
+import { FooterDivColumn, AppContainer2, LogoImage, FooterDiv, AppContainer, AppContainer1, LogoImage1, Siga } from "../../Estilizações/Efooter"
 
 export const Footer = () => {
     return (
@@ -65,10 +61,9 @@ export const Footer1 = () => {
 }
 export const Footer2 = () => {
     return (
-        <AppContainer style={{marginBlock: "160px 0"}}>
+        <AppContainer2 style={{ marginBlock: "160px 0" }}>
             <Siga>Siga-me nas redes sociais!</Siga>
             <FooterDiv>
-
                 <FooterDiv>
                     <FooterDivColumn>
                         <p><strong >Instagram</strong></p>
@@ -88,7 +83,7 @@ export const Footer2 = () => {
                     </FooterDivColumn>
                 </FooterDiv>
             </FooterDiv>
-        </AppContainer>
+        </AppContainer2>
     )
 }
 

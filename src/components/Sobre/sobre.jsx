@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom"
-import { Background, H5, Imagem, CardStyle, Card, Div, Titulo1, SubTitulo1, Espaço } from "../../Estilizações/Emain"
+import { Background, H5, H6, Imagem, CardStyle, Card, Div, Titulo1, SubTitulo1, Espaço } from "../../Estilizações/Emain"
 import { SubTitle, Title, DivSobre, DivBox } from "../../Estilizações/Emain"
 import eu from "../../Imagens/eu0.png"
 import React, { useEffect } from "react"
@@ -36,6 +36,9 @@ const Sobre = () => {
                                 <H5>Freelance: Disponivel!</H5>
                             </DivSobre>
                             <H5><a href="https://wa.me/5511998571371?text=Oi,%20Andrew!" target="_blank" rel="noreferrer" style={{ textDecoration: "none", color: "#cacaca" }}>Telefone: (11)998571371</a></H5>
+                            <H6>Experiência Profissional: ArsenalCar| Digigrow</H6>
+                            <H6>Quality Assurance</H6>
+                            <H6>2022| 2023</H6>
                         </DivBox>
                     </Background>
                 </div>

@@ -120,11 +120,8 @@ export const DivSobre = styled.div`
     justify-content: space-between
 `
 export const Background = styled.div`
-@media (min-width: 320px) {
-    height: 320px;
-}
 @media (max-width: 768px) {
-    height: 430px;
+    height: 480px;
 }
 @media (min-width: 769px) {
     height: 550px;
@@ -141,16 +138,16 @@ export const DivBox = styled.div`
     @media (min-width: 320px){
         padding: 5px;
         width: 300px;
-        height: 300px;
+        height: 380px;
     }
     @media (min-width: 413px){
     padding: 10px;
     width: 385px;
-    height: 380px;
+    height: 480px;
     }
     @media (min-width: 769px){        
     width: 500px;
-    height: 450px;
+    height: 500px;
     padding: 25px;
     }
 `
@@ -196,6 +193,14 @@ export const H5 = styled.h5`
 }
     cursor: default;
     line-height: 7;
+`
+export const H6 = styled.h6`
+    @media (min-width: 320px) {
+    font-size: 13px;
+}
+    @media (min-width: 413px) {
+    font-size: 16px;
+}
 `
 export const Espaço = styled.div`
     height: 50px;

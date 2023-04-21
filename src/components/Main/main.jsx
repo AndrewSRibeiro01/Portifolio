@@ -159,13 +159,6 @@ const Main = () => {
             <div data-aos="fade-up">
                 <DisplayFLex>
                     <Display>
-                        {/* <CardStyle class="card">
-                        <Paragrafo>Machine Learning</Paragrafo>
-                        <Imagem draggable="false" src={machine} alt="LogoMachineLearning" />
-                        <div class="card-body">
-                            <CardText class="card-text" >De maneira geral, machine learning é a capacidade dos computadores de aprender de forma autônoma, a partir da interação com o usuário. Este fornece dados que serão analisados e interpretados pela máquina, a partir da tecnologia de Inteligência Artificial (IA).</CardText>
-                        </div>
-                    </CardStyle> */}
                         <CardStyle class="card">
                             <Paragrafo>RobotFramework</Paragrafo>
                             <Imagem draggable="false" src={robot} alt="LogoRobotFramework" />
@@ -177,13 +170,6 @@ const Main = () => {
                     <br />
 
                     <Display>
-                        {/* <CardStyle class="card">
-                        <Paragrafo>Deep Learning</Paragrafo>
-                        <Imagem draggable="false" src={deep} alt="LogoDeepLearning" />
-                        <div class="card-body">
-                            <CardText class="card-text" >Deep Learning é um aprofundamento de Machine Learning, que nada mais é do que a aplicação de Inteligência Artificial e Data Science. O Deep Learning vai além, definindo padrões de análise profunda, incluindo processamento de linguagem natural.</CardText>
-                        </div>
-                    </CardStyle> */}
                         <CardStyle class="card">
                             <Paragrafo>Postman</Paragrafo>
                             <Imagem draggable="false" src={postman} alt="LogoPostman" />
@@ -214,46 +200,6 @@ const Main = () => {
                             <Imagem draggable="false" src={cypress} alt="LogoCypress" />
                             <div class="card-body">
                                 <CardText class="card-text" >Cypress é uma ferramenta poderosa de última geração desenvolvida especialmente para engenheiros de controle de qualidade (analistas QA) e desenvolvedores, que podem usá-la para os testes de software</CardText>
-                            </div>
-                        </CardStyle>
-                    </Display>
-                </DisplayFLex>
-                <br />
-            </div>
-            <div data-aos="fade-up">
-                <SubtituloExperiencia>Experiência Profissional</SubtituloExperiencia>
-                <H4>ArsenalCar |Digigrow</H4><br />
-            </div>
-            <div data-aos="fade-up">
-                <DisplayFLex>
-                    <Display>
-                        <CardStyle class="card">
-                            <Paragrafo>ArsenalCar</Paragrafo>
-                            <Imagem draggable="false" src={arsenalcar} alt="LogoArsenalCar" />
-                            <div class="card-body">
-                                <CardText class="card-text" >Nascida em 2012, no Centro Industrial de Arujá, a Arsenal Car é o e-commerce com o maior número de peças e acessórios para automóveis sendo referência do mercado</CardText>
-                            </div>
-                        </CardStyle  >
-                    </Display>
-                    <br />
-
-                    <Display>
-                        <CardStyle class="card">
-                            <Paragrafo>Digigrow</Paragrafo>
-                            <CardJD draggable="false" src={digigrow} alt="LogoDigigrow" />
-                            <div class="card-body">
-                                <CardText class="card-text" >A Digigrow nasceu com o objetivo de facilitar a entrada de empresas no mercado digital, sejam pequenas, médias e até grandes empresas, facilitando o caminho para o sucesso das vendas de nossos parceiros</CardText>
-                            </div>
-                        </CardStyle>
-                    </Display>
-                    <br />
-
-                    <Display>
-                        <CardStyle class="card">
-                            <Paragrafo>Quality Assurance</Paragrafo>
-                            <CardJD draggable="false" src={Qa} alt="LogoQuality Assurance" />
-                            <div class="card-body">
-                                <CardText class="card-text" >O Analista de Quality Assurance, é o profissional responsável por realizar testes, procurar bugs, falhas e reportá-los para a equipe de desenvolvimento, além de sugerir estratégias de otimização para programas e sistemas.</CardText>
                             </div>
                         </CardStyle>
                     </Display>

@@ -8,15 +8,32 @@ export const AppContainer = styled.div`
     justify-content: center;
     background-color: #4b4b4b;
     @media (min-width: 1448px) {
-        margin-block: 350px 0px;
+        margin-block: 50px 0px;
     }
     @media (min-width: 2000px) {
+        margin-top: 0px;
         bottom: 0;
-        position: fixed;
     }
     @media (min-width: 3000px) {
         bottom: 0;
-        position: fixed;
+    }
+`
+export const AppContainer2 = styled.div`
+    padding: 15px;
+    width: 100%;
+    color: #898989; 
+    display:flex;
+    justify-content: center;
+    background-color: #4b4b4b;
+    @media (min-width: 1448px) {
+        margin-block: 350px 0px;
+    }
+    @media (min-width: 2000px) {
+        margin-top: 2000;
+        bottom: 0;
+    }
+    @media (min-width: 3000px) {
+        bottom: 0;
     }
 `
 export const AppContainer1 = styled.div`
