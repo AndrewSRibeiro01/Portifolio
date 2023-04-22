@@ -10,9 +10,18 @@ export const TituloCurriculo = styled.section`
 export const SubTituloCurriculo = styled.h3`
     @media (max-width: 768px){
     font-size: 10px;
+    text-align: center;
     }
     font-size: 25px;
     color: floralwhite;
+`
+export const Image = styled.img`
+    width: 35px;
+    margin: 6px;
+@media (max-width: 768px) {
+        width: 20px;
+        margin: 6px;
+    }
 `
 export const SubtituloExperiencia = styled.h3`
     @media (max-width: 768px){

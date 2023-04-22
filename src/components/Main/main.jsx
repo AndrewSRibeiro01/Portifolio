@@ -1,5 +1,5 @@
 import React, { useEffect } from "react"
-import { TituloCurriculo, SubTituloCurriculo } from "../../Estilizações/Emain"
+import { TituloCurriculo, SubTituloCurriculo, Image } from "../../Estilizações/Emain"
 import LogoReact from "../../Imagens/react.png"
 import javascript from "../../Imagens/javascript.png"
 import Css from "../../Imagens/css.png"
@@ -34,12 +34,7 @@ const Main = () => {
             <div data-aos="fade-up" style={{ marginTop: "80px" }}>
                 <SubTituloCurriculo>
                     Conhecimentos
-                    <img style={{
-                        width: "35px",
-                        margin: "6px"
-                    }}
-                        src={ferramenta} alt="ferramenta"
-                    />
+                    <Image src={ferramenta} alt="ferramenta" />
                     Habilidades
                 </SubTituloCurriculo>
             </div>
