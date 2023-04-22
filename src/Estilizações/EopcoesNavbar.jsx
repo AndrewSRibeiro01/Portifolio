@@ -2,7 +2,7 @@ import styled from 'styled-components'
 
 export const Opcoes = styled.ul`
   display: flex;
-  @media (max-width: 413px) {
+  @media (max-width: 359px) {
     flex-direction: column;
   }
 `

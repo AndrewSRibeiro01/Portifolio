@@ -24,6 +24,9 @@ const NavLink = styled(Link)`
     color: floralwhite;
     }
   }
+  @media (max-width: 400px) {
+      padding: 9px;
+    }
 `
 
 const OpcoesHeader = () => {
