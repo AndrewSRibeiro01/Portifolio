@@ -138,7 +138,7 @@ export const DivBox = styled.div`
     @media (min-width: 320px){
         padding: 5px;
         width: 300px;
-        height: 380px;
+        height: 480px;
     }
     @media (min-width: 413px){
     padding: 10px;
