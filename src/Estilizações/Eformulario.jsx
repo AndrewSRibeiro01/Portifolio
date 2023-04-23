@@ -30,52 +30,47 @@ export const Margin = styled.div`
     }
 `
 export const Imagem = styled.img`
-    width: 500px; 
-    height: 240px;
     border-radius: 15px;
-    @media (min-width: 1440px) {
-        width: 700px;
-        height: 300px;
-    }
-    @media (min-width: 2000px) {
-        width: 100%;
-        height: 100%;
-    }
-    @media (max-width: 440px) {
-        width: 310px;
-        height: 160px;
-    }
 `
 export const Div = styled.div`
     width: 100%;
     height: 250px;
     color: white;
 `
-export const FundoEspelho = styled.div`
-    background: transparent;
-    backdrop-filter: blur( 13.5px );
-    border: 1px solid rgba( 255, 255, 255, 0.18 );
-    width: 50%;
+export const DivProjeto = styled.div`
     display: flex;
-    justify-content: center;
     margin: 0 auto;
-    border-radius: 15px;
-    padding: 40px;
-    box-shadow: -20px -20px 30px #000;
-    @media (max-width: 1024px) {
-        width: 95%;
-    }
-    @media (min-width: 2000px) {
-        width: 60%;
-        :hover{
-            transform: none;
-            transition: none;
-            animation: none;
-        }
+    width: 50%;
+    text-align: center;
+    @media (max-width: 768px) {
+    width: 95%;        
     }
 `
 export const Hr = styled.hr`
+    backdrop-filter: blur( 13.5px );
     opacity: 0.1;
     color: white;
     border: 1px solid rgba( 255, 255, 255, 0.18 );
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 25px;
+    @media (max-width: 768px) {
+        width: 95%;
+    }
+`
+export const ButtonContato = styled.button`
+    color: Floralwhite;
+    background: transparent;
+    border-color: rgba( 255, 255, 255, 0.18);
+    width: 200px;
+    height: 48px;
+    border-radius: 15px;
+    font-weight: bold;
+    font-size: 1.25rem;
+    margin-top: 20px;
+    @media (max-width: 768px) {
+    width: 150px;
+    height: 35px;
+    font-size: 15px;
+    }
 `
