@@ -8,7 +8,7 @@ export const TituloContato = styled.h1`
     @media (min-width: 1000px) {
         margin-bottom: 40px;
     }
-    margin-bottom: 50px;
+    margin-bottom: 92px;
     color: floralwhite;
     font-size: 24px;
     text-align: center;
