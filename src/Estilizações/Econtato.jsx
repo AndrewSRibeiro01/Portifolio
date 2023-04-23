@@ -2,11 +2,11 @@ import styled from "styled-components"
 
 export const TituloContato = styled.h1`
     @media (min-width: 2000px) {
-        margin-bottom: 150px;
+        margin-bottom: 1000px;
         font-size: 40px;
     }
     @media (min-width: 1000px) {
-        margin-bottom: 40px;
+        margin-bottom: 92px;
     }
     margin-bottom: 92px;
     color: floralwhite;

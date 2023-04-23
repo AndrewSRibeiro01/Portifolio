@@ -13,7 +13,7 @@ const Contato = () => {
     return (
         <div data-aos="fade-up">
             <DivContato>
-                <TituloContato>Projeto</TituloContato><br></br>
+                <TituloContato>Projeto</TituloContato><br />
                 <Formulario />
                 <Footer2 />
             </DivContato>
