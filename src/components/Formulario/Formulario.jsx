@@ -31,7 +31,7 @@ const Contato = () => {
                     freeMode={true}
                     slidesPerView={1}
                     loop={true}
-                    autoplay={{ delay: 5000, disableOnInteraction: false, }}
+                    autoplay={{ delay: 3000, disableOnInteraction: false, }}
                 >
                     <SwiperSlide>
                         <Imagem src={imagemProjeto4} alt="imagemProjeto" draggable="false" />
@@ -96,6 +96,5 @@ const Contato = () => {
         </div>
     )
 }
-
 
 export default Contato
