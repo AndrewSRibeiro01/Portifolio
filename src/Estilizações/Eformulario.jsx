@@ -68,7 +68,7 @@ export const ButtonContato = styled.button`
     font-weight: bold;
     font-size: 1.25rem;
     margin-top: 20px;
-    margin-bottom: 110px;
+    margin-bottom: 30px;
     @media (max-width: 768px) {
     width: 150px;
     height: 35px;
