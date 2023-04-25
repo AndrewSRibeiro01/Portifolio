@@ -21,10 +21,11 @@ export const AppContainer = styled.div`
 export const AppContainer2 = styled.div`
     padding: 15px;
     width: 100%;
-    color: #898989; 
+    color: #898989;
     display:flex;
     justify-content: center;
     background-color: #4b4b4b;
+    margin-block: 227px 0;
     @media (min-width: 1448px) {
         margin-block: 350px 0px;
     }
