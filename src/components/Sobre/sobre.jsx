@@ -48,7 +48,7 @@ const Sobre = () => {
                     <Titulo1><i> Um pouco sobre mim!</i> <hr /></Titulo1>
                     <Div>
                         <Card>
-                            <Imagem draggable="false" src={eu} class="card-img-top" alt="Eu" />
+                            <Imagem draggable="false" src={eu} alt="Eu" />
                             <SubTitulo1>
                                 Me chamo Andrew, tenho 24 anos, trabalho como Quality Assurance na empresa ArsenalCar| Digigrow.
                                 <br /> <br />

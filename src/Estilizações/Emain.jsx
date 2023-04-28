@@ -113,6 +113,7 @@ export const Imagem = styled.img`
     @media (min-width: 1448px){
         height: 390px;
     }
+    height: 390px;
     height: 520px;  
     border-radius: 10px;
     margin: 20px;
@@ -214,4 +215,16 @@ export const H6 = styled.h6`
 `
 export const Espaço = styled.div`
     height: 50px;
+`
+
+export const DivContainer = styled.div`
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-auto-flow:  row;
+    grid-gap: 1rem;
+    margin: 0 auto;
+    width: 100%;
+    @media (max-width: 768px) {
+        padding: 20px;
+    }
 `
