@@ -1,8 +1,7 @@
 import React from "react"
 import { whatsApp } from "../assets";
 import { Offcanvas } from 'react-bootstrap';
-import { Imagem, P, Img, A, Hr, ButtonContato, DivProjeto } from "../../Estilizações/Eformulario";
-import { Swiper, SwiperSlide } from 'swiper/react';
+import { P, Img, A, ButtonContato } from "../../Estilizações/Eformulario";
 import SwiperCore, { Autoplay, FreeMode } from 'swiper/core';
 import 'swiper/swiper-bundle.css';
 import 'swiper/css';
@@ -63,80 +62,6 @@ const Contato = () => {
                     </Offcanvas.Header>
                 </Offcanvas>
             </div>
-            {/* <div style={{ textAlign: "center", width: "90%", margin: "0 auto" }}>
-                <DivProjeto>
-                    <Swiper
-                        spaceBetween={30}
-                        modules={[Autoplay, FreeMode]}
-                        className="mySwiper"
-                        freeMode={true}
-                        slidesPerView={1}
-                        loop={true}
-                        autoplay={{ delay: 3000, disableOnInteraction: false, }}
-                    >
-                        <SwiperSlide>
-                            <Imagem src={imagemProjeto4} alt="imagemProjeto" draggable="false" />
-                        </SwiperSlide>
-                        <SwiperSlide>
-                            <Imagem src={imagemProjeto3} alt="imagemProjeto" draggable="false" />
-                        </SwiperSlide>
-                        <SwiperSlide>
-                            <Imagem src={imagemProjeto2} alt="imagemProjeto" draggable="false" />
-                        </SwiperSlide>
-                        <SwiperSlide>
-                            <Imagem src={imagemProjeto} alt="imagemProjeto" draggable="false" />
-                        </SwiperSlide>
-                    </Swiper>
-                </DivProjeto>
-                <Hr />
-                <ButtonContato
-                    data-bs-toggle="offcanvas"
-                    data-bs-target="#offcanvasTop"
-                    aria-controls="offcanvasTop"
-                    onClick={handleOffcanvas}>
-                    Contato
-                </ButtonContato>
-                <Offcanvas style={{
-                    justifyContent: "center",
-                    background: "#e1e1e1",
-                    borderEndEndRadius: "1000px",
-                    borderEndStartRadius: "1000px"
-                }}
-                    show={showOffcanvas}
-                    onHide={handleOffcanvas}
-                    placement="top"
-                    aria-labelledby="offcanvasTopLabel">
-                    <Offcanvas.Header style={{
-                        display: "flex",
-                        justifyContent: "space-around"
-                    }}>
-                        <Offcanvas.Title id="offcanvasTopLabel">
-                            <A href="https://wa.me/5511998571371?text=Oi,%20Andrew!"
-                                style={{
-                                    justifyItems: "center",
-                                    color: "black"
-                                }}>
-                                WhatsApp
-                                <Img src={whatsApp} alt="LogoWhatsapp" />
-                            </A>
-                            <br>
-                            </br>
-                        </Offcanvas.Title>
-                        <Offcanvas.Title id="offcanvasTopLabel"
-                            style={{
-                                textAlign: "center",
-                                color: "#000"
-                            }}>
-                            Email
-                            <P>
-                                Andrewsouza57@gmail.com
-                            </P>
-                        </Offcanvas.Title>
-                    </Offcanvas.Header>
-                </Offcanvas>
-            </div> */}
-
-
         </>
     )
 }
