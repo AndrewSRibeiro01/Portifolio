@@ -3,7 +3,7 @@ import { curriculo, ferramenta } from "../assets"
 import { TituloCurriculo, SubTituloCurriculo, Image, DivContainer } from "../../Estilizações/Emain"
 import AOS from 'aos';
 import Map from "./Map"
-import habilidades from "../../db/db.js";
+import habilidades from "../../db/db.jsx";
 
 const Main = () => {
     useEffect(() => {

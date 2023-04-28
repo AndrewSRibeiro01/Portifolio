@@ -11,10 +11,10 @@ export const SubTituloCurriculo = styled.h3`
     @media (max-width: 768px){
     font-size: 10px;
     }
-    margin-bottom: 20px;
     text-align: center;
     font-size: 25px;
     color: floralwhite;
+    margin: 0;
 `
 export const Image = styled.img`
     width: 35px;
@@ -225,6 +225,6 @@ export const DivContainer = styled.div`
     margin: 0 auto;
     width: 100%;
     @media (max-width: 768px) {
-        padding: 20px;
+        padding: 40px;
     }
 `

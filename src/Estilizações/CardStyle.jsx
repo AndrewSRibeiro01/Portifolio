@@ -60,7 +60,6 @@ export const Imagem = styled.img`
     width: 80px;
     }
     width: 140px;
-
 `
 export const Paragrafo = styled.p`
     @media (max-width: 768px){
