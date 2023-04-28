@@ -1,5 +1,5 @@
 import React from "react"
-import { imagemProjeto, imagemProjeto2, imagemProjeto3, imagemProjeto4, whatsApp } from "../assets";
+import { whatsApp } from "../assets";
 import { Offcanvas } from 'react-bootstrap';
 import { Imagem, P, Img, A, Hr, ButtonContato, DivProjeto } from "../../Estilizações/Eformulario";
 import { Swiper, SwiperSlide } from 'swiper/react';
