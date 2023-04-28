@@ -1,6 +1,4 @@
-import linkedin from "../../Imagens/linkedin.png"
-import instagram from "../../Imagens/insta.png"
-import gitHub from "../../Imagens/gitHub.png"
+import { linkedin, insta, gitHub } from "../assets"
 import React from "react"
 import { FooterDivColumn, AppContainer2, LogoImage, FooterDiv, AppContainer, AppContainer1, LogoImage1, Siga } from "../../Estilizações/Efooter"
 
@@ -12,7 +10,7 @@ export const Footer = () => {
                 <FooterDiv>
                     <FooterDivColumn>
                         <p><strong > Instagram </strong></p>
-                        <a href="https://www.instagram.com/andrew_srb/"><LogoImage1 src={instagram} /></a>
+                        <a href="https://www.instagram.com/andrew_srb/"><LogoImage1 src={insta} /></a>
                     </FooterDivColumn>
                 </FooterDiv>
                 <FooterDiv>
@@ -40,7 +38,7 @@ export const Footer1 = () => {
                 <FooterDiv>
                     <FooterDivColumn>
                         <p><strong >Instagram</strong></p>
-                        <a href="https://www.instagram.com/andrew_srb/"><LogoImage1 src={instagram} /></a>
+                        <a href="https://www.instagram.com/andrew_srb/"><LogoImage1 src={insta} /></a>
                     </FooterDivColumn>
                 </FooterDiv>
                 <FooterDiv>
@@ -67,7 +65,7 @@ export const Footer2 = () => {
                 <FooterDiv>
                     <FooterDivColumn>
                         <p><strong >Instagram</strong></p>
-                        <a href="https://www.instagram.com/andrew_srb/"><LogoImage1 src={instagram} /></a>
+                        <a href="https://www.instagram.com/andrew_srb/"><LogoImage1 src={insta} /></a>
                     </FooterDivColumn>
                 </FooterDiv>
                 <FooterDiv>

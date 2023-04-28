@@ -1,12 +1,7 @@
 import React from "react"
+import { imagemProjeto, imagemProjeto2, imagemProjeto3, imagemProjeto4, whatsApp } from "../assets";
 import { Offcanvas } from 'react-bootstrap';
-import whatsApp from "../../Imagens/whatsApp.png"
-import imagemProjeto from "../../Imagens/imagemProjeto.png";
 import { Imagem, P, Img, A, Hr, ButtonContato, DivProjeto } from "../../Estilizações/Eformulario";
-import imagemProjeto2 from "../../Imagens/imagemProjeto2.png"
-import imagemProjeto3 from "../../Imagens/imagemProjeto3.png"
-import imagemProjeto4 from "../../Imagens/imagemProjeto4.png"
-
 import { Swiper, SwiperSlide } from 'swiper/react';
 import SwiperCore, { Autoplay, FreeMode } from 'swiper/core';
 import 'swiper/swiper-bundle.css';
