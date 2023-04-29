@@ -2,7 +2,6 @@ import React from "react"
 import { whatsApp } from "../assets";
 import { Offcanvas } from 'react-bootstrap';
 import { P, Img, A, ButtonContato } from "../../Estilizações/Eformulario";
-import SwiperCore, { Autoplay, FreeMode } from 'swiper/core';
 import 'swiper/swiper-bundle.css';
 import 'swiper/css';
 import 'swiper/css/navigation';
