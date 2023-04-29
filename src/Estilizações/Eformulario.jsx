@@ -51,7 +51,7 @@ export const Hr = styled.hr`
     opacity: 0.1;
     color: white;
     border: 1px solid rgba( 255, 255, 255, 0.18 );
-    width: 50%;
+    width: 75%;
     margin: 0 auto;
     margin-top: 25px;
     @media (max-width: 768px) {
@@ -74,4 +74,13 @@ export const ButtonContato = styled.button`
     height: 35px;
     font-size: 15px;
     }
+`
+export const Iframe = styled.iframe`
+    max-width: 1448px;
+    width: 80%;
+    height: 500px;
+    margin: 0 auto;
+    display: flex;
+    border-radius: 15px;
+    border: 1px solid #59371c;
 `

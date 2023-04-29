@@ -14,7 +14,7 @@ export const SubTituloCurriculo = styled.h3`
     text-align: center;
     font-size: 25px;
     color: floralwhite;
-    margin: 0;
+    margin: 20px;
 `
 export const Image = styled.img`
     width: 35px;

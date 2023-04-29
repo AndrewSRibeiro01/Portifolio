@@ -16,7 +16,7 @@ const Sobre = () => {
             <div style={{
                 background: "#616161", width: "100%", color: "#cacaca"
             }}>
-                <div data-aos="fade-right"
+                <div data-aos="zoom-in"
                     data-aos-offset="300"
                     data-aos-easing="ease-in-sine">
                     <Title><i>Bem vindo!</i></Title>
