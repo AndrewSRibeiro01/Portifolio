@@ -1,5 +1,6 @@
 import { Imagem } from "../../Estilizações/CardStyle"
 import { Div, DivName, DivText } from "../../Estilizações/Emap"
+
 const Map = ({ nome, imagem, texto }) => {
     return (
         <Div>

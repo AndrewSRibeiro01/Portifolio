@@ -7,8 +7,20 @@ import 'swiper/swiper-bundle.css';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
+import styled from "styled-components";
 
-SwiperCore.use([Autoplay, FreeMode]);
+// SwiperCore.use([Autoplay, FreeMode]);
+
+const Iframe = styled.iframe`
+    max-width: 1448px;
+    width: 80%;
+    height: 500px;
+    margin: 0 auto;
+    display: flex;
+    border-radius: 15px;
+    border: 1px solid #59371c;
+`
+
 
 const Contato = () => {
 
@@ -17,7 +29,7 @@ const Contato = () => {
 
     return (
         <>
-            <iframe style={{ maxWidth: "1448px", width: "80%", height: "500px", margin: "0 auto", display: "flex", borderRadius: "15px", border: "1px solid #59371c" }} src="https://patroa-imports.vercel.app/"></iframe>
+            <Iframe src="https://patroa-imports.vercel.app/"></Iframe>
             <div style={{ width: "100%", justifyContent: "center", display: "flex" }}>
                 <ButtonContato
                     onClick={handleOffcanvas}>
