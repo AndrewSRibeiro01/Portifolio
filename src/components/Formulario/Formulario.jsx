@@ -8,13 +8,12 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import { Iframe } from "../../Estilizações/Eformulario";
 
-
 const Contato = () => {
     const [showOffcanvas, setShowOffcanvas] = React.useState(false);
     const handleOffcanvas = () => setShowOffcanvas((prev) => !prev);
     return (
         <>
-            <Iframe src="https://patroa-imports.vercel.app/"></Iframe>
+            <Iframe src="https://patroa-imports.vercel.app/" />
             <Hr />
             <div style={{ width: "100%", justifyContent: "center", display: "flex" }}>
                 <ButtonContato
@@ -44,8 +43,6 @@ const Contato = () => {
                                 WhatsApp
                                 <Img src={whatsApp} alt="LogoWhatsapp" />
                             </A>
-                            <br>
-                            </br>
                         </Offcanvas.Title>
                         <Offcanvas.Title id="offcanvasTopLabel"
                             style={{

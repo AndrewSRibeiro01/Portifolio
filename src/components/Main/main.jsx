@@ -31,7 +31,6 @@ const Main = () => {
                 </DivContainer>
             </div>
         </TituloCurriculo >
-
     )
 }
 

@@ -78,7 +78,6 @@ export const DisplayCard = styled.div`
     display:flex;
     max-width: 100%;
 `
-
 export const CardStyle = styled.div`
    @media (max-width: 768px){
         width: 100%;
@@ -128,7 +127,7 @@ export const Div = styled.div`
 `
 export const DivSobre = styled.div`
     display: flex;
-    justify-content: space-between
+    justify-content: space-between;
 `
 export const Background = styled.div`
 @media (max-width: 768px) {
@@ -191,7 +190,7 @@ export const SubTitle = styled.h4`
 `
 export const Title = styled.h2`
     text-align: center;
-     padding-top: 15px 
+     padding-top: 15px;
 `
 export const H5 = styled.h5`
 @media (min-width: 414px) {
@@ -216,7 +215,6 @@ export const H6 = styled.h6`
 export const Espaço = styled.div`
     height: 50px;
 `
-
 export const DivContainer = styled.div`
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
@@ -227,4 +225,9 @@ export const DivContainer = styled.div`
     @media (max-width: 768px) {
         padding: 40px;
     }
+`
+export const AppContainer = styled.div`
+    width: 100vw;
+    height: 100vh;
+    bottom:0px;
 `

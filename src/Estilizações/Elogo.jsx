@@ -3,7 +3,7 @@ import styled from 'styled-components'
 export const LogoContainer = styled.div`
     display: flex;
     font-size: 30px;
-    justify-content: center
+    justify-content: center;
 `
 export const LogoImage = styled.img`
     margin-right: 10px;

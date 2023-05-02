@@ -1,13 +1,8 @@
-import styled from 'styled-components'
 import Main from '../../components/Main/main'
 import React from 'react'
 import { Footer1 } from '../../components/Footer/footer'
+import { AppContainer } from '../../Estilizações/Emain'
 
-const AppContainer = styled.div`
-    width: 100vw;
-    height: 100vh;
-    bottom:0px;
-`
 const Curriculo = () => {
     return (
         <AppContainer>
