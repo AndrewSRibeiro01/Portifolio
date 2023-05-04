@@ -4,7 +4,7 @@ import { BrowserRouter } from 'react-router-dom'
 import Navbar from './components/Navbar/navbar'
 import { createGlobalStyle } from 'styled-components';
 import "./index.css"
-import Footer, { Footer1 } from './components/Footer/footer';
+import Footer1 from './components/Footer/footer';
 
 const GlobalStyle = createGlobalStyle`
   body {
