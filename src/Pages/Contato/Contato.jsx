@@ -1,4 +1,3 @@
-import { Footer2 } from "../../components/Footer/footer"
 import { DivContato, TituloContato } from "../../Estilizações/Econtato"
 import Formulario from "../../components/Formulario/Formulario"
 import React, { useEffect } from "react"
@@ -11,11 +10,10 @@ const Contato = () => {
         });
     }, []);
     return (
-        <div data-aos="fade-up">
+        <div data-aos="fade-up" className="teste">
             <DivContato>
                 <TituloContato>Projeto</TituloContato><br />
                 <Formulario />
-                <Footer2 />
             </DivContato>
         </div>
     )

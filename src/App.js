@@ -3,23 +3,19 @@ import React from 'react'
 import { BrowserRouter } from 'react-router-dom'
 import Navbar from './components/Navbar/navbar'
 import { createGlobalStyle } from 'styled-components';
+import "./index.css"
+import Footer, { Footer1 } from './components/Footer/footer';
 
 const GlobalStyle = createGlobalStyle`
   body {
     margin:0px;
     max-width:1124;
- 
-    /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-      sans-serif; */
+
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
   }
 
   code {
-    /* font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-      monospace; */
-
       font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   }
 
@@ -29,11 +25,14 @@ const GlobalStyle = createGlobalStyle`
 `
 const App = () => {
   return (
-    <BrowserRouter>
-      <GlobalStyle />
-      <Navbar />
-      <AppRoute />
-    </BrowserRouter>
+    <div className="teste" >
+      <BrowserRouter>
+        <GlobalStyle />
+        <Navbar />
+        <AppRoute />
+      </BrowserRouter>
+      <Footer1 />
+    </div>
   )
 }
 

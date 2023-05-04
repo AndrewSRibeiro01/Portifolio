@@ -1,6 +1,7 @@
 import { Opcoes } from "../../Estilizações/EopcoesNavbar"
 import { Link } from "react-router-dom";
 import { Sobre } from "../../Estilizações/EopcoesNavbar";
+import React from "react";
 import styled from "styled-components"
 
 const NavLink = styled(Link)`
@@ -11,7 +12,12 @@ const NavLink = styled(Link)`
   :hover{
     transition: 1.2s;
     color: floralwhite;
+    
   }
+  :focus{
+    color: floralwhite;
+  }
+
     @media (min-width: 1448px) {
       :hover{
         transition: 1.2s;
@@ -31,11 +37,14 @@ const NavLink = styled(Link)`
 
 const OpcoesHeader = () => {
   return (
-    <Opcoes>
-      <Sobre><NavLink to="/">SOBRE</NavLink></Sobre>
-      <Sobre><NavLink to="/curriculo">CURRICULO</NavLink></Sobre>
-      <Sobre><NavLink to="/contato">PROJETO</NavLink></Sobre>
-    </Opcoes>
+    <>
+      <Opcoes>
+        <Sobre>
+          <NavLink to="/">SOBRE</NavLink></Sobre>
+        <Sobre><NavLink to="/curriculo">CURRICULO</NavLink></Sobre>
+        <Sobre><NavLink to="/contato">PROJETO</NavLink></Sobre>
+      </Opcoes>
+    </>
   )
 }
 

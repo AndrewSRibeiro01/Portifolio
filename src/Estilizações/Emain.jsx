@@ -228,6 +228,4 @@ export const DivContainer = styled.div`
 `
 export const AppContainer = styled.div`
     width: 100vw;
-    height: 100vh;
-    bottom:0px;
 `
