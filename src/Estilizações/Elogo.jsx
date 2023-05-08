@@ -21,5 +21,5 @@ export const Portifólio = styled.p`
         font-size: 35px;
     }
     font-weight: bold;
-    color: floralwhite;
+    color: var(--floral);
 `

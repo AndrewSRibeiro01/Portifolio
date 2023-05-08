@@ -22,7 +22,7 @@ const Contato = () => {
                 </ButtonContato>
                 <Offcanvas style={{
                     justifyContent: "center",
-                    background: "#e1e1e1",
+                    background: "var(--bgcolor2)",
                     borderEndEndRadius: "1000px",
                     borderEndStartRadius: "1000px"
                 }}

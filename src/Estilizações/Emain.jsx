@@ -1,7 +1,7 @@
 import styled from "styled-components"
 
 export const TituloCurriculo = styled.section`
-    color: #fff;
+    color: var(--color);
     padding:30px;
     max-width:1225px;
     font-size: 18px;
@@ -13,7 +13,7 @@ export const SubTituloCurriculo = styled.h3`
     }
     text-align: center;
     font-size: 25px;
-    color: floralwhite;
+    color: var(--floral);
     margin: 20px;
 `
 export const Image = styled.img`
@@ -56,7 +56,7 @@ export const SubTitulo1 = styled.h3`
     padding: 50px;
     text-align: center;
     font-size: 20px;
-    color: #FFF;
+    color: var(--color);
     font-weight: 400;
     margin-bottom: 40px;
 `
@@ -66,7 +66,7 @@ export const Titulo1 = styled.h2`
     }
     padding: 20px;
     margin: 0 0 5px 0;
-    color: #FFF;
+    color: var(--color);
     font-size: 29px;
     text-align: center;
     width: 100%;
@@ -137,7 +137,7 @@ export const Background = styled.div`
     height: 550px;
 
 }
-    background: linear-gradient(180deg, #616161, #9a9a9a);
+    background: linear-gradient(180deg, #616161, var(--background));
 `
 export const DivBox = styled.div`
     background: transparent;

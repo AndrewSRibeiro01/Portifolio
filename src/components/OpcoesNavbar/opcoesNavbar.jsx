@@ -5,29 +5,29 @@ import React from "react";
 import styled from "styled-components"
 
 const NavLink = styled(Link)`
-  color: #898989;
+  color: var(--menu);
   text-decoration: none;
   padding: 0 1rem;
 
   :hover{
     transition: 1.2s;
-    color: floralwhite;
+    color: var(--floral);
     
   }
   :focus{
-    color: floralwhite;
+    color: var(--floral);
   }
 
     @media (min-width: 1448px) {
       :hover{
         transition: 1.2s;
-    color: floralwhite;
+    color: var(--floral);
     }
   }
     @media (min-width: 2000px) {
       :hover{
         transition: 1.2s;
-    color: floralwhite;
+    color: var(--floral);
     }
   }
   @media (max-width: 400px) {

@@ -6,18 +6,19 @@ export const TituloContato = styled.h1`
         font-size: 40px;
     }
     @media (min-width: 1000px) {
-        margin-bottom: 92px;
+        margin-bottom: 0;
     }
     margin-bottom: 50px;
-    color: floralwhite;
+    color: var(--floral);
     font-size: 24px;
     text-align: center;
 `
 export const Subtitulo = styled.h2`
     font-size: 20px;
-    color: floralwhite;
+    color: var(--floral);
     text-align: center;
 `
 export const DivContato = styled.div`
+    height: 100vh;
     margin-top: 10px;
 `

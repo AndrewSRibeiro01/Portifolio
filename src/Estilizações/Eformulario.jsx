@@ -59,7 +59,7 @@ export const Hr = styled.hr`
     }
 `
 export const ButtonContato = styled.button`
-    color: Floralwhite;
+    color: var(--floral);
     background: transparent;
     border-color: rgba( 255, 255, 255, 0.18);
     width: 200px;

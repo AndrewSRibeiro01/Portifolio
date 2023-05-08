@@ -12,7 +12,7 @@ const Sobre = () => {
         });
     }, []);
     return (
-        <CardStyle>
+        <>
             <div style={{
                 background: "#616161", width: "100%", color: "#cacaca"
             }}>
@@ -53,7 +53,7 @@ const Sobre = () => {
                                 Faço faculdade de Gestão da tecnologia da informação, estou buscando uma oportunidade como Front-End
                             </SubTitulo1>
                         </Card>
-                        <hr style={{ color: "#ffffff" }} />
+                        <hr style={{ color: "var(--color)" }} />
                         <button style={{
                             background: "transparent",
                             borderColor: "rgba( 255, 255, 255, 0.18 )",
@@ -66,7 +66,7 @@ const Sobre = () => {
                             < Link to={"/contato"}
                                 style={{
                                     textDecoration: "none",
-                                    color: "#fff",
+                                    color: "var(--color)",
                                 }}>
                                 Projeto
                             </Link>
@@ -75,7 +75,7 @@ const Sobre = () => {
                     </Div>
                 </div>
             </div>
-        </CardStyle>
+        </>
     )
 }
 export default Sobre

@@ -25,7 +25,7 @@ const GlobalStyle = createGlobalStyle`
 `
 const App = () => {
   return (
-    <div className="teste" >
+    <div className="height" >
       <BrowserRouter>
         <GlobalStyle />
         <Navbar />

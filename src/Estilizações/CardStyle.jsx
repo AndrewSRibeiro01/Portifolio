@@ -1,15 +1,5 @@
-import styled from "styled-components"
+import styled from "styled-components";
 
-export const CardStyle = styled.div`
-    text-align: center;
-    border-radius: 15px;
-    width:100%;
-    background: linear-gradient(to right, transparent, #4b4a4a);
-    @media (max-width: 768px){
-    width:100%;
-    flex-direction:column;
-    }
-`
 export const CardJD = styled.img`
     @media (max-width: 768px){
     width: 60px;
@@ -70,7 +60,7 @@ export const H1 = styled.h1`
     @media (max-width: 768px){
     font-size: 15px;
     }
-    color: floralwhite;
+    color: var(--floral);
 `
 export const DisplayFLex = styled.div`
     @media (min-width: 500px ) {

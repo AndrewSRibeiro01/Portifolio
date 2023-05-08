@@ -10,7 +10,7 @@ export const Titulo = styled.h2`
     @media (max-width: 450px) {
     font-size: 25px;
     }
-    color: #FFF;
+    color: var(--color);
     font-size: 36px;
     text-align: center;
     width: 100%;
@@ -21,7 +21,7 @@ export const SubTitulo = styled.h3`
     }
     font-size: 16px;
      text-align: center;
-     color: #FFF;
+     color: var(--color);
     font-weight: 500;
     margin-bottom: 40px;
 `
