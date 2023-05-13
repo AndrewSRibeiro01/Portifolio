@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom"
-import { Background, H5, H6, Imagem, CardStyle, Card, Div, Titulo1, SubTitulo1, Espaço, SubTitle, Title, DivSobre, DivBox } from "../../Estilizações/Emain"
+import { Background, H5, H6, Imagem, Card, Div, SubTitulo1, Espaço, SubTitle, Title, DivSobre, DivBox } from "../../Estilizações/Emain"
 import { eu } from "../assets"
 import React, { useEffect } from "react"
 import AOS from "aos"
