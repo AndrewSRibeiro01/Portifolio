@@ -8,6 +8,7 @@ export const TituloCurriculo = styled.section`
     margin:  0 auto ;
 `
 export const SubTituloCurriculo = styled.h3`
+    cursor: default;
     @media (max-width: 768px){
     font-size: 10px;
     }
@@ -225,6 +226,7 @@ export const DivContainer = styled.div`
     grid-gap: 1rem;
     margin: 0 auto;
     width: 100%;
+    cursor: default;
     @media (max-width: 768px) {
         padding: 40px;
     }
