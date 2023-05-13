@@ -16,11 +16,41 @@ const Sobre = () => {
             <div style={{
                 background: "#616161", width: "100%", color: "#cacaca"
             }}>
-                <div data-aos="zoom-in"
-                    data-aos-offset="300"
-                    data-aos-easing="ease-in-sine">
-                    <Title><i>Bem vindo!</i></Title>
-                    <SubTitle><i> Como desenvolvedor front-end, tenho o prazer de criar interfaces incríveis que tornam a experiência do usuário final agradável e intuitiva. Com habilidades em React, CSS e JavaScript, estou sempre procurando maneiras de melhorar minhas técnicas e habilidades para entregar sites e aplicativos web responsivos e altamente funcionais. Além disso, estou constantemente aprendendo novas tecnologias e ferramentas para manter-me atualizado e oferecer à minha equipe as soluções mais eficientes e modernas possíveis.</i></SubTitle>
+                <div style={{ width: "85%", margin: "0 auto" }}>
+                    <div data-aos="zoom-in"
+                        data-aos-offset="300"
+                        data-aos-easing="ease-in-sine">
+                        <Title><i>Bem vindo!</i><hr /></Title>
+                        <Div>
+                            <Card>
+                                <Imagem draggable="false" src={eu} alt="Eu" />
+                                <SubTitulo1>
+                                    Me chamo Andrew, tenho 24 anos, trabalho como Quality Assurance na empresa Digigrow.
+                                    <br /> <br />
+                                    Faço faculdade de Gestão da tecnologia da informação, estou migrando para ser um desenvolvedor
+                                </SubTitulo1>
+                            </Card>
+                            <hr style={{ color: "var(--color)" }} />
+                            <button style={{
+                                background: "transparent",
+                                borderColor: "rgba( 255, 255, 255, 0.18 )",
+                                fontWeight: "500",
+                                width: "200px",
+                                borderRadius: "15px",
+                                textDecoration: "none"
+                            }} type="button"
+                                className="btn btn-light btn-lg">
+                                < Link to={"/contato"}
+                                    style={{
+                                        textDecoration: "none",
+                                        color: "var(--color)",
+                                    }}>
+                                    Projeto
+                                </Link>
+                            </button>
+                            <Espaço />
+                        </Div>
+                    </div>
                 </div>
                 <div data-aos="fade-up">
                     <Background>
@@ -41,39 +71,10 @@ const Sobre = () => {
                     </Background>
                 </div>
             </div>
-            <div style={{ width: "85%", margin: "0 auto" }}>
-                <div data-aos="fade-up">
-                    <Titulo1><i> Um pouco sobre mim!</i> <hr /></Titulo1>
-                    <Div>
-                        <Card>
-                            <Imagem draggable="false" src={eu} alt="Eu" />
-                            <SubTitulo1>
-                                Me chamo Andrew, tenho 24 anos, trabalho como Quality Assurance na empresa ArsenalCar| Digigrow.
-                                <br /> <br />
-                                Faço faculdade de Gestão da tecnologia da informação, estou buscando uma oportunidade como Front-End
-                            </SubTitulo1>
-                        </Card>
-                        <hr style={{ color: "var(--color)" }} />
-                        <button style={{
-                            background: "transparent",
-                            borderColor: "rgba( 255, 255, 255, 0.18 )",
-                            fontWeight: "500",
-                            width: "200px",
-                            borderRadius: "15px",
-                            textDecoration: "none"
-                        }} type="button"
-                            className="btn btn-light btn-lg">
-                            < Link to={"/contato"}
-                                style={{
-                                    textDecoration: "none",
-                                    color: "var(--color)",
-                                }}>
-                                Projeto
-                            </Link>
-                        </button>
-                        <Espaço />
-                    </Div>
-                </div>
+            <div data-aos="fade-up">
+            <Title>Meu intuito</Title>
+            <hr style={{ color: "var(--color)", width: "90%", margin: "0 auto"}} />
+                <SubTitle><i> Como desenvolvedor front-end, tenho o prazer de criar interfaces incríveis que tornam a experiência do usuário final agradável e intuitiva. Com habilidades em React, CSS e JavaScript, estou sempre procurando maneiras de melhorar minhas técnicas e habilidades para entregar sites e aplicativos web responsivos e altamente funcionais. Além disso, estou constantemente aprendendo novas tecnologias e ferramentas para manter-me atualizado e oferecer à minha equipe as soluções mais eficientes e modernas possíveis.</i></SubTitle>
             </div>
         </>
     )

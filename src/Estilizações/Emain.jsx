@@ -56,7 +56,7 @@ export const SubTitulo1 = styled.h3`
     padding: 50px;
     text-align: center;
     font-size: 20px;
-    color: var(--color);
+    color: #dbdbdb;
     font-weight: 400;
     margin-bottom: 40px;
 `
@@ -162,6 +162,7 @@ export const DivBox = styled.div`
     }
 `
 export const SubTitle = styled.h4`
+    color: #dbdbdb;
     width: 1050px;
     margin: 0 auto;
     padding-top: 50px;
@@ -189,8 +190,10 @@ export const SubTitle = styled.h4`
     }
 `
 export const Title = styled.h2`
+    color:#dbdbdb;
     text-align: center;
-     padding-top: 15px;
+    padding-top: 30px;
+    padding-bottom: 10px;
 `
 export const H5 = styled.h5`
 @media (min-width: 414px) {
