@@ -1,3 +1,5 @@
+import styled from "styled-components"
+import postman from "../assets/img/postman.png"
 export { default as bootstrap } from './img/bootstrap.png'
 export { default as qA } from './img/QA.png'
 export { default as arsenalcar } from './img/arsenalcar.png'
@@ -26,3 +28,21 @@ export { default as react } from './img/react.png'
 export { default as robot } from './img/robot.png'
 export { default as sass } from './img/sass.png'
 export { default as whatsApp } from './img/whatsApp.png'
+
+const Img = styled.img`
+    width: 50px;
+    margin: 20px;
+`
+
+export const logos = [
+    <Img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg" />,
+    <Img src={postman} />,
+    <Img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" />,
+    <Img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg" />,
+    <Img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />,
+    <Img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" />,
+    <Img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" />,
+    <Img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" />,
+    <Img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/materialui/materialui-original.svg" />,
+    <Img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg" />
+]

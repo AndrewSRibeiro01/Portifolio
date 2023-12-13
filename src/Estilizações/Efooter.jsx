@@ -1,7 +1,7 @@
 import styled from "styled-components"
 
 export const AppContainer1 = styled.div`
-    padding: 15px;
+    padding: 30px;
     width: 100%;
     display:flex;
     justify-content: center;

@@ -5,7 +5,7 @@ export const TituloCurriculo = styled.section`
     padding:30px;
     max-width:1225px;
     font-size: 18px;
-    margin:  0 auto ;
+    margin: 0 auto;
 `
 export const SubTituloCurriculo = styled.h3`
     cursor: default;
@@ -39,7 +39,7 @@ export const H4 = styled.h4`
     text-align: center;
     font-size: 20px;
 `
-export const SubTitulo1 = styled.h3`
+export const SubTitulo1 = styled.h2`
     @media (max-width: 450px) {
     padding: 0;
     font-size: 15px;
@@ -57,8 +57,8 @@ export const SubTitulo1 = styled.h3`
     padding: 50px;
     text-align: center;
     font-size: 20px;
-    color: #dbdbdb;
-    font-weight: 400;
+    color: white;
+    font-weight: 600;
     margin-bottom: 40px;
 `
 export const Titulo1 = styled.h2`
@@ -102,20 +102,22 @@ export const Card = styled.div`
     `
 export const Imagem = styled.img`
      @media (min-width: 320px){
-        height: 300px;
+        height: 100px;
+        margin: 10px;
+        box-shadow: none;
     }
     @media (min-width: 768px){
-        height: 320px;
+        height: 200px;
     }
     @media (min-width: 1064px){
-        height: 350px;
+        height: 250px;
     }
     @media (min-width: 1448px){
-        height: 390px;
+        height: 300px;
     }
     height: 390px;
     height: 520px;  
-    border-radius: 10px;
+    border-radius: 50%;
     margin: 20px;
     box-shadow: -30px -30px 30px #000000;
 `
@@ -128,7 +130,17 @@ export const Div = styled.div`
 `
 export const DivSobre = styled.div`
     display: flex;
-    justify-content: space-between;
+    background: #181818;
+    width: 1800px;
+    color: white;
+    padding: 60px;
+    margin: 0 auto;
+@media (max-width: 500px) {
+    height: 400px;
+    padding: 10px;
+    align-items: center;
+    flex-direction: column;
+}
 `
 export const Background = styled.div`
 @media (max-width: 768px) {
@@ -136,9 +148,10 @@ export const Background = styled.div`
 }
 @media (min-width: 769px) {
     height: 550px;
-
 }
-    background: linear-gradient(180deg, #616161, var(--background));
+    display: flex;
+    padding: 60px;
+    background: linear-gradient(180deg, black, black);
 `
 export const DivBox = styled.div`
     background: transparent;
@@ -188,33 +201,35 @@ export const SubTitle = styled.h4`
     @media (max-width: 1024px ) {
         font-size: 17px;
         padding: 15px;
+        text-align: center;
     }
 `
-export const Title = styled.h2`
-    color:#dbdbdb;
+export const Title = styled.h1`
+    color: white;
     text-align: center;
-    padding-top: 30px;
-    padding-bottom: 10px;
+    padding: 15% 0 1%;
+    width: 100%;
+    @media (max-width: 500px) {
+        margin-top: 50px;
+    }
 `
-export const H5 = styled.h5`
+export const H2 = styled.h2`
 @media (min-width: 414px) {
     line-height: 7;
     font-size: 16px;
 }
-@media (max-width: 413px) {
+    @media (max-width: 500px) {
     line-height: 7;
     font-size: 13px;
+    text-align: center;
 }
     cursor: default;
     line-height: 7;
 `
-export const H6 = styled.h6`
-    @media (min-width: 320px) {
-    font-size: 13px;
-}
-    @media (min-width: 413px) {
-    font-size: 16px;
-}
+export const H6 = styled.p`
+    @media (max-width: 500px) {
+        display: none;
+    }
 `
 export const Espaço = styled.div`
     height: 50px;
@@ -229,8 +244,20 @@ export const DivContainer = styled.div`
     cursor: default;
     @media (max-width: 768px) {
         padding: 40px;
-    }
+}
 `
 export const AppContainer = styled.div`
     width: 100vw;
+`
+export const Img = styled.img`
+    width: 50px;
+    margin: 20px;
+`
+export const Hr = styled.hr`
+    color: var(--color);
+    width: 90%;
+    margin: 0 auto;
+    @media (min-width: 480px) {
+    width: 1800px;
+}
 `
