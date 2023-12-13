@@ -1,5 +1,4 @@
-import { Link } from "react-router-dom";
-import { Background, H2, H6, Imagem, Card, Div, SubTitulo1, Espaço, SubTitle, Title, DivSobre, DivBox, Img, Hr } from "../../Estilizações/Emain";
+import { Background, H2, H6, Imagem, Card, Div, SubTitulo1, Espaço, SubTitle, Title, DivSobre, Hr } from "../../Estilizações/Emain";
 import eu from "../assets/img/eu1.jpeg";
 import wpp from "../assets/img/whatsApp.png";
 import linkedin from "../assets/img/linkedin1.png";
