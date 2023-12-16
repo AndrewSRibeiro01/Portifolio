@@ -7,13 +7,13 @@ import React, { useEffect } from "react";
 import AOS from "aos";
 import 'aos/dist/aos.css';
 import Typewriter from 'typewriter-effect';
-import { logo1, logo2, logo3, logo4 } from "../assets/index";
+import { logo1 } from "../assets/index";
 
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
-import { Autoplay, FreeMode, Navigation } from "swiper";
+import { Autoplay, FreeMode } from "swiper";
 
 const Sobre = () => {
     useEffect(() => {
