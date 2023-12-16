@@ -1,4 +1,3 @@
-import styled from "styled-components"
 import postman from "../assets/img/postman.png"
 export { default as bootstrap } from './img/bootstrap.png'
 export { default as qA } from './img/QA.png'
