@@ -29,11 +29,6 @@ export { default as robot } from './img/robot.png'
 export { default as sass } from './img/sass.png'
 export { default as whatsApp } from './img/whatsApp.png'
 
-const Img = styled.img`
-    width: 50px;
-    margin: 20px;
-`
-
 export const logo1 = [
     "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg",
     "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
