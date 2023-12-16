@@ -1,4 +1,4 @@
-import { Background, H2, H6, Imagem, Card, Div, SubTitulo1, Espaço, SubTitle, Title, DivSobre, Hr } from "../../Estilizações/Emain";
+import { Background, H2, H6, Imagem, Card, Div, SubTitulo1, Espaço, SubTitle, Title, DivSobre, Hr, Img } from "../../Estilizações/Emain";
 import eu from "../assets/img/eu1.jpeg";
 import wpp from "../assets/img/whatsApp.png";
 import linkedin from "../assets/img/linkedin1.png";
@@ -7,7 +7,13 @@ import React, { useEffect } from "react";
 import AOS from "aos";
 import 'aos/dist/aos.css';
 import Typewriter from 'typewriter-effect';
-import { logos } from "../assets/index"
+import { logo1, logo2, logo3, logo4 } from "../assets/index";
+
+import { Swiper, SwiperSlide } from 'swiper/react';
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
+import { Autoplay, FreeMode, Navigation } from "swiper";
 
 const Sobre = () => {
     useEffect(() => {
@@ -62,14 +68,35 @@ const Sobre = () => {
                 </div>
             </div >
             <div data-aos="fade-up">
-                <Hr style={{}} />
+                <Hr />
                 <Title>Competências</Title>
                 <SubTitle>
-                    <Typewriter options={{ delay: 3, autoStart: true, loop: true, strings: ["React", "Postman", "Css", "Sass", "Javascript", "Bootstrap", "Node.Js", "MongoDb", "Material Ui", "Tailwind"] }} >
-                    </Typewriter>
-                    {logos}
-                </SubTitle>
-            </div>
+                    <div style={{ marginLeft: "20px" }}>
+                        <Typewriter options={{
+                            delay: 3,
+                            autoStart: true,
+                            loop: true,
+                            strings: ["React", "Postman", "Css", "Sass", "Javascript", "Bootstrap", "Node.Js", "MongoDb", "Material Ui", "Tailwind"]
+                        }} >
+                        </Typewriter>
+                    </div>
+                    <Swiper
+                        spaceBetween={0}
+                        modules={[Autoplay, FreeMode]}
+                        className="mySwiper"
+                        freeMode={true}
+                        slidesPerView={5}
+                        loop={true}
+                        autoplay={{ delay: 1000, disableOnInteraction: false, }}
+                    >
+                        {logo1.map((item, key) =>
+                            <SwiperSlide key={key}>
+                                <Img src={item} alt="logo" />
+                            </SwiperSlide>
+                        )}
+                    </Swiper >
+                </SubTitle >
+            </div >
         </>
     )
 }
