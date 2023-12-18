@@ -31,14 +31,19 @@ export { default as whatsApp } from './img/whatsApp.png'
 export const logo1 = [
     "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg",
     "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
-    "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg",
+    "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
     "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg",
     "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg",
-    "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
+    "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg",
     "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/materialui/materialui-original.svg",
     "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg",
     "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg",
+    "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg",
+    "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg",
+    "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg",
+    "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg",
     postman
+
 ]
 
 
