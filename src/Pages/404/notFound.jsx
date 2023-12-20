@@ -1,5 +1,4 @@
-// import NotFound404 from "../../components/404/notFound"
-import { NotFound404 } from "../../components/404/NotFound"
+import { NotFound404 } from "../../components/404/notFound"
 
 const NotFound = () => {
     return (
