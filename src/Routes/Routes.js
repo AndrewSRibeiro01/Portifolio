@@ -1,7 +1,7 @@
 import { Route, Routes } from "react-router-dom";
 import React from "react";
 import PortFolioPage from "../Pages/Portfolio/PortfolioPage"
-import NotFound from "../Pages/404/notFound.jsx";
+import NotFound from "../Pages/404/NotFound.jsx";
 
 const AppRoute = () => {
     return (
