@@ -41,8 +41,8 @@ const OpcoesHeader = () => {
       <Opcoes>
         <Sobre>
           <NavLink to="/">SOBRE</NavLink></Sobre>
-        <Sobre><NavLink to="main">COMPETÊNCIAS</NavLink></Sobre>
-        <Sobre><NavLink to="/contato">CONTATO</NavLink></Sobre>
+        <Sobre><NavLink to="/competencias">COMPETÊNCIAS</NavLink></Sobre>
+        {/* <Sobre><NavLink to="/contato">CONTATO</NavLink></Sobre> */}
       </Opcoes>
     </>
   )
