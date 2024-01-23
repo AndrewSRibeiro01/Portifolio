@@ -26,7 +26,7 @@ export { default as r } from './img/r.png'
 export { default as react } from './img/react.png'
 export { default as robot } from './img/robot.png'
 export { default as sass } from './img/sass.png'
-export { default as whatsApp } from './img/whatsapp.png'
+export { default as whatsApp } from './img/whatsapp (1).png'
 export { default as javascriptLogo } from './img/javascript.png'
 
 export const logo1 = [
