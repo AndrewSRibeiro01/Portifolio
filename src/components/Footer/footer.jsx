@@ -5,7 +5,6 @@ import wpp from "../assets/img/whatsapp (1).png";
 import linkedin from "../assets/img/LinkedIn.svg";
 import gtHub from "../assets/img/Github.svg";
 import styled from "styled-components";
-import { NavLink } from "react-router-dom";
 import { HashLink } from "react-router-hash-link";
 
 const P = styled.p`
