@@ -2,7 +2,6 @@ import styled from "styled-components"
 
 export const TituloCurriculo = styled.section`
     color: var(--color);
-    padding:30px;
     max-width:1225px;
     font-size: 18px;
     margin: 0 auto;
@@ -55,10 +54,8 @@ export const SubTitulo1 = styled.h2`
     margin: 0 auto;
     }
     padding: 50px;
-    text-align: center;
     font-size: 20px;
-    color: white;
-    font-weight: 600;
+    font-weight: 700;
     margin-bottom: 40px;
 `
 export const Titulo1 = styled.h2`
@@ -91,14 +88,7 @@ export const Card = styled.div`
         @media (max-width: 768px){
         flex-direction: column;
         }
-        display:flex;
-        flex-direction: row-reverse;
-        padding: 0 20px 20px 20px ;
-        align-items: center;
-        text-align: initial;
-        background: transparent;
-        backdrop-filter: blur( 13.5px );
-        -webkit-backdrop-filter: blur( 13.5px );
+        padding-bottom: 20px;
     `
 export const Imagem = styled.img`
      @media (min-width: 320px){
@@ -115,26 +105,23 @@ export const Imagem = styled.img`
     @media (min-width: 1448px){
         height: 300px;
     }
-    height: 390px;
-    height: 520px;  
-    border-radius: 50%;
-    margin: 20px;
-    box-shadow: -30px -30px 30px #000000;
+    /* border-radius: 60%; */
+    border-radius: 160px;
 `
 export const CardBody = styled.div`
     border-bottom-right-radius:11px;
     border-bottom-left-radius:11px;
 `
 export const Div = styled.div`
-    text-align: center;
+    text-align: initial;
 `
 export const DivSobre = styled.div`
     display: flex;
-    background: #181818;
-    width: 1800px;
+    border-radius: 35px 35px 0px 0px;
+    background: #292929;
     color: white;
-    padding: 60px;
     margin: 0 auto;
+    height: 750px;
 @media (max-width: 500px) {
     height: 400px;
     padding: 10px;
@@ -150,11 +137,14 @@ export const Background = styled.div`
     height: 550px;
 }
     display: flex;
-    padding: 60px;
-    background: linear-gradient(180deg, black, black);
+    padding: 60px 60px 0 60px ;
+    width: 1182px;
+    height: 100%;
+    flex-shrink: 0;
+    margin: 0 auto;
+
 `
 export const DivBox = styled.div`
-    background: transparent;
     margin: 0 auto;
     border: solid 1px rgba(255, 255, 255, 0.18);
     border-radius: 5px 5px;
@@ -206,7 +196,7 @@ export const SubTitle = styled.h4`
 `
 export const Title = styled.h1`
     color: white;
-    text-align: center;
+    text-align: initial;
     padding: 15% 0 1%;
     width: 100%;
     @media (max-width: 500px) {
@@ -214,17 +204,24 @@ export const Title = styled.h1`
     }
 `
 export const H2 = styled.h2`
-@media (min-width: 414px) {
+    cursor: default;
+    line-height: 7;
+    width: 100%;
+    text-align: center;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    letter-spacing: 0.72px;
+
+    @media (max-width: 414px) {
     line-height: 7;
     font-size: 16px;
-}
+} 
     @media (max-width: 500px) {
     line-height: 7;
     font-size: 13px;
     text-align: center;
-}
-    cursor: default;
-    line-height: 7;
+} 
 `
 export const H6 = styled.p`
     @media (max-width: 500px) {

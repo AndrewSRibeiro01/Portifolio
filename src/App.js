@@ -4,7 +4,6 @@ import { BrowserRouter } from 'react-router-dom'
 import Navbar from './components/Navbar/navbar'
 import { createGlobalStyle } from 'styled-components';
 import "./index.css"
-import Footer1 from './components/Footer/footer';
 
 const GlobalStyle = createGlobalStyle`
   body {
@@ -25,13 +24,12 @@ const GlobalStyle = createGlobalStyle`
 `
 const App = () => {
   return (
-    <div className="height" >
+    <div className="height">
       <BrowserRouter>
         <GlobalStyle />
         <Navbar />
         <AppRoute />
       </BrowserRouter>
-      <Footer1 />
     </div>
   )
 }

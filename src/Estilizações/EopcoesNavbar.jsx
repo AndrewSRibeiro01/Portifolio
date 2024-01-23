@@ -2,6 +2,8 @@ import styled from 'styled-components'
 
 export const Opcoes = styled.ul`
   display: flex;
+  width: 100%;
+  justify-content: flex-end;
   @media (max-width: 359px) {
     flex-direction: column;
   }
@@ -34,5 +36,5 @@ export const Sobre = styled.p`
   padding: 15px;
   cursor: pointer;
   text-decoration: none;
-  margin: 10px 0 0 0;
+  margin: 1rem 5rem 0 0px;
 `

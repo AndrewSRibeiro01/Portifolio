@@ -49,7 +49,12 @@ export const Imagem = styled.img`
     @media (max-width: 768px){
     width: 80px;
     }
-    width: 140px;
+    width: 35%;
+    height: 25%;
+`
+export const Image = styled.img`
+    padding: 5px;
+    width: 40%;
 `
 export const Paragrafo = styled.p`
     @media (max-width: 768px){

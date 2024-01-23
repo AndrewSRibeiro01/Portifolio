@@ -15,7 +15,7 @@ export { default as imagemProjeto4 } from './img/imagemProjeto4.png'
 export { default as insta } from './img/insta.png'
 export { default as java } from './img/java.png'
 export { default as javascript } from './img/javascript.png'
-export { default as linkedin } from './img/linkedin.png'
+export { default as linkedin } from './img/LinkedIn.svg'
 export { default as logoDigi } from './img/logoDigi.png'
 export { default as mongoDb } from './img/mongoDb.png'
 export { default as nodejs } from './img/nodejs.png'
@@ -26,7 +26,8 @@ export { default as r } from './img/r.png'
 export { default as react } from './img/react.png'
 export { default as robot } from './img/robot.png'
 export { default as sass } from './img/sass.png'
-export { default as whatsApp } from './img/whatsApp.png'
+export { default as whatsApp } from './img/whatsapp.png'
+export { default as javascriptLogo } from './img/javascript.png'
 
 export const logo1 = [
     "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg",

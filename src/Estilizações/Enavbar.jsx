@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 export const NavbarContainer = styled.header`
-    background-color: #181818;
+    background: rgba(0, 0, 0, 0.45);;
     display: flex;
     width:100%;
     align-items: center;
@@ -15,7 +15,12 @@ export const H1 = styled.h1`
     @media (max-width:500px) {
         display: none;
     }
-    color: white;
+    color: #FFF9F9;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    display: flex;
 `
 export const H1Red = styled.h1`
     @media (max-width:500px) {

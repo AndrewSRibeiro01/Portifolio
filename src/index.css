@@ -1,10 +1,10 @@
 :root {
   --background: black;
-  --bgcolor: #181818;
+  --bgcolor: #151515;
   --bgcolor2: #ccc;
   --color: #fff;
-  --floral: floralWhite;
-  --menu: #898989;
+  --floral: #898989;
+  --menu: #FFF9F9;
 }
 
 * {
@@ -55,8 +55,14 @@ body {
 
 .height {
   display: flex;
-  justify-content: space-evenly;
-  flex-direction: column;
+  flex-direction: row;
   width: 100%;
   min-height: 100vh;
+}
+
+.gradientText {
+  background: linear-gradient(180deg, #DF0000 35.42%, rgba(223, 0, 0, 0.81) 78.65%, rgba(223, 0, 0, 0.81) 85.5%);
+  -webkit-background-clip: text;
+  color: transparent;
+  font-weight: 700;
 }
