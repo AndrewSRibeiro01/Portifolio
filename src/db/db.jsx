@@ -1,4 +1,3 @@
-import { css, javascript, mongoDb, postman, python, react } from "../components/assets"
 
 const habilidades = [{
     nome: '',

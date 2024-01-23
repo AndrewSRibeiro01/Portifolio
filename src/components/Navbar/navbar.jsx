@@ -1,15 +1,5 @@
 import OpcoesHeader from '../OpcoesNavbar/opcoesNavbar'
 import { NavbarContainer, H1 } from '../../Estilizações/Enavbar'
-import ChevronLeftOutlinedIcon from '@mui/icons-material/ChevronLeftOutlined';
-import ChevronRightOutlinedIcon from '@mui/icons-material/ChevronRightOutlined';
-import styled from 'styled-components';
-
-const StyledIconLeft = styled(ChevronLeftOutlinedIcon)`
-    color: #DF0000;
-`
-const StyledIconRigth = styled(ChevronRightOutlinedIcon)`
-    color: #DF0000;
-`
 
 const Navbar = () => {
     return (

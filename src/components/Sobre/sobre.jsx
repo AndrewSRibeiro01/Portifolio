@@ -1,5 +1,5 @@
 /* eslint-disable jsx-a11y/alt-text */
-import { Background, H2, H6, Imagem, Card, Div, SubTitulo1, Espaço, SubTitle, Title, DivSobre, Hr, Img } from "../../Estilizações/Emain";
+import { Background, H2, Imagem, Card, Div, SubTitulo1, Espaço, Title, DivSobre, Img } from "../../Estilizações/Emain";
 import eu from "../assets/img/eu1.jpeg";
 import wpp from "../assets/img/whatsapp (1).png";
 import linkedin from "../assets/img/LinkedIn.svg";
@@ -18,7 +18,6 @@ import { Autoplay, FreeMode } from "swiper";
 import Footer1 from "../Footer/footer";
 import Curriculo from "../../Pages/Curriculo/Curriculo";
 import { NavLink } from "react-router-dom";
-import { FaSquareWhatsapp } from "react-icons/fa6";
 
 
 const Sobre = () => {

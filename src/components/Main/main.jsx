@@ -1,6 +1,5 @@
 import React, { useEffect } from "react"
-import { curriculo, ferramenta } from "../assets"
-import { TituloCurriculo, SubTituloCurriculo, Image, DivContainer } from "../../Estilizações/Emain"
+import { TituloCurriculo } from "../../Estilizações/Emain"
 import AOS from 'aos';
 import Map from "./Map"
 import habilidades from "../../db/db.jsx";

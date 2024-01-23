@@ -1,8 +1,6 @@
 import styled from 'styled-components'
 import Pesquisa from '../../components/Sobre/sobre'
 import React from 'react'
-import Fundo from '../../components/assets/img/Fundo.png'
-import { AppContainer1 } from '../../Estilizações/Efooter'
 
 const AppContainer = styled.div`
     width: 100vw;

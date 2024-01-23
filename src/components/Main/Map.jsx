@@ -1,7 +1,6 @@
-import { Image, Imagem } from "../../Estilizações/CardStyle"
+import { Image } from "../../Estilizações/CardStyle"
 import { Div, DivName, DivText } from "../../Estilizações/Emap"
 import { logo1 } from "../assets"
-import { Img } from "../../Estilizações/Emain"
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/navigation';

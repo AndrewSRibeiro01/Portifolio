@@ -1,41 +1,9 @@
 import { Opcoes } from "../../Estilizações/EopcoesNavbar"
-import { Link } from "react-router-dom";
 import { Sobre } from "../../Estilizações/EopcoesNavbar";
 import React from "react";
 import styled from "styled-components"
 import { HashLink } from "react-router-hash-link";
 
-
-const NavLink = styled(Link)`
-  color: var(--menu);
-  text-decoration: none;
-  padding: 0 1rem;
-
-  :hover{
-    transition: 1.2s;
-    color: var(--floral);
-    
-  }
-  :focus{
-    color: var(--floral);
-  }
-
-    @media (min-width: 1448px) {
-      :hover{
-        transition: 1.2s;
-    color: var(--floral);
-    }
-  }
-    @media (min-width: 2000px) {
-      :hover{
-        transition: 1.2s;
-    color: var(--floral);
-    }
-  }
-  @media (max-width: 400px) {
-      padding: 9px;
-    }
-`
 const HashLink1 = styled(HashLink)`
   color: var(--menu);
   text-decoration: none;
@@ -66,7 +34,6 @@ const HashLink1 = styled(HashLink)`
       padding: 9px;
     }
 `
-
 const OpcoesHeader = () => {
   return (
     <>
