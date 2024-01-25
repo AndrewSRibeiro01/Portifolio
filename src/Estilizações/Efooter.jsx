@@ -2,12 +2,10 @@ import styled from "styled-components"
 
 export const AppContainer1 = styled.div`
     display:flex;
-    padding: 60px 30px;
-    width: 1440px;
+    max-width: 1920px;
+    padding: 60px;
     margin: 0 auto;
     height: 453px;
-    flex-shrink: 0;
-    justify-content: flex-start;
     background-color: var(--bgcolor);
 `
 export const FooterDiv = styled.div`

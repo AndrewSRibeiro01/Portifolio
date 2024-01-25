@@ -34,6 +34,56 @@ export const AppContainer = styled.div`
         margin: 0 0 90px 0px;
     }
    display:flex;
-   justify-content: center
+   justify-content: center;
 `
 
+export const BackgroundDiv = styled.div`
+    width: 100%;
+    color: #cacaca;
+`
+export const DivMain = styled.div`
+    width: 85%;
+    margin: 0 auto;
+    cursor: default;
+`
+export const DivFlex = styled.div`
+    display: flex;
+    flex-direction: row;
+    margin-top: 15rem;
+    justify-content: center;
+`
+export const DivIcons = styled.div`
+    width: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+`
+export const DivWhatsApp = styled.div`
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+`
+export const DisplayIconWhats = styled.div`
+    width: 100%;
+    display: flex;
+`
+export const DivBackgroundWhats = styled.div`
+    background: white;
+    border-radius: 50%;
+    padding: 4px;
+    margin: 4px; 
+`
+export const DivStyleIcons = styled.div`
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+`
+export const DivSobreMim = styled.div`
+    display: flex;
+    width: 1062px;
+`
+export const DivHome = styled.div`
+    margin-left: 60px;
+    margin: 0 0 0 20px
+`

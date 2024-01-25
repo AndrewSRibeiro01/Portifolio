@@ -9,6 +9,7 @@ import { HashLink } from "react-router-hash-link";
 
 const P = styled.p`
     color: #E0E0E0;
+    cursor: default;
 `
 const PCurriculo = styled.p`
     color: #000;

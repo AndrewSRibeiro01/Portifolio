@@ -5,7 +5,7 @@ export const Div = styled.div`
     border: 2px solid rgba(223, 0, 0, 0.46);
     background: #202020;
     border-radius: 15px;
-    width: 100%;
+    width: 20rem;
     height: 416px;
 `
 export const DivText = styled.div`

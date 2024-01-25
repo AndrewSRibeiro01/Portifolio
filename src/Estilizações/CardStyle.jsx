@@ -53,8 +53,9 @@ export const Imagem = styled.img`
     height: 25%;
 `
 export const Image = styled.img`
-    padding: 5px;
-    width: 40%;
+    padding: 10px;
+    padding-left: 30px;
+    width: 85%;
 `
 export const Paragrafo = styled.p`
     @media (max-width: 768px){

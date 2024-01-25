@@ -21,6 +21,7 @@ export const H1 = styled.h1`
     font-weight: 700;
     line-height: normal;
     display: flex;
+    cursor: default;
 `
 export const H1Red = styled.h1`
     @media (max-width:500px) {

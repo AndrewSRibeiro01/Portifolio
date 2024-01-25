@@ -9,8 +9,8 @@ const NamePortifolio = styled.div`
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    width: 100%;
     gap: 5px;
+    justify-content: center;
 `
 const H1Port = styled.h1`
     margin-bottom: 70px;
@@ -32,18 +32,16 @@ const Main = () => {
     }, []);
     return (
         <TituloCurriculo>
-            <div data-aos="fade-up">
-                <div id="Portifolio" style={{ display: "flex", flexDirection: "column", background: "#202020", width: "1440px", height: "1180px", flexShrink: 0 }}>
-                    <H1Port>Portifólio</H1Port>
-                    <NamePortifolio>
-                        {
-                            habilidades.map((item, index) => (
-                                <Map key={index}{...item} />
-                            ))
-                        }
-                    </NamePortifolio>
-                </div>
-            </div >
+            <div id="Portifolio" style={{ display: "flex", flexDirection: "column", background: "#202020", width: "1920px", height: "1180px", flexShrink: 0 }}>
+                <H1Port>Portifólio</H1Port>
+                <NamePortifolio>
+                    {
+                        habilidades.map((item, index) => (
+                            <Map key={index}{...item} />
+                        ))
+                    }
+                </NamePortifolio>
+            </div>
         </TituloCurriculo >
     )
 }

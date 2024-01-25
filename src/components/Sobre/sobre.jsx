@@ -18,6 +18,7 @@ import { Autoplay, FreeMode } from "swiper";
 import Footer1 from "../Footer/footer";
 import Curriculo from "../../Pages/Curriculo/Curriculo";
 import { NavLink } from "react-router-dom";
+import { BackgroundDiv, DisplayIconWhats, DivBackgroundWhats, DivFlex, DivHome, DivIcons, DivMain, DivSobreMim, DivStyleIcons, DivWhatsApp } from "../../Estilizações/Esobre";
 
 
 const Sobre = () => {
@@ -39,59 +40,59 @@ const Sobre = () => {
 
     return (
         <>
-            <div style={{ width: "100%", color: "#cacaca" }}>
-                <div style={{ width: "85%", margin: "0 auto" }}>
-                    <div data-aos="zoom-in"
+            <BackgroundDiv>
+                <DivMain>
+                    {/* <div data-aos="zoom-in"
                         data-aos-offset="300"
-                        data-aos-easing="ease-in-sine">
+                        data-aos-easing="ease-in-sine"> */}
 
-                        <div style={{ display: "flex", flexDirection: "row", marginTop: "15rem", justifyContent: "center" }}>
-                            <div style={{ width: "10%", display: "flex", flexDirection: "column", justifyContent: "center", alignItems: "center" }}>
-                                <div style={{ display: "flex", alignItems: "flex-start", justifyContent: "center" }} >
-                                    <div style={{ width: "100%", display: "flex" }}>
-                                        <div style={{ background: "white", borderRadius: "50%", padding: "4px", margin: "4px" }}>
-                                            <a href="https://wa.me/5511998571371?text=Ol%C3%A1%2C+tudo+bem%3F+">
-                                                <img style={{ width: "20px", margin: "5px" }} src={wpp} alt="whatsApp" />
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div style={{ display: "flex", flexDirection: "column", alignItems: "flex-start" }} >
-                                    <a href="https://www.linkedin.com/in/andrew-souza-ab776623b/">
-                                        <img style={{ width: "36px", margin: "5px" }} src={linkedin} alt="Linkedin" />
-                                    </a>
-                                </div>
-                                <div style={{ display: "flex", flexDirection: "column", alignItems: "flex-start" }} >
-                                    <a href="https://github.com/AndrewSRibeiro01">
-                                        <img style={{ width: "36px", margin: "5px" }} src={gtHub} alt="GitHub" />
-                                    </a>
-                                </div>
+                    <DivFlex>
+                        <DivIcons>
+                            <DivWhatsApp>
+                                <DisplayIconWhats>
+                                    <DivBackgroundWhats>
+                                        <a href="https://wa.me/5511998571371?text=Ol%C3%A1%2C+tudo+bem%3F+">
+                                            <img style={{ width: "20px", margin: "5px" }} src={wpp} alt="whatsApp" draggable="false" />
+                                        </a>
+                                    </DivBackgroundWhats>
+                                </DisplayIconWhats>
+                            </DivWhatsApp>
+                            <DivStyleIcons>
+                                <a href="https://www.linkedin.com/in/andrew-souza-ab776623b/">
+                                    <img style={{ width: "36px", margin: "5px" }} src={linkedin} alt="Linkedin" draggable="false" />
+                                </a>
+                            </DivStyleIcons>
+                            <DivStyleIcons>
+                                <a href="https://github.com/AndrewSRibeiro01">
+                                    <img style={{ width: "36px", margin: "5px" }} src={gtHub} alt="GitHub" draggable="false" />
+                                </a>
+                            </DivStyleIcons>
+                        </DivIcons>
+
+                        <DivSobreMim>
+
+
+                            <DivHome id="Home" >
+                                <Title>Olá, me chamo <h7 className="gradientText">Andrew</h7>!</Title>
+                                <Div>
+                                    <Card>
+                                        <SubTitulo1 className="gradientText">
+                                            <Typewriter options={{ autoStart: true, loop: true, strings: ["Desenvolvedor de Software"] }} />
+                                        </SubTitulo1>
+                                    </Card>
+                                    <p style={{ width: "599px", height: "130px" }}>Tenho 25 anos e sou um desenvolvedor de software full stack, contendo conhecimento nas principais habilidades que seria React, JavaScript e express. Estou sempre procurando aprimorar minhas técnicas e habilidades para entregar sites e aplicativos Web Responsivos e altamente funcionais.</p>
+                                    <Espaço />
+                                </Div>
+                            </DivHome>
+                            <div style={{ display: "flex", alignItems: "center" }}>
+                                <Imagem draggable="false" src={eu} alt="Eu" style={{ borderColor: "white" }} />
                             </div>
 
-                            <div style={{ display: "flex", width: "1062px" }}>
+                        </DivSobreMim>
 
-
-                                <div style={{ marginLeft: "60px", margin: "0 0 0 20px" }} id="Home" >
-                                    <Title>Olá, me chamo <h7 className="gradientText">Andrew</h7>!</Title>
-                                    <Div>
-                                        <Card>
-                                            <SubTitulo1 className="gradientText">
-                                                <Typewriter options={{ autoStart: true, loop: true, strings: ["Desenvolvedor de Software"] }} />
-                                            </SubTitulo1>
-                                        </Card>
-                                        <p style={{ width: "599px", height: "130px" }}>Tenho 25 anos e sou um desenvolvedor de software full stack, contendo conhecimento nas principais habilidades que seria React, JavaScript e express. Estou sempre procurando aprimorar minhas técnicas e habilidades para entregar sites e aplicativos Web Responsivos e altamente funcionais.</p>
-                                        <Espaço />
-                                    </Div>
-                                </div>
-                                <div style={{ display: "flex", alignItems: "center" }}>
-                                    <Imagem draggable="false" src={eu} alt="Eu" style={{ borderColor: "white" }} />
-                                </div>
-
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
+                    </DivFlex>
+                    {/* </div> */}
+                </DivMain>
 
                 {/* <div data-aos="fade-up"> */}
                 <Background style={{ height: "100%" }}>
@@ -106,16 +107,16 @@ const Sobre = () => {
                             <div style={{ display: "flex", flexDirection: "row", justifyContent: "space-evenly" }}>
                                 <div style={{ width: "150px", height: "150px", flexShrink: "0" }}>
                                     <img
-                                        style={{ transform: `rotate(${rotation}deg)`, transition: 'transform 0.1s ease-in-out', }} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" />
+                                        style={{ transform: `rotate(${rotation}deg)`, transition: 'transform 0.1s ease-in-out', }} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" draggable="false" />
                                 </div>
                                 <div style={{ width: "150px", height: "150px", flexShrink: "0" }}>
-                                    <img src={javascriptLogo} />
+                                    <img src={javascriptLogo} draggable="false" />
                                 </div>
                                 <div style={{ width: "150px", height: "150px", flexShrink: "0" }}>
-                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" />
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" draggable="false" />
                                 </div>
                             </div>
-                            <div style={{ display: "flex", flexDirection: "column" }}>
+                            <div style={{ display: "flex", flexDirection: "column", cursor: "default" }}>
                                 <h1 style={{ color: "#FFF", textAlign: "center", fontSize: "20px", fontStyle: "normal", fontWeight: 800, lineHeight: "normal", letterSpacing: "0.6px", display: "flex", justifyContent: "center", marginTop: "60px" }}> OUTRAS TECNOLOGIAS</h1>
                                 <div style={{ marginLeft: "20px", marginTop: "40px" }} />
                                 <Swiper style={{ background: "#15151578", paddingLeft: "50px" }}
@@ -137,7 +138,7 @@ const Sobre = () => {
                         </div>
                     </DivSobre>
                 </Background>
-            </div>
+            </BackgroundDiv>
             <Curriculo />
             <Footer1 />
             {/* </div > */}

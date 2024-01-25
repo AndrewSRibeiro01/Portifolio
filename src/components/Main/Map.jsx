@@ -10,7 +10,7 @@ import { Autoplay, FreeMode } from "swiper";
 
 const Map = ({ nome, imagem, texto }) => {
     return (
-        <div style={{ display: "flex", flexDirection: "column", width: "33%", padding: "0 40px 0 50px", marginBottom: "15px" }}>
+        <div style={{ display: "flex", flexDirection: "column", width: "25%", marginBottom: "15px", alignItems: "center" }}>
             <Div>
                 <DivName> {nome} </DivName>
                 <div>
@@ -26,7 +26,7 @@ const Map = ({ nome, imagem, texto }) => {
                         modules={[Autoplay, FreeMode]}
                         className="mySwiper"
                         freeMode={true}
-                        slidesPerView={2.5}
+                        slidesPerView={4}
                         loop={true}
                         autoplay={{ delay: 1000, disableOnInteraction: false }}
                     >

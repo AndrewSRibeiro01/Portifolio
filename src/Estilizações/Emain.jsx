@@ -2,9 +2,10 @@ import styled from "styled-components"
 
 export const TituloCurriculo = styled.section`
     color: var(--color);
-    max-width:1225px;
+    max-width:1920px;
     font-size: 18px;
     margin: 0 auto;
+    cursor: default;
 `
 export const SubTituloCurriculo = styled.h3`
     cursor: default;
