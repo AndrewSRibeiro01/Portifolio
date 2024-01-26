@@ -69,7 +69,7 @@ const Footer1 = () => {
     return (
         <>
             <AppContainer1 id="Contato">
-                <H1 style={{ textAlign: "start" }}> <p style={{ color: "#DF0000", fontWeight: 900, paddingRight: "5px", marginLeft: "5rem" }}>&lt;</p> Andrew <p style={{ color: "#DF0000", fontWeight: 900, paddingLeft: "5px" }}>&gt;</p> </H1>
+                <H1 style={{ textAlign: "start" }}> <p style={{ color: "#3CAA5C", fontWeight: 900, paddingRight: "5px", marginLeft: "5rem" }}>&lt;</p> Andrew <p style={{ color: "#3CAA5C", fontWeight: 900, paddingLeft: "5px" }}>&gt;</p> </H1>
                 <div style={{ margin: "0px 6rem 0px 6rem" }}>
                     <H1>
                         CONTATO
