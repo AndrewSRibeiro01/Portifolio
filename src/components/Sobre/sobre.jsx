@@ -1,5 +1,5 @@
 /* eslint-disable jsx-a11y/alt-text */
-import { Background, H2, Imagem, Card, Div, SubTitulo1, Espaço, Title, DivSobre, Img } from "../../Estilizações/Emain";
+import { Background, H2, Imagem, Card, Div, SubTitulo1, Espaço, Title, DivSobre, Img, Paragrafo } from "../../Estilizações/Emain";
 import eu from "../assets/img/eu1.jpeg";
 import wpp from "../assets/img/whatsapp (1).png";
 import linkedin from "../assets/img/LinkedIn.svg";
@@ -18,7 +18,7 @@ import { Autoplay, FreeMode } from "swiper";
 import Footer1 from "../Footer/footer";
 import Curriculo from "../../Pages/Curriculo/Curriculo";
 import { NavLink } from "react-router-dom";
-import { BackgroundDiv, DisplayIconWhats, DivBackgroundWhats, DivFlex, DivHome, DivIcons, DivMain, DivSobreMim, DivStyleIcons, DivWhatsApp } from "../../Estilizações/Esobre";
+import { BackgroundDiv, DisplayIconWhats, DivBackgroundWhats, DivFlex, DivHome, DivIconHabilidades, DivIconReactjs, DivIcons, DivMain, DivSobreMim, DivStyleIcons, DivWhatsApp, Divhabilibades, H1Tecnologia } from "../../Estilizações/Esobre";
 
 
 const Sobre = () => {
@@ -98,26 +98,25 @@ const Sobre = () => {
                 <Background style={{ height: "100%" }}>
                     <DivSobre>
                         <div id="Habilidades" style={{ width: "100%" }}>
-                            <div style={{ padding: "60px" }}>
-                                <H2 style={{ fontSize: "36px" }}> <NavLink to="Habilidades"></NavLink>HABILIDADES</H2> <br />
-                                <p style={{
-                                    textAlign: "center", color: "#E0E0E0", fontSize: "20px", fontStyle: "normal", fontWeight: 500, lineHeight: "normal", cursor: "default"
-                                }}>Atualmente, tenho conhecimento nas principais tecnologias, que seria o React, JavaScript e CSS3, porém, sempre busco estudar outras tecnologias, sempre me atualizando para ficar por dentro <br /> do mercado digital!</p>
-                            </div>
-                            <div style={{ display: "flex", flexDirection: "row", justifyContent: "space-evenly" }}>
-                                <div style={{ width: "150px", height: "150px", flexShrink: "0" }}>
+                            <Divhabilibades>
+                                <H2> <NavLink to="Habilidades"></NavLink>HABILIDADES</H2> <br />
+                                <Paragrafo>Atualmente, tenho conhecimento nas principais tecnologias, que seria o React, JavaScript e CSS3, porém, sempre busco estudar outras tecnologias, sempre me atualizando para ficar por dentro <br /> do mercado digital!
+                                </Paragrafo>
+                            </Divhabilibades>
+                            <DivIconHabilidades>
+                                <DivIconReactjs>
                                     <img
-                                        style={{ transform: `rotate(${rotation}deg)`, transition: 'transform 0.1s ease-in-out', }} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" draggable="false" />
-                                </div>
-                                <div style={{ width: "150px", height: "150px", flexShrink: "0" }}>
+                                        style={{ transform: `rotate(${rotation}deg)`, transition: 'transform 0.1s ease-in-out' }} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" draggable="false" />
+                                </DivIconReactjs>
+                                <DivIconReactjs>
                                     <img src={javascriptLogo} draggable="false" />
-                                </div>
-                                <div style={{ width: "150px", height: "150px", flexShrink: "0" }}>
+                                </DivIconReactjs>
+                                <DivIconReactjs>
                                     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" draggable="false" />
-                                </div>
-                            </div>
+                                </DivIconReactjs>
+                            </DivIconHabilidades>
                             <div style={{ display: "flex", flexDirection: "column", cursor: "default" }}>
-                                <h1 style={{ color: "#FFF", textAlign: "center", fontSize: "20px", fontStyle: "normal", fontWeight: 800, lineHeight: "normal", letterSpacing: "0.6px", display: "flex", justifyContent: "center", marginTop: "60px" }}> OUTRAS TECNOLOGIAS</h1>
+                                <H1Tecnologia> OUTRAS TECNOLOGIAS</H1Tecnologia>
                                 <div style={{ marginLeft: "20px", marginTop: "40px" }} />
                                 <Swiper style={{ background: "#15151578", paddingLeft: "50px" }}
                                     spaceBetween={0}

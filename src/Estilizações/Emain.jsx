@@ -123,16 +123,15 @@ export const DivSobre = styled.div`
     color: white;
     margin: 0 auto;
     height: 750px;
-@media (max-width: 500px) {
-    height: 400px;
-    padding: 10px;
-    align-items: center;
-    flex-direction: column;
-}
+    margin-top: 150px;
+    @media (max-width: 500px) {
+        height: 650px;
+    }
 `
 export const Background = styled.div`
 @media (max-width: 768px) {
     height: 480px;
+    padding: 10px;
 }
 @media (min-width: 769px) {
     height: 550px;
@@ -141,9 +140,7 @@ export const Background = styled.div`
     padding: 60px 60px 0 60px ;
     width: 1182px;
     height: 100%;
-    flex-shrink: 0;
     margin: 0 auto;
-
 `
 export const DivBox = styled.div`
     margin: 0 auto;
@@ -213,16 +210,11 @@ export const H2 = styled.h2`
     font-weight: 800;
     line-height: normal;
     letter-spacing: 0.72px;
-
-    @media (max-width: 414px) {
-    line-height: 7;
-    font-size: 16px;
-} 
+    font-size: 36px;
     @media (max-width: 500px) {
-    line-height: 7;
-    font-size: 13px;
-    text-align: center;
-} 
+    line-height: 3;
+    font-size: 20px;
+    }  
 `
 export const H6 = styled.p`
     @media (max-width: 500px) {
@@ -250,6 +242,10 @@ export const AppContainer = styled.div`
 export const Img = styled.img`
     width: 50px;
     margin: 20px;
+
+    @media (max-width: 500px) {
+        width: 30px;
+    }
 `
 export const Hr = styled.hr`
     color: var(--color);
@@ -258,4 +254,16 @@ export const Hr = styled.hr`
     @media (min-width: 480px) {
     width: 1800px;
 }
+`
+export const Paragrafo = styled.p`
+    text-align: center;
+    color: #E0E0E0;
+    font-size: 20px;
+    font-style: normal;
+    font-Weight: 500;
+    line-Height: normal;
+    cursor: default;
+    @media (max-width: 500px) {
+        font-size: 15px;
+    }
 `

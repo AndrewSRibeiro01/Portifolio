@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 export const NavbarContainer = styled.header`
-    background: rgba(0, 0, 0, 0.45);;
+    background: rgba(0, 0, 0, 0.45);
     display: flex;
     width:100%;
     align-items: center;
