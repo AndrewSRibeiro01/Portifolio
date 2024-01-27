@@ -61,5 +61,6 @@ export const MarginFooter = styled.div`
     margin: 0px 6rem;
     @media (max-width: 900px) {
         margin: 0 auto;
+        text-align: center;
     }
 `
