@@ -12,7 +12,7 @@ export const Icones = styled.ul`
 export const Icone = styled.li`
   margin-right: 40px;
   width: 40px;
-  @media (max-width: 500px) {
+  @media (max-width: 900px) {
     padding-top: 15px;
     display: none;
   }

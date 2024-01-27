@@ -13,7 +13,7 @@ export const CardText = styled.p`
     font-size: 7px;
     margin: 0;
     }
-    @media (max-width: 500px){
+    @media (max-width: 900px){
     font-size: 10px;
     margin: 0;
     }
@@ -56,6 +56,14 @@ export const Image = styled.img`
     padding: 10px;
     padding-left: 30px;
     width: 85%;
+    @media (max-width: 500px){
+        width: 100%;
+        padding: 10px;
+    }
+    @media (max-width: 900px){
+        width: 60%;
+        padding: 10px;
+    }
 `
 export const Paragrafo = styled.p`
     @media (max-width: 768px){
@@ -69,7 +77,7 @@ export const H1 = styled.h1`
     color: var(--floral);
 `
 export const DisplayFLex = styled.div`
-    @media (min-width: 500px ) {
+    @media (min-width: 900px ) {
         display: flex;
         flex-direction: row;
        width: 100%;
@@ -80,7 +88,7 @@ export const DisplayFLex = styled.div`
     width: 70%;
 `
 export const DisplayFLex1 = styled.div`
-    @media (min-width: 500px ) {
+    @media (min-width: 900px ) {
         display: flex;
         flex-direction: row;
        width: 50%;

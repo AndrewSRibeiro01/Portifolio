@@ -197,7 +197,7 @@ export const Title = styled.h1`
     text-align: initial;
     padding: 15% 0 1%;
     width: 100%;
-    @media (max-width: 500px) {
+    @media (max-width: 900px) {
         margin-top: 50px;
     }
 `
@@ -211,7 +211,7 @@ export const H2 = styled.h2`
     line-height: normal;
     letter-spacing: 0.72px;
     font-size: 36px;
-    @media (max-width: 500px) {
+    @media (max-width: 900px) {
     line-height: 3;
     font-size: 20px;
     }  
@@ -243,7 +243,7 @@ export const Img = styled.img`
     width: 50px;
     margin: 20px;
 
-    @media (max-width: 500px) {
+    @media (max-width: 900px) {
         width: 30px;
     }
 `
@@ -263,7 +263,18 @@ export const Paragrafo = styled.p`
     font-Weight: 500;
     line-Height: normal;
     cursor: default;
-    @media (max-width: 500px) {
+    @media (max-width: 900px) {
         font-size: 15px;
+    }
+`
+
+export const DivPortifolio = styled.div`
+    display: flex;
+    flex-Direction: column;
+    background: #202020;
+    width: 1920px;
+    height: 1180px;
+    @media (max-width: 900px) {
+        height: 900px;
     }
 `

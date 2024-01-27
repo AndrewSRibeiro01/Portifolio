@@ -1,5 +1,5 @@
 import React, { useEffect } from "react"
-import { TituloCurriculo } from "../../Estilizações/Emain"
+import { DivPortifolio, TituloCurriculo } from "../../Estilizações/Emain"
 import AOS from 'aos';
 import Map from "./Map"
 import habilidades from "../../db/db.jsx";
@@ -11,6 +11,9 @@ const NamePortifolio = styled.div`
     flex-wrap: wrap;
     gap: 5px;
     justify-content: center;
+    @media (max-width: 900px) {
+        width: 100%;
+    }
 `
 const H1Port = styled.h1`
     margin-bottom: 70px;
@@ -30,18 +33,21 @@ const Main = () => {
             duration: 2000
         });
     }, []);
+
+    const cardsToShow = window.innerWidth < 900 ? 4 : 6;
+
     return (
         <TituloCurriculo>
-            <div id="Portifolio" style={{ display: "flex", flexDirection: "column", background: "#202020", width: "1920px", height: "1180px", flexShrink: 0 }}>
+            <DivPortifolio id="Portifolio">
                 <H1Port>Portifólio</H1Port>
                 <NamePortifolio>
                     {
-                        habilidades.map((item, index) => (
+                        habilidades.slice(0, cardsToShow).map((item, index) => (
                             <Map key={index}{...item} />
                         ))
                     }
                 </NamePortifolio>
-            </div>
+            </DivPortifolio>
         </TituloCurriculo >
     )
 }

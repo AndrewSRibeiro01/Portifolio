@@ -18,7 +18,7 @@ import { Autoplay, FreeMode } from "swiper";
 import Footer1 from "../Footer/footer";
 import Curriculo from "../../Pages/Curriculo/Curriculo";
 import { NavLink } from "react-router-dom";
-import { BackgroundDiv, DisplayIconWhats, DivBackgroundWhats, DivFlex, DivHome, DivIconHabilidades, DivIconReactjs, DivIcons, DivMain, DivSobreMim, DivStyleIcons, DivWhatsApp, Divhabilibades, H1Tecnologia } from "../../Estilizações/Esobre";
+import { BackgroundDiv, DisplayIconWhats, DivBackgroundWhats, DivFlex, DivHome, DivIconHabilidades, DivIconReactjs, DivIcons, DivImg, DivMain, DivSobreMim, DivStyleIcons, DivWhatsApp, Divhabilibades, H1Tecnologia } from "../../Estilizações/Esobre";
 
 
 const Sobre = () => {
@@ -84,9 +84,9 @@ const Sobre = () => {
                                     <Espaço />
                                 </Div>
                             </DivHome>
-                            <div style={{ display: "flex", alignItems: "center" }}>
+                            <DivImg>
                                 <Imagem draggable="false" src={eu} alt="Eu" style={{ borderColor: "white" }} />
-                            </div>
+                            </DivImg>
 
                         </DivSobreMim>
 

@@ -58,15 +58,16 @@ export const DivIcons = styled.div`
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    @media (max-width: 500px) {
-    width: 100px;
+    @media (max-width: 900px) {
+        width: 100px;
+        display: none;
     }
 `
 export const DivWhatsApp = styled.div`
     display: flex;
     align-items: flex-start;
     justify-content: center;
-    @media (max-width: 500px) {
+    @media (max-width: 900px) {
         width: 46px;
     }
 `
@@ -92,10 +93,14 @@ export const DivSobreMim = styled.div`
 export const DivHome = styled.div`
     margin-left: 60px;
     margin: 0 0 0 20px;
+    @media (max-width: 900px) {
+        margin: 0;
+        padding: 0;
+    }
 `
 export const Divhabilibades = styled.div`
     padding: 60px;
-    @media (max-width: 500px) {
+    @media (max-width: 900px) {
         padding: 10px;
     }
 `
@@ -107,7 +112,7 @@ export const DivIconHabilidades = styled.div`
 export const DivIconReactjs = styled.div`
     width: 150px;
     height: 150px;
-    @media (max-width: 500px) {
+    @media (max-width: 900px) {
         width: 80px;
     }
 `
@@ -122,4 +127,11 @@ export const H1Tecnologia = styled.h1`
     display: flex;
     justify-Content: center;
     margin-Top: 60px; 
+`
+export const DivImg = styled.div`
+    display: flex;
+    align-Items: center;
+    @media (max-width: 900px) {
+        display: none;
+    }
 `

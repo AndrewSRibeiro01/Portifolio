@@ -1,11 +1,12 @@
 import React from "react"
-import { AppContainer1 } from "../../Estilizações/Efooter"
+import { AppContainer1, MarginFooter } from "../../Estilizações/Efooter"
 import { H1 } from "../../Estilizações/Enavbar";
 import wpp from "../assets/img/whatsapp (1).png";
 import linkedin from "../assets/img/LinkedIn.svg";
 import gtHub from "../assets/img/Github.svg";
 import styled from "styled-components";
 import { HashLink } from "react-router-hash-link";
+import { NavLink } from "react-router-dom";
 
 const P = styled.p`
     color: #E0E0E0;
@@ -64,13 +65,22 @@ const HashLink1 = styled(HashLink)`
       padding: 9px;
     }
 `
+const DivFooterHome = styled.div`
+    display: flex;
+    flex-Direction: column;
+    align-Items: center;
+    margin: 0 auto;
+    @media (max-width: 900px) {
+        display: none;
+    }
+`
 
 const Footer1 = () => {
     return (
         <>
             <AppContainer1 id="Contato">
                 <H1 style={{ textAlign: "start" }}> <p style={{ color: "#3CAA5C", fontWeight: 900, paddingRight: "5px", marginLeft: "5rem" }}>&lt;</p> Andrew <p style={{ color: "#3CAA5C", fontWeight: 900, paddingLeft: "5px" }}>&gt;</p> </H1>
-                <div style={{ margin: "0px 6rem 0px 6rem" }}>
+                <MarginFooter>
                     <H1>
                         CONTATO
                     </H1>
@@ -85,17 +95,19 @@ const Footer1 = () => {
                             </a>
                         </div>
                         <a href="https://www.linkedin.com/in/andrew-souza-ab776623b/">
-                            <img style={{ width: "40px" }} src={linkedin} alt="Linkedin" />
+                            <img style={{ width: "40px" }} src={linkedin} alt="Linkedin" draggable="false" />
                         </a>
                         <a href="https://github.com/AndrewSRibeiro01">
-                            <img style={{ width: "40px" }} src={gtHub} alt="GitHub" />
+                            <img style={{ width: "40px" }} src={gtHub} alt="GitHub" draggable="false" />
                         </a>
                     </div>
-                    <BackgroundButton>
-                        <PCurriculo>Currículo</PCurriculo>
-                    </BackgroundButton>
-                </div>
-                <div style={{ display: "flex", flexDirection: "column", alignItems: "center", margin: "0 auto" }}>
+                    <NavLink style={{ textDecoration: "none" }} to="https://www.canva.com/design/DAFgYqME4bM/da4m6shbiomnInZSBHciCQ/view?utm_content=DAFgYqME4bM&utm_campaign=designshare&utm_medium=link&utm_source=editor">
+                        <BackgroundButton>
+                            <PCurriculo>Currículo</PCurriculo>
+                        </BackgroundButton>
+                    </NavLink>
+                </MarginFooter>
+                <DivFooterHome>
                     <H1>
                         HOME
                     </H1>
@@ -103,7 +115,7 @@ const Footer1 = () => {
                     <P><HashLink1 to="/#Habilidades">habilidades</HashLink1></P>
                     <P><HashLink1 to="/#Portifolio">Projetos</HashLink1></P>
                     <P><HashLink1 to="/#Contatos">Contatos</HashLink1></P>
-                </div>
+                </DivFooterHome>
             </AppContainer1>
         </>
     )

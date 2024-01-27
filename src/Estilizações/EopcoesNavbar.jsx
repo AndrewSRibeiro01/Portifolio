@@ -4,8 +4,9 @@ export const Opcoes = styled.ul`
   display: flex;
   width: 100%;
   justify-content: flex-end;
-  @media (max-width: 359px) {
-    flex-direction: column;
+    @media (max-width: 900px) {
+      flex-direction: column;
+      padding: 0;
   }
 `
 export const Opcao = styled.li`
@@ -25,13 +26,13 @@ export const Sobre = styled.p`
   @media (max-width: 768px) {
    font-size: 14px;     
    padding: 0px;
-  }
+}
   @media (min-width: 1448px) {
         font-size: 17px;
-    }
+}
   @media (min-width: 2000px) {
         font-size: 23px;
-    }
+}
   font-size: 15px;
   padding: 15px;
   cursor: pointer;

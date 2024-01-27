@@ -10,9 +10,13 @@ export const NavbarContainer = styled.header`
     position: fixed;
     top: 0;
     z-index: 1;
+    @media (max-width:900px) {
+        padding: 0;
+        
+    }
 `
 export const H1 = styled.h1`
-    @media (max-width:500px) {
+    @media (max-width:900px) {
         display: none;
     }
     color: #FFF9F9;
@@ -24,7 +28,7 @@ export const H1 = styled.h1`
     cursor: default;
 `
 export const H1Red = styled.h1`
-    @media (max-width:500px) {
+    @media (max-width:900px) {
         display: none;
     }
     color: red;
