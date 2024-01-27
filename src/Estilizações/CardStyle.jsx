@@ -58,9 +58,9 @@ export const Image = styled.img`
     width: 85%;
     @media (max-width: 500px){
         width: 100%;
-        padding: 10px;
+        padding: 13px;
     }
-    @media (max-width: 900px){
+    @media (min-width: 501px) and (max-width: 900px){
         width: 60%;
         padding: 10px;
     }
