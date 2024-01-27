@@ -6,9 +6,10 @@ export const Div = styled.div`
     background: #202020;
     border-radius: 15px;
     width: 20rem;
-    height: 416px;
+    height: 382px;
     @media (max-width: 900px) {
         height: 100%;
+
     }
 `
 export const DivText = styled.div`
