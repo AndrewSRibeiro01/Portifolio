@@ -2,7 +2,7 @@ import styled from "styled-components"
 
 export const Div = styled.div`
     border-radius: 20px;
-    border: 2px solid rgba(223, 0, 0, 0.46);
+    border: 2px solid #3CAA5C;
     background: #202020;
     border-radius: 15px;
     width: 20rem;
