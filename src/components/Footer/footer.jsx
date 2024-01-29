@@ -81,7 +81,7 @@ const Footer1 = () => {
     return (
         <>
             <AppContainer1 id="Contato">
-                <H1 style={{ marginLeft: "9rem" }}>
+                <H1>
                     <p>
                         <img src={Andrew} draggable="false" />
                     </p>
