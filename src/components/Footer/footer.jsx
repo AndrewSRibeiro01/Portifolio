@@ -8,7 +8,7 @@ import gtHub from "../assets/img/Github.svg";
 import styled from "styled-components";
 import { HashLink } from "react-router-hash-link";
 import { NavLink } from "react-router-dom";
-import Andrew from "../assets/img/_ Andrew _ (1).svg"
+import Andrew from "../assets/img/Andrew.svg"
 
 const P = styled.p`
     color: #E0E0E0;
