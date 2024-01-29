@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/alt-text */
 import React from "react"
 import { AppContainer1, MarginFooter } from "../../Estilizações/Efooter"
 import { H1 } from "../../Estilizações/Enavbar";
@@ -7,6 +8,7 @@ import gtHub from "../assets/img/Github.svg";
 import styled from "styled-components";
 import { HashLink } from "react-router-hash-link";
 import { NavLink } from "react-router-dom";
+import Andrew from "../assets/img/_ Andrew _ (1).svg"
 
 const P = styled.p`
     color: #E0E0E0;
@@ -79,7 +81,11 @@ const Footer1 = () => {
     return (
         <>
             <AppContainer1 id="Contato">
-                <H1 style={{ textAlign: "start" }}> <p style={{ color: "#3CAA5C", fontWeight: 900, paddingRight: "5px", marginLeft: "5rem" }}>&lt;</p> Andrew <p style={{ color: "#3CAA5C", fontWeight: 900, paddingLeft: "5px" }}>&gt;</p> </H1>
+                <H1 style={{ marginLeft: "9rem" }}>
+                    <p>
+                        <img src={Andrew} draggable="false" />
+                    </p>
+                </H1>
                 <MarginFooter>
                     <H1>
                         CONTATO
@@ -116,7 +122,7 @@ const Footer1 = () => {
                     <P><HashLink1 to="/#Portifolio">Projetos</HashLink1></P>
                     <P><HashLink1 to="/#Contatos">Contatos</HashLink1></P>
                 </DivFooterHome>
-            </AppContainer1>
+            </AppContainer1 >
         </>
     )
 }

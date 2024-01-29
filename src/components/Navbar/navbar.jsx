@@ -1,10 +1,14 @@
+/* eslint-disable jsx-a11y/alt-text */
 import OpcoesHeader from '../OpcoesNavbar/opcoesNavbar'
 import { NavbarContainer, H1 } from '../../Estilizações/Enavbar'
+import Andrew from '../assets/img/_ Andrew _ (1).svg'
 
 const Navbar = () => {
     return (
         <NavbarContainer>
-            <H1> <p style={{ color: "#3CAA5C", fontWeight: 900, paddingRight: "5px" }}>&lt;</p> Andrew <p style={{ color: "#3CAA5C", fontWeight: 900, paddingLeft: "5px" }}>&gt;</p> </H1>
+            <H1>
+                <img src={Andrew} draggable="false" />
+            </H1>
             <OpcoesHeader />
         </NavbarContainer >
     )
