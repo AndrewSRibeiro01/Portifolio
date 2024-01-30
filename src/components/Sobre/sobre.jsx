@@ -95,9 +95,9 @@ const Sobre = () => {
                 </DivMain>
 
                 {/* <div data-aos="fade-up"> */}
-                <Background style={{ height: "100%" }}>
+                <Background id="Habilidades" style={{ height: "100%" }}>
                     <DivSobre>
-                        <div id="Habilidades" style={{ width: "100%" }}>
+                        <div style={{ width: "100%" }}>
                             <Divhabilibades>
                                 <H2> <NavLink to="Habilidades"></NavLink>HABILIDADES</H2> <br />
                                 <Paragrafo>Atualmente, tenho conhecimento nas principais tecnologias, que seria o React, JavaScript e CSS3, porém, sempre busco estudar outras tecnologias, sempre me atualizando para ficar por dentro <br /> do mercado digital!
