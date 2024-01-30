@@ -17,7 +17,6 @@ import 'swiper/css/pagination';
 import { Autoplay, FreeMode } from "swiper";
 import Footer1 from "../Footer/footer";
 import Curriculo from "../../Pages/Curriculo/Curriculo";
-import { NavLink } from "react-router-dom";
 import { BackgroundDiv, DisplayIconWhats, DivBackgroundWhats, DivFlex, DivHome, DivIconHabilidades, DivIconReactjs, DivIcons, DivImg, DivMain, DivSobreMim, DivStyleIcons, DivWhatsApp, Divhabilibades, H1Tecnologia } from "../../Estilizações/Esobre";
 
 
@@ -40,7 +39,7 @@ const Sobre = () => {
 
     return (
         <>
-            <BackgroundDiv>
+            <BackgroundDiv id="Home">
                 <DivMain>
                     {/* <div data-aos="zoom-in"
                         data-aos-offset="300"
@@ -68,11 +67,8 @@ const Sobre = () => {
                                 </a>
                             </DivStyleIcons>
                         </DivIcons>
-
                         <DivSobreMim>
-
-
-                            <DivHome id="Home" >
+                            <DivHome>
                                 <Title>Olá, me chamo <h7 className="gradientText">Andrew</h7>!</Title>
                                 <Div>
                                     <Card>
@@ -87,19 +83,16 @@ const Sobre = () => {
                             <DivImg>
                                 <Imagem draggable="false" src={eu} alt="Eu" style={{ borderColor: "white" }} />
                             </DivImg>
-
                         </DivSobreMim>
-
                     </DivFlex>
                     {/* </div> */}
                 </DivMain>
-
                 {/* <div data-aos="fade-up"> */}
-                <Background id="Habilidades" style={{ height: "100%" }}>
+                <Background style={{ height: "100%" }}>
                     <DivSobre>
                         <div style={{ width: "100%" }}>
-                            <Divhabilibades>
-                                <H2> <NavLink to="Habilidades"></NavLink>HABILIDADES</H2> <br />
+                            <Divhabilibades id="Habilidades">
+                                <H2> <p to="Habilidades"></p>HABILIDADES</H2> <br />
                                 <Paragrafo>Atualmente, tenho conhecimento nas principais tecnologias, que seria o React, JavaScript e CSS3, porém, sempre busco estudar outras tecnologias, sempre me atualizando para ficar por dentro <br /> do mercado digital!
                                 </Paragrafo>
                             </Divhabilibades>
@@ -115,7 +108,7 @@ const Sobre = () => {
                                     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" draggable="false" />
                                 </DivIconReactjs>
                             </DivIconHabilidades>
-                            <div style={{ display: "flex", flexDirection: "column", cursor: "default" }}>
+                            <div style={{ display: "flex", flexDirection: "column", cursor: "default", zIndex: 1 }}>
                                 <H1Tecnologia> OUTRAS TECNOLOGIAS</H1Tecnologia>
                                 <div style={{ marginLeft: "20px", marginTop: "40px" }} />
                                 <Swiper style={{ background: "#15151578", paddingLeft: "50px" }}

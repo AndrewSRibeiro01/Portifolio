@@ -9,7 +9,7 @@ export const NavbarContainer = styled.header`
     padding-left: 3em;
     position: fixed;
     top: 0;
-    z-index: 1;
+    z-index: 10;
     @media (max-width:900px) {
         padding: 0;
         

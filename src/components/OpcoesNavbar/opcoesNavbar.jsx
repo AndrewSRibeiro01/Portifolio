@@ -8,7 +8,6 @@ const HashLink1 = styled(HashLink)`
   color: var(--menu);
   text-decoration: none;
   padding: 0 1rem;
-
   :hover{
     transition: 1.2s;
     color: var(--floral);
