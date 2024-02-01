@@ -1,15 +1,13 @@
 import styled from "styled-components"
 
 export const Div = styled.div`
-    border-radius: 20px;
     border: 2px solid #3CAA5C;
     background: #202020;
-    border-radius: 15px;
-    width: 20rem;
-    height: 382px;
+    width: 521px;
+    height: 294px;
+    box-shadow: 11px 10px 0px 0px #D9D9D9;
     @media (max-width: 900px) {
         height: 100%;
-
     }
 `
 export const DivText = styled.div`
@@ -25,8 +23,6 @@ export const DivText = styled.div`
 export const DivName = styled.div`
     display: flex;
     justify-content: center;
-    margin-bottom: 15px;
-    margin-top: 15px;
     @media (max-width:768px) {
         font-size: 10px;
     }
@@ -34,7 +30,7 @@ export const DivName = styled.div`
 export const DivMap = styled.div`
     display: flex;
     flex-Direction: column;
-    width: 25%;
+    width: 45%;
     margin-Bottom: 15px;
     align-Items: center;
     box-sizing: border-box;

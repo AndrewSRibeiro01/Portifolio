@@ -8,11 +8,9 @@ const AppContainer = styled.div`
 const Background = styled.div`
     width: 1920px;
     margin: 0 auto;
-    /* background-image: url("https://images.pexels.com/photos/943096/pexels-photo-943096.jpeg"); */
     background-image: url("https://images.pexels.com/photos/5380603/pexels-photo-5380603.jpeg");
     background-size: 100%;
     background-attachment: local;
-    /* background-position: 0%; */
     background-repeat: no-repeat;
 `
 

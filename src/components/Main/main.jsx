@@ -4,6 +4,7 @@ import AOS from 'aos';
 import Map from "./Map"
 import habilidades from "../../db/db.jsx";
 import styled from "styled-components";
+import Experiencia from "../Main/experiencia.jsx";
 
 const NamePortifolio = styled.div`
     display: flex;
@@ -13,6 +14,8 @@ const NamePortifolio = styled.div`
     justify-content: center;
     @media (max-width: 900px) {
         width: 100%;
+        flex-direction: column;
+        align-items: center;
     }
 `
 const H1Port = styled.h1`
@@ -34,19 +37,19 @@ const Main = () => {
         });
     }, []);
 
-    const cardsToShow = window.innerWidth < 900 ? 4 : 6;
-
     return (
         <TituloCurriculo>
-            <DivPortifolio id="Portifolio">
-                <H1Port>Portifólio</H1Port>
+            <DivPortifolio id="Portfolio">
+                <H1Port>Portfólio</H1Port>
                 <NamePortifolio>
                     {
-                        habilidades.slice(0, cardsToShow).map((item, index) => (
+                        habilidades.map((item, index) => (
                             <Map key={index}{...item} />
                         ))
                     }
                 </NamePortifolio>
+                <div id="Experiências" />
+                <Experiencia />
             </DivPortifolio>
         </TituloCurriculo >
     )

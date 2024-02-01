@@ -41,10 +41,6 @@ const Sobre = () => {
         <>
             <BackgroundDiv id="Home">
                 <DivMain>
-                    {/* <div data-aos="zoom-in"
-                        data-aos-offset="300"
-                        data-aos-easing="ease-in-sine"> */}
-
                     <DivFlex>
                         <DivIcons>
                             <DivWhatsApp>
@@ -85,14 +81,13 @@ const Sobre = () => {
                             </DivImg>
                         </DivSobreMim>
                     </DivFlex>
-                    {/* </div> */}
                 </DivMain>
-                {/* <div data-aos="fade-up"> */}
                 <Background style={{ height: "100%" }}>
-                    <DivSobre>
+                    <div id="Habilidades" />
+                    <DivSobre >
                         <div style={{ width: "100%" }}>
-                            <Divhabilibades id="Habilidades">
-                                <H2> <p to="Habilidades"></p>HABILIDADES</H2> <br />
+                            <Divhabilibades>
+                                <H2> <p></p>HABILIDADES</H2> <br />
                                 <Paragrafo>Atualmente, tenho conhecimento nas principais tecnologias, que seria o React, JavaScript e CSS3, porém, sempre busco estudar outras tecnologias, sempre me atualizando para ficar por dentro <br /> do mercado digital!
                                 </Paragrafo>
                             </Divhabilibades>
@@ -133,7 +128,6 @@ const Sobre = () => {
             </BackgroundDiv>
             <Curriculo />
             <Footer1 />
-            {/* </div > */}
         </>
     )
 }

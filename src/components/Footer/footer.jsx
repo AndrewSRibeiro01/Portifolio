@@ -120,7 +120,7 @@ const Footer1 = () => {
                     <P><HashLink1
                         // onClick={() => window.scrollTo({ top: "-150%" })}
                         to="/#Habilidades">habilidades</HashLink1></P>
-                    <P><HashLink1 to="/#Portifolio">Projetos</HashLink1></P>
+                    <P><HashLink1 to="/#Portfolio">Projetos</HashLink1></P>
                     <P><HashLink1 to="/#Contatos">Contatos</HashLink1></P>
                 </DivFooterHome>
             </AppContainer1 >

@@ -40,10 +40,10 @@ const OpcoesHeader = () => {
         <Sobre>
           <HashLink1 to="/#Home">Home</HashLink1>
           <HashLink1 to="/#Habilidades">Habilidades</HashLink1>
-          <HashLink1 to="/#Portifolio">Projetos</HashLink1>
+          <HashLink1 to="/#Portfolio">Projetos</HashLink1>
+          <HashLink1 to="/#Experiências">Experiências</HashLink1>
           <HashLink1 to="/#Contato">Contato</HashLink1>
         </Sobre>
-        {/* <Sobre><NavLink to="/competencias">COMPETÊNCIAS</NavLink></Sobre> */}
       </Opcoes >
     </>
   )

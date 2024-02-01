@@ -273,8 +273,8 @@ export const DivPortifolio = styled.div`
     flex-Direction: column;
     background: #202020;
     width: 1920px;
-    height: 1180px;
+    height: 1418px;
     @media (max-width: 900px) {
-        height: 900px;
+        height: 1450px;
     }
 `

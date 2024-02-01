@@ -20,9 +20,9 @@ export const H1 = styled.h1`
         display: none;
     }
     color: #FFF9F9;
-    font-size: 32px;
+    font-size: 36px;
     font-style: normal;
-    font-weight: 700;
+    font-weight: 800;
     line-height: normal;
     display: flex;
     cursor: default;
