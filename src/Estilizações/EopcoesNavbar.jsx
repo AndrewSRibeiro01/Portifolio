@@ -25,7 +25,7 @@ export const Opcao = styled.li`
 export const Sobre = styled.p`
   @media (max-width: 768px) {
    font-size: 14px;     
-   padding: 8px;
+   padding: 0px;
 }
   @media (min-width: 1448px) {
         font-size: 17px;

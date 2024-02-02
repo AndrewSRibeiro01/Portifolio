@@ -106,11 +106,11 @@ const Footer1 = () => {
                             <img style={{ width: "40px" }} src={gtHub} alt="GitHub" draggable="false" />
                         </a>
                     </div>
-                    <p style={{ textDecoration: "none" }} to="https://www.canva.com/design/DAFgYqME4bM/da4m6shbiomnInZSBHciCQ/view?utm_content=DAFgYqME4bM&utm_campaign=designshare&utm_medium=link&utm_source=editor">
+                    <HashLink style={{ textDecoration: "none" }} to="https://www.canva.com/design/DAFgYqME4bM/da4m6shbiomnInZSBHciCQ/view?utm_content=DAFgYqME4bM&utm_campaign=designshare&utm_medium=link&utm_source=editor">
                         <BackgroundButton>
                             <PCurriculo>Currículo</PCurriculo>
                         </BackgroundButton>
-                    </p>
+                    </HashLink>
                 </MarginFooter>
                 <DivFooterHome>
                     <H1>
@@ -118,7 +118,6 @@ const Footer1 = () => {
                     </H1>
                     <P style={{ marginTop: "40px" }}><HashLink1 to="/#Home">Início</HashLink1></P>
                     <P><HashLink1
-                        // onClick={() => window.scrollTo({ top: "-150%" })}
                         to="/#Habilidades">habilidades</HashLink1></P>
                     <P><HashLink1 to="/#Portfolio">Projetos</HashLink1></P>
                     <P><HashLink1 to="/#Contatos">Contatos</HashLink1></P>
