@@ -1,13 +1,15 @@
 import styled from "styled-components"
 
 export const Div = styled.div`
-    border: 2px solid #3CAA5C;
     background: #202020;
+    position: relative;
+
     width: 521px;
     height: 294px;
     box-shadow: 11px 10px 0px 0px #D9D9D9;
     @media (max-width: 900px) {
-        height: 100%;
+        height: 200px;
+        width: 90%;
     }
 `
 export const DivText = styled.div`
@@ -36,6 +38,7 @@ export const DivMap = styled.div`
     box-sizing: border-box;
     @media (max-width: 900px) {
         width: 45%;
+        height: 46%;
     }
 `
 export const MainMap = styled.div`
@@ -61,4 +64,11 @@ export const PMap = styled.p`
         letter-Spacing: 0;
         font-size: 20px;
     }
+`
+export const DivFlex = styled.div`
+    align-items: center;
+    flex-direction: row;
+    display: flex;
+
+
 `

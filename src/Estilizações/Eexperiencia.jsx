@@ -21,6 +21,7 @@ export const CardExperiencias = styled.div`
     margin-top: 50px;
     padding: 30px 40px 40px 40px;
     @media (max-width: 900px) {
+        margin-top: 0;
         width: 100%;
         height: 100%;
     }
@@ -35,9 +36,12 @@ export const H1Experiencia = styled.h1`
 export const Pexperiencia = styled.p`
     background: #2A5034;
     font-size: 16px;
-    width: 20%;
+    width: 17%;
     border-radius: 5px;
-    padding: 3px 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 0px;
     margin-bottom: 50px;
     @media (max-width: 900px) {
         width: 70% ;
@@ -77,6 +81,6 @@ export const H1style = styled.h1`
     display: flex;
     cursor: default; 
     @media (max-width: 900px) {
-        margin-top: 150px;
+        margin-top: 50px;
     }
 `
