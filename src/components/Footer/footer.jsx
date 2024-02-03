@@ -117,8 +117,7 @@ const Footer1 = () => {
                         HOME
                     </H1>
                     <P style={{ marginTop: "40px" }}><HashLink1 to="/#Home">Início</HashLink1></P>
-                    <P><HashLink1
-                        to="/#Habilidades">habilidades</HashLink1></P>
+                    <P><HashLink1 to="/#Habilidades">habilidades</HashLink1></P>
                     <P><HashLink1 to="/#Portfolio">Projetos</HashLink1></P>
                     <P><HashLink1 to="/#Contatos">Contatos</HashLink1></P>
                 </DivFooterHome>
