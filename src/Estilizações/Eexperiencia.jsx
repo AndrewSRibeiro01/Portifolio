@@ -84,3 +84,6 @@ export const H1style = styled.h1`
         margin-top: 50px;
     }
 `
+export const DivPadding = styled.div`
+    padding: 20px;
+`

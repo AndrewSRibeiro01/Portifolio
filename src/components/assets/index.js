@@ -37,7 +37,7 @@ export const logo1 = [
     "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg",
     "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg",
     "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/materialui/materialui-original.svg",
-    "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg",
+    "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg",
     "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg",
     "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg",
     "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg",

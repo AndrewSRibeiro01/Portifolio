@@ -1,4 +1,7 @@
 import styled from "styled-components"
+import { MdLanguage } from "react-icons/md";
+import { FaCode } from "react-icons/fa";
+import { HashLink } from "react-router-hash-link";
 
 export const TituloCurriculo = styled.section`
     color: var(--color);
@@ -267,7 +270,6 @@ export const Paragrafo = styled.p`
         font-size: 15px;
     }
 `
-
 export const DivPortifolio = styled.div`
     display: flex;
     flex-Direction: column;
@@ -277,4 +279,90 @@ export const DivPortifolio = styled.div`
     @media (max-width: 900px) {
         height: 1450px;
     }
+`
+export const FaCodeStyle = styled(FaCode)`
+    color: black;
+    font-weight: 700;
+    font-size: 20px;
+`
+export const MdLanguageStyle = styled(MdLanguage)`
+    color: black;
+    font-weight: 700;
+    font-size: 30px;
+`
+export const HashLinkStyle = styled(HashLink)`
+      text-decoration: none;
+      color: white;
+      :hover{
+        color: white;
+      }
+`
+export const DivImg = styled.div`
+        background-image: url(${props => props.background});
+        height: 100%;
+        background-size: cover;
+        >p{
+            display: none;
+        }
+        >div{
+                display: none;
+                height: 100%;
+                background-color: #02020280;
+            }
+        :hover{
+            background-color: #020202;
+            >div{
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: center;
+                gap: 15px;
+                background-color: #02020280;
+            }
+    }
+`
+export const P = styled.p`
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 0.02em;
+    text-align: left;
+`
+export const DivFlex = styled.div`
+    display: flex;
+`
+export const DivFlexColumn = styled.div`
+    display: flex;
+    margin: 20px;
+    flex-direction: column;
+    align-items: center;
+`
+export const BotaoCurriculo = styled.div`
+    background: white;
+    width: 36px;
+    height: 36px;
+    border-radius: 25px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+`
+export const CardsPortfolio = styled.div`
+    display: flex;
+    margin: 20px;
+    flex-direction: column;
+    align-items: center;
+`
+export const CorIconeCode = styled.div`
+    background: white;
+    width: 36px;
+    height: 36px;
+    border-radius: 25px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+`
+export const DivMarginTop = styled.div`
+    margin-top: 20px;
+    font-weight: 700;
+    font-size: 24px;
 `
