@@ -33,9 +33,11 @@ export const Sobre = styled.p`
   @media (min-width: 2000px) {
         font-size: 23px;
 }
+  display: flex;
+  justify-content: center;
   font-size: 15px;
   padding: 15px;
   cursor: pointer;
   text-decoration: none;
-  margin: 1rem 5rem 0 0px;
+  margin: 1rem 0 0 0;
 `

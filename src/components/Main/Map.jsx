@@ -5,7 +5,7 @@ const Map = ({ nome, imagem, texto, ir, link }) => {
     return (
         <DivMap>
             <Div>
-                <DivName> {nome} </DivName>
+                <DivName>  </DivName>
                 <DivImg background={imagem}>
                     <div>
                         <DivFlex>
