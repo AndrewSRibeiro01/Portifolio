@@ -12,6 +12,7 @@ const Background = styled.div`
     background-size: 100%;
     background-attachment: local;
     background-repeat: no-repeat;
+    height: 1000px;
 `
 
 const PortFolioPage = () => {
