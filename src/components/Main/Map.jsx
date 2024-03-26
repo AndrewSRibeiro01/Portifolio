@@ -1,12 +1,13 @@
 import { BotaoCurriculo, CardsPortfolio, CorIconeCode, DivFlex, DivFlexColumn, DivImg, DivMarginTop, FaCodeStyle, HashLinkStyle, MdLanguageStyle, P } from "../../Estilizações/Emain"
 import { Div, DivMap, DivName } from "../../Estilizações/Emap"
+import digigrow from "../assets/img/digigrow.png"
 
 const Map = ({ nome, imagem, texto, ir, link }) => {
     return (
         <DivMap>
             <Div>
                 <DivName>  </DivName>
-                <DivImg background={imagem}>
+                <DivImg background={digigrow}>
                     <div>
                         <DivFlex>
                             <HashLinkStyle to={ir}>
