@@ -1,8 +1,13 @@
-/* eslint-disable jsx-a11y/alt-text */
 import { CardExperiencias, Div, H1Experiencia, Logoempresa, Pexperiencia, PtextoExperiencia } from "../../Estilizações/Eexperiencia"
 import digigrow from "../assets/img/digigrow.png"
 
-const ComponenteExperiencias = ({ data, cargo, texto }) => {
+interface ComponenteExperienciasProps {
+    data: string;
+    cargo: string;
+    texto: string;
+}
+
+const ComponenteExperiencias: React.FC<ComponenteExperienciasProps> = ({ data, cargo, texto }) => {
     return (
         <Div>
             <CardExperiencias>

@@ -1,6 +1,5 @@
 import styled from 'styled-components'
 import Pesquisa from '../../components/Sobre/sobre'
-import React from 'react'
 
 const AppContainer = styled.div`
     width: 100vw;
@@ -13,6 +12,7 @@ const Background = styled.div`
     background-attachment: local;
     background-repeat: no-repeat;
     height: 1000px;
+    padding-top: 1px;
 `
 
 const PortFolioPage = () => {

@@ -1,5 +1,3 @@
-/* eslint-disable jsx-a11y/alt-text */
-import React from "react"
 import { AppContainer1, MarginFooter } from "../../Estilizações/Efooter"
 import { H1 } from "../../Estilizações/Enavbar";
 import wpp from "../assets/img/whatsapp (1).png";

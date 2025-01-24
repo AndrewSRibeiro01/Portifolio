@@ -1,6 +1,6 @@
 import { DivContato, TituloContato } from "../../Estilizações/Econtato"
 import Formulario from "../../components/Formulario/Formulario"
-import React, { useEffect } from "react"
+import { useEffect } from "react"
 import AOS from "aos"
 
 const Contato = () => {

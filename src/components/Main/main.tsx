@@ -1,10 +1,10 @@
-import React, { useEffect } from "react"
+import { useEffect } from "react"
 import { DivPortifolio, TituloCurriculo } from "../../Estilizações/Emain"
 import AOS from 'aos';
 import Map from "./Map"
-import habilidades from "../../db/db.jsx";
+import habilidades from "../../db/db";
 import styled from "styled-components";
-import Experiencia from "../Main/experiencia.jsx";
+import Experiencia from "./experiencia";
 
 const NamePortifolio = styled.div`
     display: flex;

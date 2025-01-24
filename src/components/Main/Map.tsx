@@ -1,8 +1,15 @@
 import { BotaoCurriculo, CardsPortfolio, CorIconeCode, DivFlex, DivFlexColumn, DivImg, DivMarginTop, FaCodeStyle, HashLinkStyle, MdLanguageStyle, P } from "../../Estilizações/Emain"
 import { Div, DivMap, DivName } from "../../Estilizações/Emap"
 
+interface MapProps {
+    nome: string;
+    imagem: string;
+    texto: string;
+    ir: string;
+    link: string;
+}
 
-const Map = ({ nome, imagem, texto, ir, link }) => {
+const Map: React.FC<MapProps> = ({ nome, imagem, texto, ir, link }) => {
     return (
         <DivMap>
             <Div>

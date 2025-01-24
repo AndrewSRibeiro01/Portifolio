@@ -1,6 +1,5 @@
 import { Icone } from '../../Estilizações/EiconesNavbar'
 import { Icones } from '../../Estilizações/EiconesNavbar'
-import React from 'react'
 import { hckr } from '../assets'
 
 const IconesNavbar = () => {

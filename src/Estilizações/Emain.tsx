@@ -297,8 +297,8 @@ export const HashLinkStyle = styled(HashLink)`
         color: white;
       }
 `
-export const DivImg = styled.div`
-        background-image: url(${props => props.background});
+export const DivImg = styled.div<{ background: string }>`
+  background-image: url(${(props) => props.background});
         height: 100%;
         background-size: cover;
         >p{
