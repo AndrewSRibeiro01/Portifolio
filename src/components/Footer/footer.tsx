@@ -80,7 +80,7 @@ const Footer1 = () => {
             <AppContainer1 id="Contato">
                 <H1>
                     <p>
-                        <img src={Andrew} draggable="false" />
+                        <img src={Andrew} alt="Andew" draggable="false" />
                     </p>
                 </H1>
                 <MarginFooter>

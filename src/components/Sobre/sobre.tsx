@@ -94,13 +94,13 @@ const Sobre = () => {
                             <DivIconHabilidades>
                                 <DivIconReactjs>
                                     <img
-                                        style={{ transform: `rotate(${rotation}deg)`, transition: 'transform 0.1s ease-in-out' }} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" draggable="false" />
+                                        style={{ transform: `rotate(${rotation}deg)`, transition: 'transform 0.1s ease-in-out' }} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="Image React" draggable="false" />
                                 </DivIconReactjs>
                                 <DivIconReactjs>
-                                    <img src={javascriptLogo} draggable="false" />
+                                    <img src={javascriptLogo} alt="Logo Javascript" draggable="false" />
                                 </DivIconReactjs>
                                 <DivIconReactjs>
-                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg" draggable="false" />
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg" alt="Image TypeScript" draggable="false" />
                                 </DivIconReactjs>
                             </DivIconHabilidades>
                             <div style={{ display: "flex", flexDirection: "column", cursor: "default", zIndex: 1 }}>

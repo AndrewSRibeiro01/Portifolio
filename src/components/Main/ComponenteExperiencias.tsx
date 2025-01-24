@@ -13,7 +13,7 @@ const ComponenteExperiencias: React.FC<ComponenteExperienciasProps> = ({ data, c
             <CardExperiencias>
                 <Logoempresa>
                     <img style={{ width: "20%", height: "15%", mixBlendMode: "color" }}
-                        src={digigrow} />
+                        src={digigrow} alt="Digigrow" />
                 </Logoempresa>
                 <H1Experiencia>
                     {cargo}

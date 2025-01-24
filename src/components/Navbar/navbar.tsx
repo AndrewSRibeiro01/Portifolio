@@ -6,7 +6,7 @@ const Navbar = () => {
     return (
         <NavbarContainer>
             <H1>
-                <img src={Andrew} draggable="false" />
+                <img src={Andrew} alt='imagem Andrew' draggable="false" />
             </H1>
             <OpcoesHeader />
         </NavbarContainer >
