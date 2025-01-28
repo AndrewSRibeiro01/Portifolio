@@ -1,5 +1,5 @@
 import { Background, H2, Imagem, Card, Div, SubTitulo1, Espaço, Title, DivSobre, Img, Paragrafo } from "../../Estilizações/Emain";
-import eu from "../assets/img/eu1.jpeg";
+import eu from "../assets/img/perfil.jpeg";
 import wpp from "../assets/img/whatsapp (1).png";
 import linkedin from "../assets/img/LinkedIn.svg";
 import gtHub from "../assets/img/Github.svg";
