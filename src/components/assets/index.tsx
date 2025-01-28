@@ -4,7 +4,7 @@ export { default as arsenalcar } from './img/arsenalcar.png';
 export { default as css } from './img/css.png';
 export { default as curriculo } from './img/Curriculum.png';
 export { default as cypress } from './img/cypress.png';
-export { default as eu } from './img/eu0.png';
+export { default as eu } from './img/perfil.jpeg';
 export { default as ferramenta } from './img/ferramenta.png';
 export { default as gitHub } from './img/gitHub.png';
 export { default as imagemProjeto } from './img/imagemProjeto.png';
