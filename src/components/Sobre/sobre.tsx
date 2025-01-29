@@ -69,7 +69,7 @@ const Sobre = () => {
                                 <Div>
                                     <Card>
                                         <SubTitulo1 className="gradientText">
-                                            <Typewriter options={{ autoStart: true, loop: true, strings: ["Full stack Developer"] }} />
+                                            <Typewriter options={{ autoStart: true, loop: true, strings: ["Full Stack Developer"] }} />
                                         </SubTitulo1>
                                     </Card>
                                     <p style={{ width: "599px", height: "130px" }}>Tenho 25 anos e sou um desenvolvedor de software full stack, contendo conhecimento nas principais habilidades que seria React, JavaScript e express. Estou sempre procurando aprimorar minhas técnicas e habilidades para entregar sites e aplicativos Web Responsivos e altamente funcionais.</p>
