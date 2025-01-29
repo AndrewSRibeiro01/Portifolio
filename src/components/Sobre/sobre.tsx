@@ -29,7 +29,7 @@ const Sobre = () => {
 
     useEffect(() => {
         const intervalId = setInterval(() => {
-            setRotation((prevRotation) => prevRotation + 5);
+            setRotation((prevRotation) => prevRotation + 2);
         }, 100);
 
         return () => clearInterval(intervalId);
@@ -114,9 +114,10 @@ const Sobre = () => {
                                     modules={[Autoplay, FreeMode]}
                                     className="mySwiper"
                                     freeMode={true}
-                                    slidesPerView={5}
+                                    speed={5000}
+                                    slidesPerView={7}
                                     loop={true}
-                                    autoplay={{ delay: 1000, disableOnInteraction: false }}
+                                    autoplay={{ delay: 0, disableOnInteraction: false }}
                                 >
                                     {logo1.map((item, key) =>
                                         <SwiperSlide key={key}>
