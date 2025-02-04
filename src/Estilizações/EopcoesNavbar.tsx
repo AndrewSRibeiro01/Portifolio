@@ -9,19 +9,6 @@ export const Opcoes = styled.ul`
       padding: 0;
   }
 `
-export const Opcao = styled.li`
-  font-size: 16px;
-  justify-items: center;
-  text-align: center;
-  height: 100%;
-  padding: 0 5px;
-  cursor: pointer;
-  min-width: 120px;
-  
-  @media (max-width: 768px) {
-    flex-direction: column;
-  }
-`
 export const Sobre = styled.p`
   @media (max-width: 768px) {
    font-size: 14px;     

@@ -13,11 +13,6 @@ export const TituloContato = styled.h1`
     font-size: 24px;
     text-align: center;
 `
-export const Subtitulo = styled.h2`
-    font-size: 20px;
-    color: var(--floral);
-    text-align: center;
-`
 export const DivContato = styled.div`
     height: 120vh;
     margin-top: 10px;
