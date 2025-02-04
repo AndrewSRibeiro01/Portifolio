@@ -93,16 +93,16 @@ const Footer1 = () => {
                     <Hr />
                     <div style={{ display: "flex", justifyContent: "space-evenly", marginBottom: "26px", alignItems: "center" }}>
                         <div style={{ background: "white", borderRadius: "100%" }}>
-                            <a href="https://wa.me/5511998571371?text=Ol%C3%A1%2C+tudo+bem%3F+">
+                            <HashLink to="https://wa.me/5511998571371?text=Ol%C3%A1%2C+tudo+bem%3F+">
                                 <img style={{ width: "40px", padding: "10px" }} src={wpp} alt="whatsApp" />
-                            </a>
+                            </HashLink>
                         </div>
-                        <a href="https://www.linkedin.com/in/andrew-souza-ab776623b/">
+                        <HashLink to="https://www.linkedin.com/in/andrew-souza-ab776623b/">
                             <img style={{ width: "40px" }} src={linkedin} alt="Linkedin" draggable="false" />
-                        </a>
-                        <a href="https://github.com/AndrewSRibeiro01">
+                        </HashLink>
+                        <HashLink to="https://github.com/AndrewSRibeiro01">
                             <img style={{ width: "40px" }} src={gtHub} alt="GitHub" draggable="false" />
-                        </a>
+                        </HashLink>
                     </div>
                     <HashLink style={{ textDecoration: "none" }} to="https://www.canva.com/design/DAFgYqME4bM/da4m6shbiomnInZSBHciCQ/view?utm_content=DAFgYqME4bM&utm_campaign=designshare&utm_medium=link&utm_source=editor">
                         <BackgroundButton>

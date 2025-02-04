@@ -1,5 +1,4 @@
 import { DivContato, TituloContato } from "../../Estilizações/Econtato"
-import Formulario from "../../components/Formulario/Formulario"
 import { useEffect } from "react"
 import AOS from "aos"
 
@@ -13,7 +12,6 @@ const Contato = () => {
         <div data-aos="fade-up" className="teste">
             <DivContato>
                 <TituloContato>Projeto</TituloContato><br />
-                <Formulario />
             </DivContato>
         </div>
     )
