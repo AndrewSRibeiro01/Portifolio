@@ -17,6 +17,7 @@ import { Autoplay, FreeMode } from "swiper";
 import Footer1 from "../Footer/footer";
 import Curriculo from "../../Pages/Curriculo/Curriculo";
 import { BackgroundDiv, DisplayIconWhats, DivBackgroundWhats, DivFlex, DivHome, DivIconHabilidades, DivIconReactjs, DivIcons, DivImg, DivMain, DivSobreMim, DivStyleIcons, DivWhatsApp, Divhabilibades, H1Tecnologia } from "../../Estilizações/Esobre";
+import { HashLink } from "react-router-hash-link";
 
 const Sobre = () => {
     useEffect(() => {
@@ -44,21 +45,21 @@ const Sobre = () => {
                             <DivWhatsApp>
                                 <DisplayIconWhats>
                                     <DivBackgroundWhats>
-                                        <a href="https://wa.me/5511998571371?text=Ol%C3%A1%2C+tudo+bem%3F+">
+                                        <HashLink to="https://wa.me/5511998571371?text=Ol%C3%A1%2C+tudo+bem%3F+">
                                             <img style={{ width: "20px", margin: "5px" }} src={wpp} alt="whatsApp" draggable="false" />
-                                        </a>
+                                        </HashLink>
                                     </DivBackgroundWhats>
                                 </DisplayIconWhats>
                             </DivWhatsApp>
                             <DivStyleIcons>
-                                <a href="https://www.linkedin.com/in/andrew-souza-ab776623b/">
+                                <HashLink to="https://www.linkedin.com/in/andrew-souza-ab776623b/">
                                     <img style={{ width: "36px", margin: "5px" }} src={linkedin} alt="Linkedin" draggable="false" />
-                                </a>
+                                </HashLink>
                             </DivStyleIcons>
                             <DivStyleIcons>
-                                <a href="https://github.com/AndrewSRibeiro01">
+                                <HashLink to="https://github.com/AndrewSRibeiro01">
                                     <img style={{ width: "36px", margin: "5px" }} src={gtHub} alt="GitHub" draggable="false" />
-                                </a>
+                                </HashLink>
                             </DivStyleIcons>
                         </DivIcons>
                         <DivSobreMim>
@@ -72,7 +73,7 @@ const Sobre = () => {
                                             <Typewriter options={{ autoStart: true, loop: true, strings: ["Full Stack Developer"] }} />
                                         </SubTitulo1>
                                     </Card>
-                                    <p style={{ width: "599px", height: "130px" }}>Tenho 25 anos e sou um desenvolvedor de software full stack, contendo conhecimento nas principais habilidades que seria React, JavaScript e express. Estou sempre procurando aprimorar minhas técnicas e habilidades para entregar sites e aplicativos Web Responsivos e altamente funcionais.</p>
+                                    <p style={{ width: "599px", height: "130px" }}>Tenho 25 anos e sou um desenvolvedor de software Full Stack, contendo conhecimento nas principais habilidades que seria React, TypeScript, JavaScript e Express.js. Estou sempre procurando aprimorar minhas técnicas e habilidades para entregar sites e aplicativos Web Responsivos e altamente funcionais.</p>
                                     <Espaço />
                                 </Div>
                             </DivHome>
@@ -87,8 +88,8 @@ const Sobre = () => {
                     <DivSobre >
                         <div style={{ width: "100%" }}>
                             <Divhabilibades>
-                                <H2> <p></p>HABILIDADES</H2> <br />
-                                <Paragrafo>Atualmente, tenho conhecimento nas principais tecnologias, que seria o React, JavaScript e CSS3, porém, sempre busco estudar outras tecnologias, sempre me atualizando para ficar por dentro <br /> do mercado digital!
+                                <H2>HABILIDADES</H2>
+                                <Paragrafo>Atualmente, tenho conhecimento nas principais tecnologias, que seria o React, TypeScript, TypeScript, JavaScript e Express.js, porém, sempre busco estudar outras tecnologias, sempre me atualizando para ficar por dentro do mercado digital!
                                 </Paragrafo>
                             </Divhabilibades>
                             <DivIconHabilidades>

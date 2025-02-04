@@ -8,8 +8,6 @@ import "./index.css";
 const GlobalStyle = createGlobalStyle`
   body {
     margin: 0px;
-    /* max-width: 1124px; */
-
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
   }
