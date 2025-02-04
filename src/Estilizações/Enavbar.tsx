@@ -27,9 +27,3 @@ export const H1 = styled.h1`
     display: flex;
     cursor: default;
 `
-export const H1Red = styled.h1`
-    @media (max-width:900px) {
-        display: none;
-    }
-    color: red;
-`
