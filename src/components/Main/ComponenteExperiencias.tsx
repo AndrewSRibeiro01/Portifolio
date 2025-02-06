@@ -20,7 +20,7 @@ const ComponenteExperiencias: React.FC<ComponenteExperienciasProps> = ({ data, c
                 </H1Experiencia>
                 <Pexperiencia>
                     {data}
-                </Pexperiencia>
+                </Pexperiencia> 
                 <PtextoExperiencia>
                     {texto}
                 </PtextoExperiencia>
