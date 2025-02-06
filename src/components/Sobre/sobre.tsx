@@ -89,7 +89,7 @@ const Sobre = () => {
                         <div style={{ width: "100%" }}>
                             <Divhabilibades>
                                 <H2>HABILIDADES</H2>
-                                <Paragrafo>Atualmente, tenho conhecimento nas principais tecnologias, que seria o React, TypeScript, TypeScript, JavaScript e Express.js, porém, sempre busco estudar outras tecnologias, sempre me atualizando para ficar por dentro do mercado digital!
+                                <Paragrafo>Atualmente, tenho conhecimento nas principais tecnologias, que seria o React, TypeScript, JavaScript e Express.js, porém, sempre busco estudar outras tecnologias, sempre me atualizando para ficar por dentro do mercado digital!
                                 </Paragrafo>
                             </Divhabilibades>
                             <DivIconHabilidades>
