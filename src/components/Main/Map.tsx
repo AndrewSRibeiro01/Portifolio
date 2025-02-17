@@ -25,14 +25,23 @@ const Map: React.FC<MapProps> = ({ nome, imagem, texto, ir, link }) => {
                                     <P>View Code</P>
                                 </DivFlexColumn>
                             </HashLinkStyle>
-                            <HashLinkStyle to={link}>
+                            {link != "" ? (
+                                <HashLinkStyle to={link}>
+                                    <CardsPortfolio>
+                                        <CorIconeCode>
+                                            <MdLanguageStyle />
+                                        </CorIconeCode>
+                                        <P>View Site</P>
+                                    </CardsPortfolio>
+                                </HashLinkStyle>
+                            ) : (<>
                                 <CardsPortfolio>
-                                    <CorIconeCode>
+                                    <CorIconeCode style={{ opacity: 0.5, pointerEvents: "none" }}>
                                         <MdLanguageStyle />
                                     </CorIconeCode>
                                     <P>View Site</P>
                                 </CardsPortfolio>
-                            </HashLinkStyle>
+                            </>)}
                         </DivFlex>
                     </div>
                     <br />
