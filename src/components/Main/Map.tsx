@@ -36,7 +36,9 @@ const Map: React.FC<MapProps> = ({ nome, imagem, texto, ir, link }) => {
                                 </HashLinkStyle>
                             ) : (<>
                                 <CardsPortfolio>
-                                    <CorIconeCode style={{ opacity: 0.5, pointerEvents: "none" }}>
+                                    <CorIconeCode
+                                        style={{ opacity: 0.5, pointerEvents: "none" }}
+                                    >
                                         <MdLanguageStyle />
                                     </CorIconeCode>
                                     <P>View Site</P>
