@@ -24,7 +24,7 @@ const Map: React.FC<MapProps> = ({ imagem, texto, ir, link }) => {
                                     <P>View Code</P>
                                 </DivFlexColumn>
                             </HashLinkStyle>
-                            {link != "" ? (
+                            {link !== "" ? (
                                 <HashLinkStyle to={link}>
                                     <CardsPortfolio>
                                         <CorIconeCode>
