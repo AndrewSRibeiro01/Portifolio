@@ -1,7 +1,7 @@
 import { BotaoCurriculo, CardsPortfolio, CorIconeCode, DivFlex, DivFlexColumn, DivImg, DivMarginTop, FaCodeStyle, HashLinkStyle, MdLanguageStyle, P } from "../../Estilizações/Emain"
 import { Div, DivMap, DivName } from "../../Estilizações/Emap"
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { Navigation, Pagination } from "swiper";
+import { Navigation } from "swiper";
 import { spotifyImage } from "../../db/dbSpotify";
 
 interface MapProps {
