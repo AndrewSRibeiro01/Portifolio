@@ -22,7 +22,9 @@ export { default as robot } from './img/robot.png';
 export { default as sass } from './img/sass.png';
 export { default as whatsApp } from './img/whatsapp (1).png';
 export { default as javascriptLogo } from './img/javascript.png';
-export { default as spotify } from "./img/spotify.png"
+export { default as spotify } from "./img/image.png"
+export { default as spotify1 } from "./img/image-1.png"
+export { default as spotify2 } from "./img/image-2.png"
 
 export const logo1: string[] = [
     "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg",
