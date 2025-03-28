@@ -1,21 +1,20 @@
-import * as S from "../../Estilizações/Emain"
-import * as E from "../../Estilizações/Emap"
+import * as S from "./styled"
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation } from "swiper";
 import { spotifyImage } from "../../db/dbSpotify";
 
-interface MapProps {
+interface Map {
     imagem: string;
     texto: string;
     ir: string;
     link: string;
 }
 
-const Map: React.FC<MapProps> = ({ imagem, texto, ir, link }) => {
+const Map: React.FC<Map> = ({ imagem, texto, ir, link }) => {
     return (
-        <E.DivMap>
-            <E.Div>
-                <E.DivName />
+        <S.DivMap>
+            <S.Div>
+                <S.DivName />
                 {link !== "" ? (
                     <S.DivImg background={imagem}>
                         <div>
@@ -80,11 +79,11 @@ const Map: React.FC<MapProps> = ({ imagem, texto, ir, link }) => {
                     </Swiper>
                 </>
                 )}
-            </E.Div >
+            </S.Div >
             <S.DivMarginTop>
                 {texto}
             </S.DivMarginTop>
-        </E.DivMap >
+        </S.DivMap >
     )
 }
 

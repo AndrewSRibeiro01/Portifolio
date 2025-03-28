@@ -1,13 +1,13 @@
-import * as S from "../../Estilizações/Eexperiencia"
-import digigrow from "../assets/img/digigrow.png"
+import * as S from "./styled"
+import digigrow from "../../../assets/img/digigrow.png"
 
-interface ComponenteExperienciasProps {
+interface ComponentExperiences {
     data: string;
     cargo: string;
     texto: string;
 }
 
-const ComponenteExperiencias: React.FC<ComponenteExperienciasProps> = ({ data, cargo, texto }) => {
+const Experiences: React.FC<ComponentExperiences> = ({ data, cargo, texto }) => {
     return (
         <S.Div>
             <S.CardExperiencias>
@@ -29,4 +29,4 @@ const ComponenteExperiencias: React.FC<ComponenteExperienciasProps> = ({ data, c
     )
 }
 
-export default ComponenteExperiencias;
+export default Experiences;

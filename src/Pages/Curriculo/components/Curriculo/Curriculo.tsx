@@ -1,5 +1,5 @@
-import Main from '../../components/Main/main'
-import * as S from '../../Estilizações/Emain'
+import Main from '../../../../components/Main/components/Mid'
+import * as S from './styled'
 
 const Curriculo = () => {
     return (

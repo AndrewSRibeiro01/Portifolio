@@ -2,7 +2,8 @@ import React from "react";
 import { BrowserRouter } from "react-router-dom";
 import { createGlobalStyle } from "styled-components";
 import AppRoute from "./Routes/Routes";
-import Navbar from "./components/Navbar/navbar";
+import Navbar from "./components/Navbar/components/NavBar";
+
 import "./index.css";
 
 const GlobalStyle = createGlobalStyle`
