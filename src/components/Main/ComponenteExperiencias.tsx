@@ -1,4 +1,4 @@
-import { CardExperiencias, Div, H1Experiencia, Logoempresa, Pexperiencia, PtextoExperiencia } from "../../Estilizações/Eexperiencia"
+import * as S from "../../Estilizações/Eexperiencia"
 import digigrow from "../assets/img/digigrow.png"
 
 interface ComponenteExperienciasProps {
@@ -9,23 +9,23 @@ interface ComponenteExperienciasProps {
 
 const ComponenteExperiencias: React.FC<ComponenteExperienciasProps> = ({ data, cargo, texto }) => {
     return (
-        <Div>
-            <CardExperiencias>
-                <Logoempresa>
+        <S.Div>
+            <S.CardExperiencias>
+                <S.Logoempresa>
                     <img style={{ width: "20%", height: "15%", mixBlendMode: "color" }}
                         src={digigrow} alt="Digigrow" />
-                </Logoempresa>
-                <H1Experiencia>
+                </S.Logoempresa>
+                <S.H1Experiencia>
                     {cargo}
-                </H1Experiencia>
-                <Pexperiencia>
+                </S.H1Experiencia>
+                <S.Pexperiencia>
                     {data}
-                </Pexperiencia> 
-                <PtextoExperiencia>
+                </S.Pexperiencia>
+                <S.PtextoExperiencia>
                     {texto}
-                </PtextoExperiencia>
-            </CardExperiencias>
-        </Div >
+                </S.PtextoExperiencia>
+            </S.CardExperiencias>
+        </S.Div >
     )
 }
 

@@ -1,5 +1,5 @@
-import { BotaoCurriculo, CardsPortfolio, CorIconeCode, DivFlex, DivFlexColumn, DivImg, DivMarginTop, FaCodeStyle, HashLinkStyle, MdLanguageStyle, P } from "../../Estilizações/Emain"
-import { Div, DivMap, DivName } from "../../Estilizações/Emap"
+import * as S from "../../Estilizações/Emain"
+import * as E from "../../Estilizações/Emap"
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation } from "swiper";
 import { spotifyImage } from "../../db/dbSpotify";
@@ -13,33 +13,33 @@ interface MapProps {
 
 const Map: React.FC<MapProps> = ({ imagem, texto, ir, link }) => {
     return (
-        <DivMap>
-            <Div>
-                <DivName />
+        <E.DivMap>
+            <E.Div>
+                <E.DivName />
                 {link !== "" ? (
-                    <DivImg background={imagem}>
+                    <S.DivImg background={imagem}>
                         <div>
-                            <DivFlex>
-                                <HashLinkStyle to={ir}>
-                                    <DivFlexColumn>
-                                        <BotaoCurriculo>
-                                            <FaCodeStyle />
-                                        </BotaoCurriculo>
-                                        <P>View Code</P>
-                                    </DivFlexColumn>
-                                </HashLinkStyle>
-                                <HashLinkStyle to={link}>
-                                    <CardsPortfolio>
-                                        <CorIconeCode>
-                                            <MdLanguageStyle />
-                                        </CorIconeCode>
-                                        <P>View Site</P>
-                                    </CardsPortfolio>
-                                </HashLinkStyle>
-                            </DivFlex>
+                            <S.DivFlex>
+                                <S.HashLinkStyle to={ir}>
+                                    <S.DivFlexColumn>
+                                        <S.BotaoCurriculo>
+                                            <S.FaCodeStyle />
+                                        </S.BotaoCurriculo>
+                                        <S.P>View Code</S.P>
+                                    </S.DivFlexColumn>
+                                </S.HashLinkStyle>
+                                <S.HashLinkStyle to={link}>
+                                    <S.CardsPortfolio>
+                                        <S.CorIconeCode>
+                                            <S.MdLanguageStyle />
+                                        </S.CorIconeCode>
+                                        <S.P>View Site</S.P>
+                                    </S.CardsPortfolio>
+                                </S.HashLinkStyle>
+                            </S.DivFlex>
                         </div>
                         <br />
-                    </DivImg>
+                    </S.DivImg>
                 ) : (<>
                     <Swiper
                         style={{ height: "100%" }}
@@ -52,39 +52,39 @@ const Map: React.FC<MapProps> = ({ imagem, texto, ir, link }) => {
                     >
                         {spotifyImage.map((item, index) =>
                             <SwiperSlide>
-                                <DivImg background={item.image} >
+                                <S.DivImg background={item.image} >
                                     <div>
-                                        <DivFlex key={index}{...item}>
-                                            <HashLinkStyle to={ir}>
-                                                <DivFlexColumn>
-                                                    <BotaoCurriculo>
-                                                        <FaCodeStyle />
-                                                    </BotaoCurriculo>
-                                                    <P>View Code</P>
-                                                </DivFlexColumn>
-                                            </HashLinkStyle>
-                                            <CardsPortfolio>
-                                                <CorIconeCode
+                                        <S.DivFlex key={index}{...item}>
+                                            <S.HashLinkStyle to={ir}>
+                                                <S.DivFlexColumn>
+                                                    <S.BotaoCurriculo>
+                                                        <S.FaCodeStyle />
+                                                    </S.BotaoCurriculo>
+                                                    <S.P>View Code</S.P>
+                                                </S.DivFlexColumn>
+                                            </S.HashLinkStyle>
+                                            <S.CardsPortfolio>
+                                                <S.CorIconeCode
                                                     style={{ opacity: 0.5, pointerEvents: "none" }}
                                                 >
-                                                    <MdLanguageStyle />
-                                                </CorIconeCode>
-                                                <P>View Site</P>
-                                            </CardsPortfolio>
-                                        </DivFlex>
+                                                    <S.MdLanguageStyle />
+                                                </S.CorIconeCode>
+                                                <S.P>View Site</S.P>
+                                            </S.CardsPortfolio>
+                                        </S.DivFlex>
                                     </div>
                                     <br />
-                                </DivImg>
+                                </S.DivImg>
                             </SwiperSlide>
                         )}
                     </Swiper>
                 </>
                 )}
-            </Div >
-            <DivMarginTop>
+            </E.Div >
+            <S.DivMarginTop>
                 {texto}
-            </DivMarginTop>
-        </DivMap >
+            </S.DivMarginTop>
+        </E.DivMap >
     )
 }
 

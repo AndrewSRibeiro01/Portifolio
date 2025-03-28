@@ -1,4 +1,4 @@
-import { DivContato, TituloContato } from "../../Estilizações/Econtato"
+import * as S from "../../Estilizações/Econtato"
 import { useEffect } from "react"
 import AOS from "aos"
 
@@ -10,9 +10,9 @@ const Contato = () => {
     }, []);
     return (
         <div data-aos="fade-up" className="teste">
-            <DivContato>
-                <TituloContato>Projeto</TituloContato><br />
-            </DivContato>
+            <S.DivContato>
+                <S.TituloContato>Projeto</S.TituloContato><br />
+            </S.DivContato>
         </div>
     )
 }

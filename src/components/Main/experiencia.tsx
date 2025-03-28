@@ -1,4 +1,4 @@
-import { DivExperiencia, DivPadding, H1style } from "../../Estilizações/Eexperiencia";
+import * as S from "../../Estilizações/Eexperiencia";
 import DbExperiencia from "../../db/dbExperiencia";
 import ComponenteExperiencias from "./ComponenteExperiencias";
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -6,11 +6,11 @@ import { Navigation, Pagination } from "swiper";
 
 const Experiencia = () => {
     return (
-        <DivExperiencia>
-            <H1style>
+        <S.DivExperiencia>
+            <S.H1style>
                 Experiências
-            </H1style>
-            <DivPadding>
+            </S.H1style>
+            <S.DivPadding>
                 <Swiper
                     slidesPerView={1}
                     spaceBetween={30}
@@ -28,8 +28,8 @@ const Experiencia = () => {
                         </SwiperSlide>
                     )}
                 </Swiper>
-            </DivPadding>
-        </DivExperiencia>
+            </S.DivPadding>
+        </S.DivExperiencia>
     )
 }
 export default Experiencia;

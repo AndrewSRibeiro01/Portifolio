@@ -1,11 +1,11 @@
 import Main from '../../components/Main/main'
-import { AppContainer } from '../../Estilizações/Emain'
+import * as S from '../../Estilizações/Emain'
 
 const Curriculo = () => {
     return (
-        <AppContainer>
+        <S.AppContainer>
             <Main />
-        </AppContainer>
+        </S.AppContainer>
     )
 }
 export default Curriculo

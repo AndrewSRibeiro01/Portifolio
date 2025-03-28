@@ -1,4 +1,4 @@
-import { Background, H2, Imagem, Card, Div, SubTitulo1, Espaço, Title, DivSobre, Img, Paragrafo } from "../../Estilizações/Emain";
+import * as S from "../../Estilizações/Emain";
 import eu from "../assets/img/perfil.jpeg";
 import wpp from "../assets/img/whatsapp (1).png";
 import linkedin from "../assets/img/LinkedIn.svg";
@@ -16,7 +16,7 @@ import 'swiper/css/pagination';
 import { Autoplay, FreeMode } from "swiper";
 import Footer1 from "../Footer/footer";
 import Curriculo from "../../Pages/Curriculo/Curriculo";
-import { BackgroundDiv, DisplayIconWhats, DivBackgroundWhats, DivFlex, DivHome, DivIconHabilidades, DivIconReactjs, DivIcons, DivImg, DivMain, DivSobreMim, DivStyleIcons, DivWhatsApp, Divhabilibades, H1Tecnologia } from "../../Estilizações/Esobre";
+import * as E from "../../Estilizações/Esobre";
 import { HashLink } from "react-router-hash-link";
 
 const Sobre = () => {
@@ -38,77 +38,77 @@ const Sobre = () => {
 
     return (
         <>
-            <BackgroundDiv id="Home">
-                <DivMain>
-                    <DivFlex>
-                        <DivIcons>
-                            <DivWhatsApp>
-                                <DisplayIconWhats>
-                                    <DivBackgroundWhats>
+            <E.BackgroundDiv id="Home">
+                <E.DivMain>
+                    <E.DivFlex>
+                        <E.DivIcons>
+                            <E.DivWhatsApp>
+                                <E.DisplayIconWhats>
+                                    <E.DivBackgroundWhats>
                                         <HashLink to="https://wa.me/5511998571371?text=Ol%C3%A1%2C+tudo+bem%3F+">
                                             <img style={{ width: "20px", margin: "5px" }} src={wpp} alt="whatsApp" draggable="false" />
                                         </HashLink>
-                                    </DivBackgroundWhats>
-                                </DisplayIconWhats>
-                            </DivWhatsApp>
-                            <DivStyleIcons>
+                                    </E.DivBackgroundWhats>
+                                </E.DisplayIconWhats>
+                            </E.DivWhatsApp>
+                            <E.DivStyleIcons>
                                 <HashLink to="https://www.linkedin.com/in/andrew-souza-ab776623b/">
                                     <img style={{ width: "36px", margin: "5px" }} src={linkedin} alt="Linkedin" draggable="false" />
                                 </HashLink>
-                            </DivStyleIcons>
-                            <DivStyleIcons>
+                            </E.DivStyleIcons>
+                            <E.DivStyleIcons>
                                 <HashLink to="https://github.com/AndrewSRibeiro01">
                                     <img style={{ width: "36px", margin: "5px" }} src={gtHub} alt="GitHub" draggable="false" />
                                 </HashLink>
-                            </DivStyleIcons>
-                        </DivIcons>
-                        <DivSobreMim>
-                            <DivHome>
-                                <Title>
+                            </E.DivStyleIcons>
+                        </E.DivIcons>
+                        <E.DivSobreMim>
+                            <E.DivHome>
+                                <S.Title>
                                     Olá, me chamo <span className="gradientText">Andrew</span>!
-                                </Title>
-                                <Div>
-                                    <Card>
-                                        <SubTitulo1 className="gradientText">
+                                </S.Title>
+                                <S.Div>
+                                    <S.Card>
+                                        <S.SubTitulo1 className="gradientText">
                                             <Typewriter options={{ autoStart: true, loop: true, strings: ["Full Stack Developer"] }} />
-                                        </SubTitulo1>
-                                    </Card>
-                                    <p style={{ width: "599px", height: "130px" }}>Tenho 25 anos e sou um desenvolvedor de software Full Stack, contendo conhecimento nas principais habilidades que seria React, TypeScript, JavaScript e Express.js. Estou sempre procurando aprimorar minhas técnicas e habilidades para entregar sites e aplicativos Web Responsivos e altamente funcionais.</p>
-                                    <Espaço />
-                                </Div>
-                            </DivHome>
-                            <DivImg>
-                                <Imagem draggable="false" src={eu} alt="Eu" style={{ borderColor: "white" }} />
-                            </DivImg>
-                        </DivSobreMim>
-                    </DivFlex>
-                </DivMain>
-                <Background style={{ height: "100%" }}>
+                                        </S.SubTitulo1>
+                                    </S.Card>
+                                    <p style={{ width: "599px", height: "130px" }}>Tenho 26 anos e sou um desenvolvedor de software Full Stack, contendo conhecimento nas principais habilidades que seria React, TypeScript, JavaScript e Express.js. Estou sempre procurando aprimorar minhas técnicas e habilidades para entregar sites e aplicativos Web Responsivos e altamente funcionais.</p>
+                                    <S.Espaço />
+                                </S.Div>
+                            </E.DivHome>
+                            <E.DivImg>
+                                <S.Imagem draggable="false" src={eu} alt="Eu" style={{ borderColor: "white" }} />
+                            </E.DivImg>
+                        </E.DivSobreMim>
+                    </E.DivFlex>
+                </E.DivMain>
+                <S.Background style={{ height: "100%" }}>
                     <div id="Habilidades" />
-                    <DivSobre >
+                    <S.DivSobre >
                         <div style={{ width: "100%" }}>
-                            <Divhabilibades>
-                                <H2>HABILIDADES</H2>
-                                <Paragrafo>Atualmente, tenho conhecimento nas principais tecnologias, que seria o React, TypeScript, JavaScript e Express.js, porém, sempre busco estudar outras tecnologias, sempre me atualizando para ficar por dentro do mercado digital!
-                                </Paragrafo>
-                            </Divhabilibades>
-                            <DivIconHabilidades>
-                                <DivIconReactjs>
+                            <E.Divhabilibades>
+                                <S.H2>HABILIDADES</S.H2>
+                                <S.Paragrafo>Atualmente, tenho conhecimento nas principais tecnologias, que seria o React, TypeScript, JavaScript e Express.js, porém, sempre busco estudar outras tecnologias, sempre me atualizando para ficar por dentro do mercado digital!
+                                </S.Paragrafo>
+                            </E.Divhabilibades>
+                            <E.DivIconHabilidades>
+                                <E.DivIconReactjs>
                                     <img style={{ transform: `rotate(${rotation}deg)`, transition: 'transform 0.1s ease-in-out' }}
                                         src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
                                         alt="Logo React"
                                         draggable="false"
                                     />
-                                </DivIconReactjs>
-                                <DivIconReactjs>
+                                </E.DivIconReactjs>
+                                <E.DivIconReactjs>
                                     <img src={javascriptLogo} alt="Logo Javascript" draggable="false" />
-                                </DivIconReactjs>
-                                <DivIconReactjs>
+                                </E.DivIconReactjs>
+                                <E.DivIconReactjs>
                                     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg" alt="Logo TypeScript" draggable="false" />
-                                </DivIconReactjs>
-                            </DivIconHabilidades>
+                                </E.DivIconReactjs>
+                            </E.DivIconHabilidades>
                             <div style={{ display: "flex", flexDirection: "column", cursor: "default", zIndex: 1 }}>
-                                <H1Tecnologia> OUTRAS TECNOLOGIAS</H1Tecnologia>
+                                <E.H1Tecnologia> OUTRAS TECNOLOGIAS</E.H1Tecnologia>
                                 <div style={{ marginLeft: "20px", marginTop: "40px" }} />
                                 <Swiper style={{ background: "#15151578", paddingLeft: "50px" }}
                                     spaceBetween={0}
@@ -122,15 +122,15 @@ const Sobre = () => {
                                 >
                                     {logo1.map((item, key) =>
                                         <SwiperSlide key={key}>
-                                            <Img src={item} alt="logo" />
+                                            <S.Img src={item} alt="logo" />
                                         </SwiperSlide>
                                     )}
                                 </Swiper >
                             </div>
                         </div>
-                    </DivSobre>
-                </Background>
-            </BackgroundDiv>
+                    </S.DivSobre>
+                </S.Background>
+            </E.BackgroundDiv>
             <Curriculo />
             <Footer1 />
         </>
