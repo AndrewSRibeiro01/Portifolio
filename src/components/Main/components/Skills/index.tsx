@@ -1,16 +1,16 @@
-import * as S from "../../Estilizações/Eexperiencia";
-import DbExperiencia from "../../db/dbExperiencia";
-import ComponenteExperiencias from "./ComponenteExperiencias";
+import * as S from "./styled";
+import Experiences from "../Experiences";
+import DbExperiencia from "../../../../db/dbExperiencia";
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Pagination } from "swiper";
 
 const Experiencia = () => {
     return (
-        <S.DivExperiencia>
+        <S.Experience>
             <S.H1style>
                 Experiências
             </S.H1style>
-            <S.DivPadding>
+            <S.Padding>
                 <Swiper
                     slidesPerView={1}
                     spaceBetween={30}
@@ -24,12 +24,12 @@ const Experiencia = () => {
                 >
                     {DbExperiencia.map((item, index) =>
                         <SwiperSlide>
-                            <ComponenteExperiencias key={index}{...item} />
+                            <Experiences key={index}{...item} />
                         </SwiperSlide>
                     )}
                 </Swiper>
-            </S.DivPadding>
-        </S.DivExperiencia>
+            </S.Padding>
+        </S.Experience>
     )
 }
 export default Experiencia;

@@ -1,8 +1,8 @@
-import * as S from "../../Estilizações/EopcoesNavbar"
+import { HashLink } from "react-router-hash-link"
 import styled from "styled-components"
-import { HashLink } from "react-router-hash-link";
 
-const HashLink1 = styled(HashLink)`
+
+export const HashLink1 = styled(HashLink)`
   color: var(--menu);
   text-decoration: none;
   padding: 0 1rem;
@@ -32,7 +32,8 @@ const HashLink1 = styled(HashLink)`
 
     }
 `
-const HashLink2 = styled(HashLink)`
+
+export const HashLink2 = styled(HashLink)`
   color: var(--menu);
   text-decoration: none;
   padding: 0 1rem;
@@ -61,18 +62,33 @@ const HashLink2 = styled(HashLink)`
       display: none;
     }
 `
-const OpcoesHeader = () => {
-  return (
-    <S.Opcoes>
-      <S.Sobre>
-        <HashLink1 to="/#Home">Home</HashLink1>
-        <HashLink1 to="/#Habilidades">Habilidades</HashLink1>
-        <HashLink1 to="/#Portfolio">Projetos</HashLink1>
-        <HashLink1 to="/#Experiências">Experiências</HashLink1>
-        <HashLink2 to="/#Contato">Contato</HashLink2>
-      </S.Sobre>
-    </S.Opcoes >
-  )
-}
 
-export default OpcoesHeader
+export const Options = styled.ul`
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+    @media (max-width: 900px) {
+      flex-direction: column;
+      padding: 0;
+  }
+`
+
+export const On = styled.p`
+  @media (max-width: 768px) {
+   font-size: 14px;     
+   padding: 0px;
+}
+  @media (min-width: 1448px) {
+        font-size: 17px;
+}
+  @media (min-width: 2000px) {
+        font-size: 23px;
+}
+  display: flex;
+  justify-content: center;
+  font-size: 15px;
+  padding: 15px;
+  cursor: pointer;
+  text-decoration: none;
+  margin: 1rem 0 0 0;
+`
