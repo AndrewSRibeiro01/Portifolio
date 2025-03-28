@@ -8,6 +8,7 @@ import Footer from "../../../Footer";
 import Curriculo from "../../../../Pages/Curriculo/components/Curriculo/Curriculo";
 import { HashLink } from "react-router-hash-link";
 import AOS from "aos";
+import gtHub from "../../../assets/img/Github.svg";
 import 'aos/dist/aos.css';
 import 'swiper/css';
 import 'swiper/css/navigation';
@@ -52,7 +53,7 @@ const Sobre = () => {
                             </S.DivStyleIcons>
                             <S.DivStyleIcons>
                                 <HashLink to="https://github.com/AndrewSRibeiro01">
-                                    <img style={{ width: "36px", margin: "5px" }} src={Img.gitHub} alt="GitHub" draggable="false" />
+                                    <img style={{ width: "36px", margin: "5px" }} src={gtHub} alt="GitHub" draggable="false" />
                                 </HashLink>
                             </S.DivStyleIcons>
                         </S.DivIcons>
