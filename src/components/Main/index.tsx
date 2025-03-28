@@ -3,14 +3,14 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation } from "swiper";
 import { spotifyImage } from "../../db/dbSpotify";
 
-interface Map {
+interface MapComponent {
     imagem: string;
     texto: string;
     ir: string;
     link: string;
 }
 
-const Map: React.FC<Map> = ({ imagem, texto, ir, link }) => {
+const Map: React.FC<MapComponent> = ({ imagem, texto, ir, link }) => {
     return (
         <S.DivMap>
             <S.Div>
