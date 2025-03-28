@@ -1,5 +1,4 @@
-import { Opcoes } from "../../Estilizações/EopcoesNavbar"
-import { Sobre } from "../../Estilizações/EopcoesNavbar";
+import * as S from "../../Estilizações/EopcoesNavbar"
 import styled from "styled-components"
 import { HashLink } from "react-router-hash-link";
 
@@ -64,17 +63,15 @@ const HashLink2 = styled(HashLink)`
 `
 const OpcoesHeader = () => {
   return (
-    <>
-      <Opcoes>
-        <Sobre>
-          <HashLink1 to="/#Home">Home</HashLink1>
-          <HashLink1 to="/#Habilidades">Habilidades</HashLink1>
-          <HashLink1 to="/#Portfolio">Projetos</HashLink1>
-          <HashLink1 to="/#Experiências">Experiências</HashLink1>
-          <HashLink2 to="/#Contato">Contato</HashLink2>
-        </Sobre>
-      </Opcoes >
-    </>
+    <S.Opcoes>
+      <S.Sobre>
+        <HashLink1 to="/#Home">Home</HashLink1>
+        <HashLink1 to="/#Habilidades">Habilidades</HashLink1>
+        <HashLink1 to="/#Portfolio">Projetos</HashLink1>
+        <HashLink1 to="/#Experiências">Experiências</HashLink1>
+        <HashLink2 to="/#Contato">Contato</HashLink2>
+      </S.Sobre>
+    </S.Opcoes >
   )
 }
 

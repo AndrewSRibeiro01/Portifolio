@@ -1,15 +1,15 @@
 import OpcoesHeader from '../OpcoesNavbar/opcoesNavbar'
-import { NavbarContainer, H1 } from '../../Estilizações/Enavbar'
+import * as S from '../../Estilizações/Enavbar'
 import Andrew from '../assets/img/Andrew.svg'
 
 const Navbar = () => {
     return (
-        <NavbarContainer>
-            <H1>
+        <S.NavbarContainer>
+            <S.H1>
                 <img src={Andrew} alt='imagem Andrew' draggable="false" />
-            </H1>
+            </S.H1>
             <OpcoesHeader />
-        </NavbarContainer >
+        </S.NavbarContainer >
     )
 }
 

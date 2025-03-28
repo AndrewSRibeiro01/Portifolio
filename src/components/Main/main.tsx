@@ -1,5 +1,5 @@
 import { useEffect } from "react"
-import { DivPortifolio, TituloCurriculo } from "../../Estilizações/Emain"
+import * as S from "../../Estilizações/Emain"
 import AOS from 'aos';
 import Map from "./Map"
 import habilidades from "../../db/db";
@@ -38,8 +38,8 @@ const Main = () => {
     }, []);
 
     return (
-        <TituloCurriculo>
-            <DivPortifolio id="Portfolio">
+        <S.TituloCurriculo>
+            <S.DivPortifolio id="Portfolio">
                 <H1Port>Portfólio</H1Port>
                 <NamePortifolio>
                     {
@@ -50,8 +50,8 @@ const Main = () => {
                 </NamePortifolio>
                 <div id="Experiências" />
                 <Experiencia />
-            </DivPortifolio>
-        </TituloCurriculo >
+            </S.DivPortifolio>
+        </S.TituloCurriculo >
     )
 }
 

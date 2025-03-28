@@ -1,4 +1,4 @@
-import { AppContainer1, MarginFooter } from "../../Estilizações/Efooter"
+import * as S from "../../Estilizações/Efooter"
 import { H1 } from "../../Estilizações/Enavbar";
 import wpp from "../assets/img/whatsapp (1).png";
 import linkedin from "../assets/img/LinkedIn.svg";
@@ -77,13 +77,13 @@ const DivFooterHome = styled.div`
 const Footer1 = () => {
     return (
         <>
-            <AppContainer1 id="Contato">
+            <S.AppContainer1 id="Contato">
                 <H1>
                     <p>
                         <img src={Andrew} alt="Andew" draggable="false" />
                     </p>
                 </H1>
-                <MarginFooter>
+                <S.MarginFooter>
                     <H1>
                         CONTATO
                     </H1>
@@ -109,7 +109,7 @@ const Footer1 = () => {
                             <PCurriculo>Currículo</PCurriculo>
                         </BackgroundButton>
                     </HashLink>
-                </MarginFooter>
+                </S.MarginFooter>
                 <DivFooterHome>
                     <H1>
                         HOME
@@ -119,7 +119,7 @@ const Footer1 = () => {
                     <P><HashLink1 to="/#Portfolio">Projetos</HashLink1></P>
                     <P><HashLink1 to="/#Contatos">Contatos</HashLink1></P>
                 </DivFooterHome>
-            </AppContainer1 >
+            </S.AppContainer1 >
         </>
     )
 }
