@@ -24,13 +24,11 @@ const GlobalStyle = createGlobalStyle`
 
 const App: React.FC = () => {
   return (
-    <div>
-      <BrowserRouter>
-        <GlobalStyle />
-        < Navbar />
-        <AppRoute />
-      </BrowserRouter>
-    </div>
+    <BrowserRouter>
+      <GlobalStyle />
+      < Navbar />
+      <AppRoute />
+    </BrowserRouter>
   );
 };
 
