@@ -1,4 +1,4 @@
-import Pesquisa from '../../../../components/On/components/On';
+import Pesquisa from '../../../../components/On/components';
 import * as S from './styled';
 
 const PortFolioPage = () => {
