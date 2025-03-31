@@ -27,7 +27,7 @@ const Introduction = () => (
             </S.Div>
         </S.DivHome>
         <S.DivImg>
-            <S.Image src={eu} alt="Eu" style={{ borderColor: "white" }} draggable="false" />
+            <S.Image src={eu} alt="Eu" draggable="false" />
         </S.DivImg>
     </S.DivIam>
 );

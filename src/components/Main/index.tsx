@@ -21,9 +21,9 @@ const Map: React.FC<MapComponent> = ({ imagem, texto, ir, link }) => {
                             <S.DivFlex>
                                 <S.HashLinkStyle to={ir}>
                                     <S.DivFlexColumn>
-                                        <S.BotaoCurriculo>
+                                        <S.ButtonCurriculo>
                                             <S.FaCodeStyle />
-                                        </S.BotaoCurriculo>
+                                        </S.ButtonCurriculo>
                                         <S.P>View Code</S.P>
                                     </S.DivFlexColumn>
                                 </S.HashLinkStyle>
@@ -56,15 +56,18 @@ const Map: React.FC<MapComponent> = ({ imagem, texto, ir, link }) => {
                                         <S.DivFlex key={index}{...item}>
                                             <S.HashLinkStyle to={ir}>
                                                 <S.DivFlexColumn>
-                                                    <S.BotaoCurriculo>
+                                                    <S.ButtonCurriculo>
                                                         <S.FaCodeStyle />
-                                                    </S.BotaoCurriculo>
+                                                    </S.ButtonCurriculo>
                                                     <S.P>View Code</S.P>
                                                 </S.DivFlexColumn>
                                             </S.HashLinkStyle>
                                             <S.CardsPortfolio>
                                                 <S.CorIconeCode
-                                                    style={{ opacity: 0.5, pointerEvents: "none" }}
+                                                    style={{
+                                                        opacity: 0.5,
+                                                        pointerEvents: "none"
+                                                    }}
                                                 >
                                                     <S.MdLanguageStyle />
                                                 </S.CorIconeCode>

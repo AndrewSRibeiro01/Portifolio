@@ -4,7 +4,7 @@ import TechnologyCarousel from "../TecnologyCarousel";
 
 const Skills = () => {
     return (
-        <S.DivSobre>
+        <S.DivSobre id="Habilidades">
             <S.Width>
                 <S.Divhabilibades>
                     <S.H2>HABILIDADES</S.H2>
