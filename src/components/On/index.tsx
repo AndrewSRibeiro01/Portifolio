@@ -1,15 +1,15 @@
 import React from "react";
 import * as S from "./styled";
-import Footer from "../../Footer";
-import Curriculo from "../../../Pages/Curriculo/components/Curriculo/Curriculo";
+import Footer from "../Footer";
+import Curriculo from "../../Pages/Curriculo/components/Curriculo/Curriculo";
 import AOS from "aos";
 import 'aos/dist/aos.css';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
-import Habilidades from "./Skills";
-import SocialIcons from "./SocialIcons";
-import Introduction from "./Introduction";
+import Habilidades from "./components/Skills";
+import SocialIcons from "./components/SocialIcons";
+import Introduction from "./components/Introduction";
 
 const Sobre = () => {
     React.useEffect(() => {

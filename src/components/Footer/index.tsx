@@ -14,7 +14,7 @@ const Footer = () => {
                 </p>
             </S.H1>
             <S.MarginFooter>
-                <S.H1 style={{ marginBottom: "40px" }}>CONTATO</S.H1>
+                <S.H1>CONTATO</S.H1>
                 <ContactInfo />
                 <SocialLinks />
                 <CurriculumButton />

@@ -40,6 +40,12 @@ export const H1Experiencia = styled.h1`
     }
 `
 
+export const Img = styled.img`
+    width: 20%;
+    height: 15%;
+    mix-blend-mode: color;
+`
+
 export const Pexperiencia = styled.p`
     background: #2A5034;
     font-size: 16px;

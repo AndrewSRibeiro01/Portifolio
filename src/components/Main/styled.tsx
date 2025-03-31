@@ -68,7 +68,7 @@ export const DivFlexColumn = styled.div`
     align-items: center;
 `
 
-export const BotaoCurriculo = styled.div`
+export const ButtonCurriculo = styled.div`
     background: white;
     width: 36px;
     height: 36px;
