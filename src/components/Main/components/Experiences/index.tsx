@@ -1,18 +1,18 @@
 import * as S from "./styled"
-import digigrow from "../../../assets/img/digigrow.png"
 
 interface ComponentExperiences {
     data: string;
     cargo: string;
     texto: string;
+    imagem: string;
 }
 
-const Experiences: React.FC<ComponentExperiences> = ({ data, cargo, texto }) => {
+const Experiences: React.FC<ComponentExperiences> = ({ data, cargo, texto, imagem }) => {
     return (
         <S.Div>
             <S.CardExperiencias>
                 <S.Logoempresa>
-                    <S.Img src={digigrow} alt="Digigrow" />
+                    <S.Img src={imagem} alt="Digigrow" />
                 </S.Logoempresa>
                 <S.H1Experiencia>
                     {cargo}
