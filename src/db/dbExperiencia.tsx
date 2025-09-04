@@ -1,7 +1,7 @@
 import digigrow from "../../src/components/assets/img/digigrow.png"
 
 const DbExperiencia = [{
-        data: "Maio 2025 - Presente",
+        data: "Fevereiro 2025 - Presente",
         imagem: "https://app.wtrackoficial.com.br/assets/wt-logo-menu-v2.svg",
         cargo: "Desenvolvedor Full Stack Pleno",
         texto: "Com experiência em front-end e back-end, criando aplicações modernas, performáticas e escaláveis. Trabalho com tecnologias como JavaScript, TypeScript, Angular, Node.js, Nest.js e banco de dados não-relacionais. Tenho foco em escrever código limpo, seguir boas práticas e entregar soluções eficientes.",
