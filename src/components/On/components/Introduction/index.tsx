@@ -15,13 +15,13 @@ const Introduction = () => (
                             autoStart: true, loop: true, strings: ["Full Stack Developer",
                                 "Seja bem-vindo!",
                                 "Criando experiências incríveis 🚀",
-                                "React | Node.js | TypeScript 💻",
+                                "React | Node.js | TypeScript | Express.js 💻",
                                 "Transformando ideias em código!"]
                         }} />
                     </S.SubTitle>
                 </S.Card>
                 <S.Iam>
-                    Tenho 26 anos e sou um desenvolvedor de software Full Stack, contendo conhecimento nas principais habilidades como React, TypeScript, JavaScript e Express.js. Estou sempre procurando aprimorar minhas técnicas e habilidades para entregar sites e aplicativos Web Responsivos e altamente funcionais.
+                    Tenho 27 anos e sou um desenvolvedor de software Full Stack, contendo conhecimento nas principais habilidades como React, TypeScript, JavaScript e Express.js. Estou sempre procurando aprimorar minhas técnicas e habilidades para entregar sites e aplicativos Web Responsivos e altamente funcionais.
                 </S.Iam>
                 <S.Gap />
             </S.Div>
