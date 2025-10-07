@@ -1,12 +1,18 @@
 import digigrow from "../../src/components/assets/img/digigrow.png"
 
 const DbExperiencia = [{
-        data: "Fev 2025 - Presente",
-        imagem: "https://app.wtrackoficial.com.br/assets/wt-logo-menu-v2.svg",
-        cargo: "Desenvolvedor Full Stack Pleno",
-        texto: "Com experiência em front-end e back-end, criando aplicações modernas, performáticas e escaláveis. Trabalho com tecnologias como JavaScript, TypeScript, Angular, Node.js, Nest.js e banco de dados não-relacionais. Tenho foco em escrever código limpo, seguir boas práticas e entregar soluções eficientes.",
-    },
-    {
+    data: "Out 2025 - Presente",
+    imagem: "https://newayadvice.com/wp-content/uploads/2025/05/Logo-2.png",
+    cargo: "Desenvolvedor Full Stack Sênior",
+    texto: "Desenvolvimento de software com react.js, node.js e express.js, automação de tarefas e criação de landing pages",
+},
+{
+    data: "Fev 2025 - Presente",
+    imagem: "https://app.wtrackoficial.com.br/assets/wt-logo-menu-v2.svg",
+    cargo: "Desenvolvedor Full Stack Pleno",
+    texto: "Com experiência em front-end e back-end, criando aplicações modernas, performáticas e escaláveis. Trabalho com tecnologias como JavaScript, TypeScript, Angular, Node.js, Nest.js e banco de dados não-relacionais. Tenho foco em escrever código limpo, seguir boas práticas e entregar soluções eficientes.",
+},
+{
     data: "Jan 2023 - Maio 2025",
     imagem: digigrow,
     cargo: "Desenvolvedor de Software",
