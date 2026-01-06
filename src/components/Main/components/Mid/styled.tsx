@@ -39,7 +39,7 @@ export const DivPort = styled.div`
     flex-Direction: column;
     background: #202020;
     width: 1920px;
-    height: 1418px;
+    height: 800px;
     @media (max-width: 900px) {
         height: 1450px;
     }

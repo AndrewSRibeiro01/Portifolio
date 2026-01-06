@@ -7,7 +7,7 @@ export const Div = styled.div`
 `
 
 export const CardExperiencias = styled.div`
-    border: 1px solid #34A853;
+    border: 1px solid #3c4daa;
     border-radius: 20px;
     width: 1000px;
     height: 390px;
@@ -47,9 +47,9 @@ export const Img = styled.img`
 `
 
 export const Pexperiencia = styled.p`
-    background: #2A5034;
+    background: #3c4daa;
     font-size: 16px;
-    width: 17%;
+    width: 18%;
     border-radius: 5px;
     display: flex;
     flex-direction: row;

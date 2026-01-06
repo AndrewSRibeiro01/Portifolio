@@ -1,7 +1,7 @@
 import * as S from "./styled"
-import Andrew from "../assets/img/Andrew.svg"
+import Andrew from "../assets/img/_ Andrew _.svg"
 import { ContactInfo } from "./components/ContactInfo";
-import { CurriculumButton } from "./components/CurriculumButton";
+// import { CurriculumButton } from "./components/CurriculumButton";
 import { FooterNavigation } from "./components/FooterNavigation";
 import { SocialLinks } from "./components/SocialLinks";
 
@@ -17,7 +17,7 @@ const Footer = () => {
                 <S.H1>CONTATO</S.H1>
                 <ContactInfo />
                 <SocialLinks />
-                <CurriculumButton />
+                {/* <CurriculumButton /> */}
             </S.MarginFooter>
             <FooterNavigation />
         </S.AppContainer1>

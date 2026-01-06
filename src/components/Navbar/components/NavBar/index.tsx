@@ -1,5 +1,5 @@
 import * as S from './styled'
-import Andrew from '../../../assets/img/Andrew.svg'
+import Andrew from '../../../assets/img/_ Andrew _.svg'
 import OptionsHeader from '../../../OptionsNavbar/components/OptionsNavBar'
 
 const Navbar = () => {

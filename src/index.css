@@ -61,7 +61,7 @@ body {
 }
 
 .gradientText {
-  background: linear-gradient(180deg, #3CAA5C 35.42%, #2f8547 78.65%, #2f8547 85.5%);
+  background: linear-gradient(180deg, #3c4daa 35.42%, #3c4daa 78.65%, #3c4daa 85.5%);
   -webkit-background-clip: text;
   -moz-background-clip: text;
   background-clip: text;

@@ -3,7 +3,7 @@ import styled from 'styled-components'
 export const NavbarContainer = styled.header`
     background: rgba(0, 0, 0, 0.45);
     display: flex;
-    width:100%;
+    width: 100%;
     align-items: center;
     justify-content: flex-start;
     padding-left: 3em;
@@ -12,7 +12,6 @@ export const NavbarContainer = styled.header`
     z-index: 10;
     @media (max-width:900px) {
         padding: 0;
-        
     }
 `
 

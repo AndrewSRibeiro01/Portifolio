@@ -15,14 +15,14 @@ const Main = () => {
     return (
         <S.TitleCurriculum>
             <S.DivPort id="Portfolio">
-                <S.H1Port>Portfólio</S.H1Port>
-                <S.NamePort>
+                {/* <S.H1Port>Portfólio</S.H1Port> */}
+                {/* <S.NamePort>
                     {
                         habilidades.map((item, index) => (
                             <Map key={index}{...item} />
                         ))
                     }
-                </S.NamePort>
+                </S.NamePort> */}
                 <div id="Experiências" />
                 <Experiencia />
             </S.DivPort>
