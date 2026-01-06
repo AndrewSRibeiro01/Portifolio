@@ -41,6 +41,6 @@ export const DivPort = styled.div`
     width: 1920px;
     height: 800px;
     @media (max-width: 900px) {
-        height: 1450px;
+        height: 650px;
     }
 `
