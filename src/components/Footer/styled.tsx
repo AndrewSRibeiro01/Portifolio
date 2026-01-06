@@ -19,7 +19,7 @@ export const AppContainer1 = styled.div`
     max-width: 1920px;
     padding: 60px;
     margin: 0 auto;
-    height: 453px;
+    height: 360px;
     background-color: var(--bgcolor);
     @media (max-width: 900px) {
         display: flex;

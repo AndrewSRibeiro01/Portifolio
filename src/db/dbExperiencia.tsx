@@ -16,7 +16,7 @@ const DbExperiencia = [{
     data: "Jan 2023 - Maio 2025",
     imagem: digigrow,
     cargo: "Desenvolvedor Full Stack",
-    texto: "Como desenvolvedor Full Stack,construí soluções digitais de ponta a ponta, unindo expertise no front-end para criar interfaces intuitivas e atraentes, com habilidades no back-end para implementar lógica robusta e gerenciar dados eficientemente.",
+    texto: "Como desenvolvedor Full Stack, construí soluções digitais de ponta a ponta, unindo expertise no front-end para criar interfaces intuitivas e atraentes, com habilidades no back-end para implementar lógica robusta e gerenciar dados eficientemente.",
 },
 {
     data: "Nov 2022 - Jan 2023",
