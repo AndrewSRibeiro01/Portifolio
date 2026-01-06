@@ -1,8 +1,8 @@
 import React from "react"
 import * as S from "./styled"
 import AOS from 'aos';
-import Map from "../.."
-import habilidades from "../../../../db/db";
+// import Map from "../.."
+// import habilidades from "../../../../db/db";
 import Experiencia from "../Skills";
 
 const Main = () => {
